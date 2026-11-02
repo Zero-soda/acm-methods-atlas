@@ -5,6 +5,8 @@ from itertools import combinations
 from pathlib import Path
 import json
 
+from .pathways import validate_paths
+
 FAMILIES = {"design", "measurement", "computational", "intervention"}
 STATUSES = {"verified_existing_audit", "verified_local_text", "abstract_only"}
 COHORTS = ("manuscript", "peer_reviewed", "all")
@@ -17,7 +19,7 @@ def read_json(path):
 def load_catalog(data_dir):
     data_dir = Path(data_dir)
     catalog = {name: read_json(data_dir / f"{name}.json") for name in
-               ("studies", "methods", "method_annotations", "clinical_questions", "context_sources", "manifest")}
+               ("studies", "methods", "method_annotations", "clinical_questions", "context_sources", "manifest", "research_paths")}
     validate(catalog)
     return catalog
 
@@ -75,6 +77,7 @@ def validate(catalog):
             raise ValueError("Every positive annotation needs evidence and a locator")
     if covered != study_ids:
         raise ValueError("Every included study needs at least one positive annotation")
+    validate_paths(catalog["research_paths"], studies)
     return True
 
 

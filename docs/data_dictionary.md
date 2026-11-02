@@ -2,6 +2,14 @@
 
 所有源JSON为UTF-8。`docs/exports/`是可重新生成的副本；编辑时修改`data/`。
 
+## 研究路径：research_paths.json
+
+`paths` 保存三条问题路径；`stages` 记录阶段问题、代表研究及未解问题；`connections` 记录阶段之间的联系与推断边界。`relation_type` 仅接受 `research_synthesis`（跨研究整合）、`parallel_evidence`（并行互补）和 `proposed_bridge`（待验证桥接），不默认因果、直接引用或患者共同病程。
+
+`study_summaries` 以已有 `study_id` 关联逐篇问题、方法、研究内发现、未解问题、原始来源及定位。`next_study` 为尚未执行的研究提议，包含问题、设计、测量、结局、可能削弱假说的结果及公开数据能完成的步骤。`cross_paper_tensions` 是有限的跨研究差异比较，`scholar_confirmation: pending` 表示解释尚待研究者确认。
+
+路径图固定覆盖综述的23篇正式研究，独立于方法统计页面的队列切换；不是25条目录记录全部强行组成一条线。
+
 ## 研究目录：studies.json
 
 | 字段 | 含义 |

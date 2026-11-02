@@ -1,10 +1,14 @@
 # ACM Methods Atlas
 
+**v0.2 connects studies into question-driven research paths.** Each step links a research question, approach, within-study finding, unresolved gap and a proposed clinical validation study. [Explore the research paths](https://zero-soda.github.io/acm-methods-atlas/research_paths.html).
+
+Three paths cover the 23 primary peer-reviewed studies cited by the review: early electrical/metabolic abnormalities and progression; injury, inflammation and repair; and local tissue states, electrophysiology and risk. Twelve cross-study connections distinguish conceptual synthesis, parallel evidence and four unvalidated bridges. The paths are not verified citation genealogy or a universal disease chronology. Proposed studies include falsification conditions and a statement of what public data can currently establish.
+
 A traceable methods catalogue and reproducible descriptive evidence map for arrhythmogenic cardiomyopathy (ACM).
 
 [Online catalogue](https://zero-soda.github.io/acm-methods-atlas/) · [Chinese README](README.md) · [Annotation protocol](docs/annotation_protocol.md)
 
-Version 0.1 contains 25 primary research records (24 peer-reviewed articles and one preprint), 232 positive study–method annotations, and 122 method concepts. The default analysis contains the 23 peer-reviewed primary articles cited by the associated integrative review, including one two-patient case series. Fourteen contextual references—guidelines, reviews, trial registrations and a conference presentation—are kept outside the analysis denominator.
+The catalogue contains 25 primary research records (24 peer-reviewed articles and one preprint), 232 positive study–method annotations, and 122 method concepts. The default analysis contains the 23 peer-reviewed primary articles cited by the associated integrative review, including one two-patient case series. Fourteen contextual references—guidelines, reviews, trial registrations and a conference presentation—are kept outside the analysis denominator.
 
 ## Interpretation
 

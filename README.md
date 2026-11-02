@@ -1,12 +1,26 @@
 # ACM Methods Atlas
 
-**致心律失常性心肌病的方法目录、可复现统计与临床问题证据映射。**
+**把致心律失常性心肌病研究连接为问题推进的路径，并提供方法目录与可复现统计。**
 
-这个项目把ACM整合综述的文献资料整理成可复用资源：逐篇说明使用了哪些研究设计、测量技术、计算方法和受控扰动，保留原始来源与核对层级，再用统一口径计算标注频次。
+核心逻辑是：**研究问题 → 采用的方法 → 研究内发现 → 留下的缺口 → 下一项可检验的临床研究**。方法统计用于支撑这条路径；逐篇标注保留原始来源与核对层级。
 
-[浏览在线目录](https://zero-soda.github.io/acm-methods-atlas/) · [统计快照](docs/README.md) · [标注协议](docs/annotation_protocol.md) · [English](README_EN.md)
+[先看研究路径图](https://zero-soda.github.io/acm-methods-atlas/research_paths.html) · [浏览方法目录](https://zero-soda.github.io/acm-methods-atlas/) · [统计快照](docs/README.md) · [标注协议](docs/annotation_protocol.md) · [English](README_EN.md)
 
-## v0.1 收录范围
+## v0.2 研究路径
+
+三条路径覆盖综述中的23篇正式研究，包含12条跨研究连接，其中4条明确标为待验证桥接：
+
+| 研究路径 | 希望补上的临床连接 |
+|---|---|
+| 早期电与代谢异常 | 基线电状态是否对应后续损伤或结构进展，怎样检验干预窗口？ |
+| 损伤、炎症与修复 | 如何区分持续活动与持久损害，怎样分别评价炎症、电负荷与泵功能反应？ |
+| 局部病灶与风险 | 分子状态如何与同区域影像、电信号及后续事件对齐？ |
+
+每一步给出代表研究、已有贡献与未解问题；每条连接解释为什么能联结、推断边界在哪里；每条路径提出下一步设计及可能削弱假说的结果，并说明公开数据现在能完成哪一步。
+
+这些是**问题驱动的证据连接**，不是已经核查的作者引用传承，也不是所有患者共同经历的病程顺序。研究年份、真实随访、动物分批时间点、空间位置和计算拟时序不能相互替代。[完整文字版](docs/research_paths.md)与[结构化数据](data/research_paths.json)均可复用。
+
+## 文献与方法收录范围
 
 | 内容 | 数量与口径 |
 |---|---|
@@ -27,6 +41,7 @@
 - 查看方法共现以及它们对应的临床问题；下载JSON和CSV进行二次使用。
 - 在三种队列口径之间切换，单独观察预印本及补充研究对统计的影响。
 - 补充文献和修订标注，再用同一段代码重新生成统计和静态目录。
+- 沿研究路径查询一项发现如何引出下一问题，并追溯到该研究的方法与原文。
 
 ## 统计含义
 
@@ -68,12 +83,15 @@ python3 scripts/build_atlas.py --cohort all --out /tmp/acm-all
 | `data/method_annotations.json` | 可追溯的研究—方法阳性标注 |
 | `data/clinical_questions.json` | 综述问题映射的定义 |
 | `data/context_sources.json` | 单列临床背景来源 |
+| `data/research_paths.json` | 三条研究路径、逐篇发现/缺口、连接依据、待验证设计与两组跨研究差异 |
 | `data/method_aliases.json` | 同义方法名归并记录 |
 | `docs/method_summary.csv` | 当前默认队列的全部方法计数 |
 | `docs/computational_methods.csv` | 计算与统计方法计数 |
 | `docs/method_groups.csv` | 去重后的上位分类计数 |
 | `docs/method_cooccurrence.csv` | 方法共现，不作因果或优劣解释 |
 | `docs/exports/` | 可下载的研究及标注JSON/CSV |
+| `docs/research_paths.html` | 可切换、可展开证据的研究路径图 |
+| `docs/research_paths.md` | 完整文字路径及逐篇来源 |
 
 [数据字典](docs/data_dictionary.md)说明字段。`tests/`检查分母、重复标注、上下位去重及关键科学区别。`contrib/`提供可选GitHub Actions检查模板。
 

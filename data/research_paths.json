@@ -1,0 +1,558 @@
+{
+  "schema_version": "1.0",
+  "curated_date": "2026-11-02",
+  "central_question_zh": "能否把电异常、活动性损伤和局部组织重塑的不同步，转成可检验的监测与干预窗口问题？",
+  "scope_note_zh": "三条路径组织综述中的23篇正式研究；编号是问题推进顺序，不是发表先后、作者引用传承或所有患者的病程顺序。研究内发现、跨研究整合与待验证桥接分开；方法统计与路径覆盖范围各自说明。",
+  "interpretation_rules_zh": [
+    "研究内观察与模型干预保留各自推断范围。",
+    "跨研究箭头表示提问的推进或证据互补，不默认因果或直接引用关系。",
+    "下一步设计均为本项目提议，尚未执行；临床行动价值仍需验证。"
+  ],
+  "paths": [
+    {
+      "path_id": "early",
+      "short_title_zh": "01 早期异常与进展",
+      "title_zh": "早期电与代谢异常，如何走向可验证的干预窗口？",
+      "clinical_question_zh": "常规结构检查尚正常或仅轻度异常时，哪些持续电异常值得追踪；它们是否对应后续损伤或结构进展？",
+      "synthesis_zh": "把电、机械损伤和能量稳态看作需要联合测量的并行维度。模型研究提供可扰动机制，人类研究分别提供精细电表型和真实重复影像；下一步是把这些证据对齐到同一个人的病程。",
+      "stages": [
+        {
+          "stage_id": "E1",
+          "title_zh": "发现结构终点以外的异常",
+          "study_ids": [
+            "T02",
+            "T07"
+          ],
+          "contribution_zh": "Pkp2模型中的钙/节律与核膜/氧化损伤研究，分别显示细胞连接缺陷还涉及电稳态和细胞损伤。",
+          "open_question_zh": "这些异常怎样并行、何时出现，能否只用常规结构指标判断？"
+        },
+        {
+          "stage_id": "E2",
+          "title_zh": "用真实时点和救援拆解机制",
+          "study_ids": [
+            "T01",
+            "T08"
+          ],
+          "contribution_zh": "双室分批蛋白时间序列定位早期线粒体重塑；人源细胞扰动与救援检验一条能量调控联系。",
+          "open_question_zh": "动物时点与人源细胞结果，是否对应携带者可测量且可改变的状态？"
+        },
+        {
+          "stage_id": "E3",
+          "title_zh": "寻找临床可测表型与时间锚点",
+          "study_ids": [
+            "PKP2_BSPM_2023",
+            "SERIAL_CMR_2026"
+          ],
+          "contribution_zh": "精细体表电势发现常规形变正常者仍可有电异常；另一临床队列的重复CMR观察到LGE新生或范围增加。",
+          "open_question_zh": "两项研究尚未在同一人把基线电状态与后续结构变化连起来。"
+        },
+        {
+          "stage_id": "E4",
+          "title_zh": "比较分阶段救援的不同终点",
+          "study_ids": [
+            "T05",
+            "T06",
+            "T09"
+          ],
+          "contribution_zh": "不同PKP2补回模型显示预防或发病后改善的可能，为区分电、功能与组织终点提供实验依据。",
+          "open_question_zh": "患者如何分层、何时介入，以及电改善是否意味着组织损害减少，仍待临床检验。"
+        }
+      ],
+      "connections": [
+        {
+          "from_stage": "E1",
+          "to_stage": "E2",
+          "relation_type": "research_synthesis",
+          "rationale_zh": "从“除了结构还有什么变化”推进到“何时变化、能否通过扰动恢复”。",
+          "boundary_zh": "电、核膜和代谢是并行研究维度，不能写成电异常依次造成核膜损伤和代谢障碍。"
+        },
+        {
+          "from_stage": "E2",
+          "to_stage": "E3",
+          "relation_type": "parallel_evidence",
+          "rationale_zh": "模型提供候选机制，人类电势和重复影像分别提供可测接口与随访终点。",
+          "boundary_zh": "不同物种、基因背景和受试者；BSPM不直接测量线粒体状态，横断面电检测不证明先于结构。"
+        },
+        {
+          "from_stage": "E2",
+          "to_stage": "E4",
+          "relation_type": "research_synthesis",
+          "rationale_zh": "下游代谢救援与上游基因补回共同提出：应分别评价电/代谢保护、组织进展和泵功能。",
+          "boundary_zh": "靶点、剂量和模型不同；不能据此比较疗效优劣、确定统一时点或断言既有瘢痕逆转。"
+        },
+        {
+          "from_stage": "E3",
+          "to_stage": "E4",
+          "relation_type": "proposed_bridge",
+          "rationale_zh": "检验临床动态表型能否帮助定义后续干预研究的人群和阶段。",
+          "boundary_zh": "目前没有从这些人类表型到模型治疗窗口的直接验证，不能据此给出患者用药或给药时点。"
+        }
+      ],
+      "next_study": {
+        "question_zh": "持续电异常能否先于并增量解释新生/扩展的持久LGE？细胞能量救援与电表型恢复是否同步？",
+        "design_zh": "前瞻随访P/LP PKP2携带者及基因阴性亲属，预设固定检查与症状触发检查并分开记录；用同背景杂合/isogenic心肌模型作机制亚研究。",
+        "measurements_zh": "同人重复电势/动态心电、肌钙蛋白、CMR组织表征与功能；细胞端重复测量呼吸储备、电活动、收缩与损伤。",
+        "outcomes_zh": "分别记录首次持续电异常、损伤事件、持久新LGE与临床VA/HF；按真实日期及区间删失分析，另队列验证。",
+        "falsification_zh": "若电异常不关联后续病变，或代谢救援恢复呼吸却不减少电异常/损伤，应削弱统一早期通路的解释。",
+        "public_data_now_zh": "PXD072962可重跑鼠RV/LV时序轨迹，GSE160289/GSE298539可验证人源细胞OXPHOS一致性；它们不能验证携带者临床预测，BSPM及串行CMR个体数据需申请/合作。"
+      }
+    },
+    {
+      "path_id": "inflammation",
+      "short_title_zh": "02 损伤炎症与修复",
+      "title_zh": "炎症从伴随现象到可干预机制，还缺哪一步？",
+      "clinical_question_zh": "损伤发作后，哪些患者仍有持续活动、哪些主要留下结构损害；治疗反应能否在炎症、电负荷和泵功能之间分离？",
+      "synthesis_zh": "机制线与临床线在治疗分层问题上汇流：通路扰动、细胞来源和病灶邻域支持生物机制；发作登记提供真实事件时间及结局。两条线合起来提出试验问题，不能直接组成临床疗效结论。",
+      "stages": [
+        {
+          "stage_id": "I1",
+          "title_zh": "先识别临床发作与后续风险",
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "DSP_ERADOS_800"
+          ],
+          "contribution_zh": "DSP队列把炎症样损伤和纤维化表型带入临床问题，并将损伤日期与之后VA/HF风险相联系。",
+          "open_question_zh": "损伤是驱动因素、风险标志，还是共同病程的表现；发作后还有多少可干预活动？"
+        },
+        {
+          "stage_id": "I2",
+          "title_zh": "从整体通路追到细胞与病灶",
+          "study_ids": [
+            "T03",
+            "T04",
+            "Fu2024",
+            "Penna2026"
+          ],
+          "contribution_zh": "NFκB药理/遗传扰动、CCR2细胞来源、人类细胞图谱和空间邻域，分别回答通路、细胞与组织位置的问题。",
+          "open_question_zh": "人体终末期邻域是否代表早期活动状态；哪些跨细胞联系具有因果贡献？"
+        },
+        {
+          "stage_id": "I3",
+          "title_zh": "保留并行损伤入口，检验窗口",
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Penna2026"
+          ],
+          "contribution_zh": "脂毒性模型提供另一损伤入口；抗IL1B模型比较早晚介入，为“活动与固定损害可能不同步”提供可检验机制。",
+          "open_question_zh": "脂毒性与炎症究竟先后还是反馈；动物窗口在人类是否存在、怎样识别？"
+        },
+        {
+          "stage_id": "I4",
+          "title_zh": "用临床反应定义试验该测什么",
+          "study_ids": [
+            "DSP_HOTPHASE_1014",
+            "IL1_PEDIATRIC_2026"
+          ],
+          "contribution_zh": "登记增加发作、影像和观察性用药关联；两例病例提示炎症/异位改善可以伴随泵功能不恢复。",
+          "open_question_zh": "用药选择偏倚和并用治疗尚未排除；长期临床获益是否存在，不能靠替代终点回答。"
+        }
+      ],
+      "connections": [
+        {
+          "from_stage": "I1",
+          "to_stage": "I2",
+          "relation_type": "parallel_evidence",
+          "rationale_zh": "临床确定值得研究的发作情境，模型和人体图谱提供机制候选。",
+          "boundary_zh": "DSP临床表型与Dsg2模型、终末期组织不等价；不同髓系标志不能直接视为同一种细胞状态。"
+        },
+        {
+          "from_stage": "I2",
+          "to_stage": "I3",
+          "relation_type": "research_synthesis",
+          "rationale_zh": "从“谁在何处参与”推进到“哪些环节可以改变、是否依赖时点”。",
+          "boundary_zh": "病灶共存不证明相互诱导；脂毒性未被证明是人类炎症的必经前置步骤。"
+        },
+        {
+          "from_stage": "I3",
+          "to_stage": "I4",
+          "relation_type": "proposed_bridge",
+          "rationale_zh": "让模型内靶点和时间问题，与临床活动性分层及多域结局相接。",
+          "boundary_zh": "登记不是随机分配；2例罕见基因背景病例只生成反应分离假说，不验证IL1阻断疗效。"
+        },
+        {
+          "from_stage": "I1",
+          "to_stage": "I4",
+          "relation_type": "research_synthesis",
+          "rationale_zh": "从损伤后风险推进到重复发作、影像变化及治疗关联的研究设计。",
+          "boundary_zh": "DSP登记网络可能共享患者；文章增加不等于完全独立重复，急性LGE扩大也不等于不可逆新瘢痕。"
+        }
+      ],
+      "next_study": {
+        "question_zh": "恢复期持续活动能否区分后续风险；按活动性炎症和既有病变分层后，哪些治疗终点值得进入随机试验？",
+        "design_zh": "先开展多中心事件触发前瞻队列和靶点作用可行性研究；拟定基线、急性发作、恢复期6–12周及6/12个月统一评价。时间点为研究提议。其后再据可行性数据设计分层随机试验。",
+        "measurements_zh": "统一测量肌钙蛋白、CMR水肿/T1/T2/LGE、动态心电与功能；记录基因型、既有病变、用药及发作至治疗间隔。",
+        "outcomes_zh": "分别分析炎症消退、室性异位、持续性VA、HF及泵功能；不能用炎症指标下降代替临床获益。",
+        "falsification_zh": "若持续活动指标不能重复区分风险，或靶点作用虽存在却不改变预设临床结局，应修正活动性分层和治疗窗口假说。",
+        "public_data_now_zh": "可先以供者为单位复核髓系/间质模块及病灶定位；Fu的HRA005871实际准入需核实，Penna原审读未核实具体组学accession。现有终末期数据不能预测患者热相或药物受益。"
+      }
+    },
+    {
+      "path_id": "spatial",
+      "short_title_zh": "03 局部病灶与风险",
+      "title_zh": "哪里发生变化，如何连接局部电基质与临床风险？",
+      "clinical_question_zh": "LGE或EF相近时，局部细胞状态、残留心肌应激和区域电/力学异常，能否解释不同的心律失常风险？",
+      "synthesis_zh": "分子研究细化“谁在何处改变”，影像—EAM研究提供同区域功能读数，前瞻事件研究提供临床终点。当前最关键的缺口，是把三者对齐到同一患者、同一区域与近同期测量。",
+      "stages": [
+        {
+          "stage_id": "S1",
+          "title_zh": "从全组织平均拆到细胞状态",
+          "study_ids": [
+            "Gaertner2012",
+            "Fu2024",
+            "Simonson2026"
+          ],
+          "contribution_zh": "配对双室芯片、非心肌细胞scRNA和含心肌细胞的snRNA提供互补尺度，帮助区分细胞组成、细胞状态与终末期共有反应。",
+          "open_question_zh": "观察到的差异来自取材、细胞捕获或疾病本身？哪些细胞状态真正有位置特异性？"
+        },
+        {
+          "stage_id": "S2",
+          "title_zh": "把分子程序放回病灶位置",
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Penna2026"
+          ],
+          "contribution_zh": "跨壁TomoSeq与Visium/单核整合分别提供切片级区域程序和炎症—纤维化邻域。",
+          "open_question_zh": "这些区域是否对应临床电基质；病灶边缘与残留心肌的状态能否跨个体重复？"
+        },
+        {
+          "stage_id": "S3",
+          "title_zh": "在临床区域比较影像与电信号",
+          "study_ids": [
+            "CMR_EAM_2018"
+          ],
+          "contribution_zh": "同区域CMR应变、LGE与EAM比较显示局部功能/电基质信息互补，提供可配准的临床接口。",
+          "open_question_zh": "模态不一致来自组织状态还是测量误差？缺少同区域分子与组织验证。"
+        },
+        {
+          "stage_id": "S4",
+          "title_zh": "再接到真实事件和结构随访",
+          "study_ids": [
+            "EAM_RISK_2012",
+            "SERIAL_CMR_2026"
+          ],
+          "contribution_zh": "局部异常电位与前瞻ICD事件关联；另一队列重复CMR显示结构负担可变化，为风险及进展提供不同终点锚点。",
+          "open_question_zh": "联合这些指标是否有现有风险模型之外的临床增益；还缺独立队列与前瞻验证。"
+        }
+      ],
+      "connections": [
+        {
+          "from_stage": "S1",
+          "to_stage": "S2",
+          "relation_type": "research_synthesis",
+          "rationale_zh": "从细胞类型/状态推进到组织中的区域定位。",
+          "boundary_zh": "不同供者、心室和平台；TomoSeq多细胞切片不是细胞级空间测量，空间次序也不是时间顺序。"
+        },
+        {
+          "from_stage": "S2",
+          "to_stage": "S3",
+          "relation_type": "proposed_bridge",
+          "rationale_zh": "检验炎症邻域或应激残留心肌是否对应区域应变、碎裂和延迟电位。",
+          "boundary_zh": "目前缺少同个体同区域的分子—影像—EAM联合验证；不能由模态不一致反推出炎症或代谢活动。"
+        },
+        {
+          "from_stage": "S3",
+          "to_stage": "S4",
+          "relation_type": "parallel_evidence",
+          "rationale_zh": "局部影像—电基质关联与电位—事件/重复影像证据，提出联合随访设计。",
+          "boundary_zh": "消融队列、一级预防ICD队列与重复CMR队列选择不同；不能拼成已验证风险模型或ICD阈值。"
+        },
+        {
+          "from_stage": "S2",
+          "to_stage": "S4",
+          "relation_type": "proposed_bridge",
+          "rationale_zh": "把病灶候选状态与同区域持续病变、新生LGE及临床事件连接。",
+          "boundary_zh": "终末期横断面组织不能证明人类早期进展；仍缺个体、时间、位置三者对齐。"
+        }
+      ],
+      "next_study": {
+        "question_zh": "炎症/应激邻域是否对应局部异常电位，并能在全心结构负担之外解释持续病变或后续事件？",
+        "design_zh": "在有临床指征接受消融或移植者中，预设较短CMR—EAM间隔和标准区域坐标；仅对临床可获得的定向外植组织做组织学/空间或原位检测。另设前瞻影像/节律队列验证事件与进展。",
+        "measurements_zh": "对齐区域应变、LGE、局部电位与组织状态；分析按患者分层，保留心室/跨壁深度/病灶邻域不同空间轴。",
+        "outcomes_zh": "先验证同区跨模态对应，再分别评价持续新LGE、VA和现有模型外增益；不把切片、细胞、spot当独立患者。",
+        "falsification_zh": "若同区分子状态与电/力学特征不对应，或联合信息在独立队列不增加解释/预测能力，应拒绝当前跨尺度桥接假说。",
+        "public_data_now_zh": "GSE29819、GSE326014和GSE289630可用于供者感知的细胞/区域状态复核；患者级CMR/EAM与纵向数据仍需申请或协作，不能仅用公开横断面表达数据完成临床桥接。"
+      }
+    }
+  ],
+  "study_summaries": [
+    {
+      "study_id": "CMR_EAM_2018",
+      "short_label_zh": "影像—电基质：同一区域跨模态关联",
+      "question_zh": "临床可测的局部形变能否提示致心律失常区域，LGE能否完整代表该基质？",
+      "approach_zh": "21例ARVC室速消融患者，CMR区域应变/LGE对照心内膜及部分心外膜EAM与室速终止位点，患者聚类分析。",
+      "finding_zh": "区域应变与电瘢痕及室速相关位点有关；LGE与EAM一致性有限，提示不同模态提供互补信息。",
+      "unresolved_zh": "消融选择队列、CMR与EAM并非同步，且薄右室壁/脂肪/接触误差影响结果；没有分子采样，模态不一致不能直接证明炎症或代谢活动。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6207200/",
+      "source_locator": "Abstract/Methods & Results；Methods/Regional Strain、EAM及统计；Discussion/Limitations；Clinical Perspective"
+    },
+    {
+      "study_id": "DSP_ERADOS_800",
+      "short_label_zh": "损伤后的临床风险",
+      "question_zh": "急性损伤是否是后续VA/HF风险升高的时间锚点？",
+      "approach_zh": "800例DSP登记；实际事件日期随访，将损伤史作为时变协变量。",
+      "finding_zh": "损伤后VA与HF住院风险升高，提示发作后需重点刻画风险轨迹。",
+      "unresolved_zh": "观察关联不能证明损伤因果；缺少连续分子与标准化重复影像，和后续登记可能重叠。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11745529/",
+      "source_locator": "Methods / Study outcomes、Statistical analysis；Results / Myocardial injury；Discussion / Limitations"
+    },
+    {
+      "study_id": "DSP_HOTPHASE_1014",
+      "short_label_zh": "发作、影像扩大与用药关联",
+      "question_zh": "急性发作是否叠加在旧病灶上，抗炎治疗关联哪些结局？",
+      "approach_zh": "1014例DSP登记，177人心肌炎样发作；部分配对CMR；多状态/生存模型和医生选择用药比较。",
+      "finding_zh": "配对子集事件时LGE段数增多；免疫抑制与较低VA/HF复合结局相关。",
+      "unresolved_zh": "事件期LGE变化需恢复期验证；无随机分配/倾向评分匹配，不能得出药物疗效；与800例网络可能重叠。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13036385/",
+      "source_locator": "Methods / Definitions and Outcomes、Statistical Analysis；Results / CMR changes与Outcomes According to Treatment；Limitations and Future Perspectives"
+    },
+    {
+      "study_id": "DSP_VS_PKP2_2020",
+      "short_label_zh": "识别临床炎症/纤维化表型",
+      "question_zh": "临床炎症样发作是否只发生在明显泵衰竭后？",
+      "approach_zh": "DSP107例与PKP2 81例回顾比较；CMR、急性损伤记录，部分FDG-PET。",
+      "finding_zh": "部分DSP病例正常收缩功能时已有LV LGE；约15%有非冠脉急性损伤。",
+      "unresolved_zh": "表型共存不等于同人严格先后；不能排出无症状炎症或全部电异常的时间。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286080/",
+      "source_locator": "Abstract；Results / Left Dominant Arrhythmogenic Cardiomyopathy with Fibrosis...；Myocardial Inflammatory Episodes"
+    },
+    {
+      "study_id": "EAM_RISK_2012",
+      "short_label_zh": "局部电特征—前瞻事件：提供临床终点锚点",
+      "question_zh": "瘢痕范围之外，局部碎裂和延迟电位是否关联后续室性心律失常？",
+      "approach_zh": "32例无既往心脏骤停/持续室性心律失常ARVC，高密度右室EAM后一级预防ICD与前瞻随访。",
+      "finding_zh": "随访中12例发生适当ICD放电；异常电位与事件相关，而两组瘢痕面积/分布未显示显著差异。",
+      "unresolved_zh": "小样本且全部植入ICD；面积差异不显著不等于严格等效；未测分子/炎症状态，不能外推为通用植入阈值或代表全部ACM。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22465294/",
+      "source_locator": "原始结构式摘要：Methods、Results、Conclusion；未全文审读"
+    },
+    {
+      "study_id": "FASN_CERAMIDE_2026",
+      "short_label_zh": "旁支：代谢性损伤入口",
+      "question_zh": "炎症前后是否还存在可干预的心肌脂毒性损伤入口？",
+      "approach_zh": "人终末期心肌组学/脂质组与事件邻近血浆；Dsg2细胞/鼠FASN相关干预。",
+      "finding_zh": "模型支持FASN—神经酰胺与心肌损伤相连，为炎症之外的损伤入口提供线索。",
+      "unresolved_zh": "未证明在人类先于炎症；血浆非纯前瞻预测，不能拼成脂毒性→炎症的确定时序。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545394/",
+      "source_locator": "Results / FASN与ceramide实验；Methods / Human heart tissue acquisition及plasma；Limitations"
+    },
+    {
+      "study_id": "Fu2024",
+      "short_label_zh": "人双室细胞差异",
+      "question_zh": "人类病变中哪些细胞状态、哪个心室提供炎症靶点线索？",
+      "approach_zh": "6例终末期ARVC与2例对照，同人LV/RV/PBMC单细胞；NLRP3抑制鼠实验。",
+      "finding_zh": "RV富集CCL3巨噬细胞与TNMD成纤维细胞；鼠干预减轻RV扩张/功能障碍。",
+      "unresolved_zh": "非心肌细胞、终末期横断面；去除心外/内膜，拟时序不代表真实病程。",
+      "source_url": "https://link.springer.com/article/10.1186/s12916-023-03232-8",
+      "source_locator": "Abstract；Methods / Human specimen collection、Isolation of cardiac cells；Results / CCL3+ macrophages及NLRP3干预；Additional file 1 Tables S1–S2"
+    },
+    {
+      "study_id": "Gaertner2012",
+      "short_label_zh": "配对左右室：先确定比较尺度",
+      "question_zh": "“右室病”为主的ACM，在终末期是否也涉及左室分子重塑？",
+      "approach_zh": "同一供者左右室配对组织、Affymetrix芯片，比较ARVC、DCM与非衰竭心脏。",
+      "finding_zh": "提供同人左右室全组织表达比较，支持终末期双心室受累；整体室间差异较弱不等于所有细胞和局部病灶一致。",
+      "unresolved_zh": "bulk信号由细胞比例还是细胞内状态贡献？无壁层坐标、早期样本或纵向结局。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22085907/",
+      "source_locator": "原始摘要；GSE29819设计与配对GSM记录；原文小节Gene Expression Analysis Reveals Biventricular Cardiomyopathy in ARVC"
+    },
+    {
+      "study_id": "IL1_PEDIATRIC_2026",
+      "short_label_zh": "治疗反应可能不同步",
+      "question_zh": "炎症、电负荷和泵功能会不会对治疗有不同反应？",
+      "approach_zh": "2例儿童PPP1R13L相关ACM，IL1阻断伴随常规心衰/抗心律失常治疗。",
+      "finding_zh": "报告炎症指标和室性异位改善，但无收缩功能恢复，两例最终移植。",
+      "unresolved_zh": "罕见基因背景、无对照且并用治疗；只生成反应分离假说，不能验证疗效。",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/ajmg.a.70156",
+      "source_locator": "Case reports / 两例治疗经过与移植结局；Discussion"
+    },
+    {
+      "study_id": "Kyriakopoulou2025",
+      "short_label_zh": "跨壁TomoSeq：把分子状态放回组织区域",
+      "question_zh": "同一心室内，纤维脂肪区与残留心肌/应激区域是否存在不同的分子程序？",
+      "approach_zh": "1例终末期DSP心脏左室壁连续切片TomoSeq配合组织学，寻找区域表达程序；独立细胞模型验证线粒体/收缩机制。",
+      "finding_zh": "描述与局部应激和线粒体功能有关的区域程序，显示单一心室内存在异质性。",
+      "unresolved_zh": "TomoSeq是多细胞切片级一维定位，不是常规细胞级空间图谱；1颗心脏的空间次序不能代替疾病时间；与临床电基质尚未同区配准。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11872638/",
+      "source_locator": "Results/Identification of a cardiomyocyte population enriched for stress-related and mitochondrial genes；Fig1C–J；STAR Methods/Tomo-seq"
+    },
+    {
+      "study_id": "PKP2_BSPM_2023",
+      "short_label_zh": "临床接口：常规检查正常仍可有电异常",
+      "question_zh": "模型提示的隐匿异常，在携带者身上能否被更精细的检测捕捉？",
+      "approach_zh": "42名PKP2携带者/25名对照，67导联体表电势、个体心胸几何及RV形变，横断面比较。",
+      "finding_zh": "临床前携带者中12名RV形变正常，7/12有异常QRS和/或STT图型，提示常规检查外的电表型。",
+      "unresolved_zh": "未随访证明这些人会进展；不同受试者的临床分组不能替代同人时间轴，电势也不能直接测代谢。",
+      "source_url": "https://academic.oup.com/europace/article/25/7/euad197/7222859",
+      "source_locator": "Abstract；Methods—Study population/BSPM/Deformation；Table 1；Limitations"
+    },
+    {
+      "study_id": "Penna2026",
+      "short_label_zh": "空间生态位与IL1B窗口",
+      "question_zh": "炎症细胞和修复细胞是否在病灶中共处，靶向信号是否依赖介入时点？",
+      "approach_zh": "人snRNA-seq 6例ACM/12对照；其中3/2例Visium，Tangram与免疫染色；Dsg2鼠早/晚抗IL1B。",
+      "finding_zh": "病灶富集炎症巨噬细胞—促纤维化间质生态位；鼠早期干预改善较明显，晚期仍有部分获益。",
+      "unresolved_zh": "人体为移植组织共存证据；3例空间患者不能建立早期病灶迁移或稳定基因型空间差异。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13158593/",
+      "source_locator": "Results / Spatial transcriptomics reveal formation of an inflammatory-fibrotic niche in ACM，Figures 1–4；Figure 5及Supplemental Figure 8；Methods / Neutralization of IL1B；Supplemental Tables 1–2"
+    },
+    {
+      "study_id": "SERIAL_CMR_2026",
+      "short_label_zh": "临床时间锚：结构病灶会新增与扩大",
+      "question_zh": "人类ACM的组织病变是否可在随访中改变，而不只看EF？",
+      "approach_zh": "单中心混合基因型队列202例，其中97例同人首末CMR，平均间隔4.0年；记录新增LGE心肌段。",
+      "finding_zh": "基线无纤维化者18/56新出现影像病变；已有者17/41扩大，支持同人结构变化的真实时间证据。",
+      "unresolved_zh": "重复CMR可能由症状触发；无同步代谢/组学，不能证明此前电或代谢状态导致这些改变。正文与表2进展总数有不一致，应保留条件分母。",
+      "source_url": "https://academic.oup.com/eurjpc/advance-article/doi/10.1093/eurjpc/zwag130/8519177",
+      "source_locator": "Methods；Tables 1–2；Figs 1–2；Limitations"
+    },
+    {
+      "study_id": "Simonson2026",
+      "short_label_zh": "右室单核：补回心肌细胞并排查终末期共性",
+      "question_zh": "哪些变化属于ACM相关细胞状态，哪些是不同病因终末期心衰共有反应？",
+      "approach_zh": "8例ARVC、11例非衰竭右室单核RNA测序；细胞类型差异分析、跨心肌病比较，组织染色及hiPSC心肌细胞功能验证。",
+      "finding_zh": "多数表达重塑与其他终末期心肌病相似；少数差异信号提供候选机制，细胞模型干预可连接免疫/钙信号与电生理。",
+      "unresolved_zh": "ARVC右室与其他病因左室的跨研究比较存在心室/研究混杂；无细胞空间坐标、早期人体时间序列或患者风险验证。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594750/",
+      "source_locator": "Results/Figures1–4；PLXNA4组织与hiPSC功能实验；STAR Methods；TableS1"
+    },
+    {
+      "study_id": "T01",
+      "short_label_zh": "真实时点：早期代谢与双室不同步",
+      "question_zh": "隐匿期哪些分子程序先变，RV与LV是否同步？",
+      "approach_zh": "cKO鼠7/10/14/17/21天分批取材，同鼠RV/LV配对蛋白组，另做HKL干预和线粒体测量。",
+      "finding_zh": "桥粒与线粒体蛋白早期共同改变，随后免疫/ECM程序增强；RV蛋白重塑早于LV；早期HKL可调节多类网络。",
+      "unresolved_zh": "72份双室组织来自36只鼠，并非同鼠重复活检；急性双等位缺失模型不能直接给人类慢性病程定时。",
+      "source_url": "https://www.nature.com/articles/s44161-026-00894-4",
+      "source_locator": "Results；Figs 2、6–7；Methods；Fig 2 source data/PXD072962"
+    },
+    {
+      "study_id": "T02",
+      "short_label_zh": "电与钙稳态：结构终点之外",
+      "question_zh": "PKP2缺失能否直接影响心律，而不只是通过晚期瘢痕？",
+      "approach_zh": "诱导Pkp2心肌cKO鼠，串行ECG/超声，21天RNA-seq与钙实验，并以异丙肾上腺素挑战。",
+      "finding_zh": "支持PKP2损失后钙调控异常与致心律失常易感；部分早期个体在无明显超声结构病时可诱发室颤。",
+      "unresolved_zh": "RV面积14天已增；并非每只鼠均先电后结构，单终点RNA不能给全部分子事件排序。",
+      "source_url": "https://www.nature.com/articles/s41467-017-00127-0",
+      "source_locator": "Results；Figs 1–2、7、9；Methods"
+    },
+    {
+      "study_id": "T03",
+      "short_label_zh": "炎症能否推动病变",
+      "question_zh": "炎症只是损伤伴随现象，还是可改变的病变驱动因素？",
+      "approach_zh": "细胞/hiPSC心肌模型与Dsg2鼠；NFκB药理阻断，鼠8→16周。",
+      "finding_zh": "阻断后损伤、纤维化及电/泵功能表型减轻，支持模型中炎症的机制贡献。",
+      "unresolved_zh": "细胞来源、既成病灶治疗窗口及人体效应未定；早期阻断不证明瘢痕逆转。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6817418/",
+      "source_locator": "Abstract Results；Materials and Methods / In vivo drug treatment；Results与Figure 3"
+    },
+    {
+      "study_id": "T04",
+      "short_label_zh": "定位CCR2细胞与反馈",
+      "question_zh": "心肌细胞自主信号和募集免疫细胞各贡献什么？",
+      "approach_zh": "Dsg2×心肌NFκB抑制或Ccr2缺失；年龄分批流式、CITE-seq/snRNA-seq；16→24周给药。",
+      "finding_zh": "CCR2细胞关联成纤维细胞激活；遗传扰动和晚期给药支持心肌—免疫—间质反馈。",
+      "unresolved_zh": "遗传阻断贯穿发育；单终点组学不是动态轨迹，结果不能直接推广各基因型。",
+      "source_url": "https://www.jci.org/articles/view/172014",
+      "source_locator": "Results / Figures 1–8，尤其Figures 5–8；Methods / Single-cell sequencing and analysis；2024 Corrigendum链接"
+    },
+    {
+      "study_id": "T05",
+      "short_label_zh": "上游救援Ⅰ：患者变异背景模型",
+      "question_zh": "修复上游桥粒缺陷能否预防或稳定多维表型？",
+      "approach_zh": "Pkp2剪接变异纯合敲入鼠；新生期或4周龄单次AAV9-PKP2，追踪MRI、病理和生存。",
+      "finding_zh": "支持早期预防及发病后病程稳定/减轻，提示损伤后并非只有不可干预终点。",
+      "unresolved_zh": "模型纯合剂量不同于常见患者杂合；不证明所有瘢痕/脂肪已清除，不给出人的安全有效窗口。",
+      "source_url": "https://www.nature.com/articles/s44161-023-00370-3",
+      "source_locator": "Figs 1–8；Extended Data Figs 5、7；Methods"
+    },
+    {
+      "study_id": "T06",
+      "short_label_zh": "上游救援Ⅱ：不同给药时点",
+      "question_zh": "已启动表型后补回PKP2，是否仍能阻断进展？",
+      "approach_zh": "成年诱导cKO鼠；预防及7/14天后AAVrh.74-PKP2a，功能、ECG、生存和组织终点。",
+      "finding_zh": "PKP2恢复可阻止或减轻后续功能、节律及纤维化表型。",
+      "unresolved_zh": "时点间剂量也不同，不能归因于纯时间效应；晚期存活者低纤维化不等于同鼠瘢痕逆转。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10923105/",
+      "source_locator": "Methods；Results；Figs 2–7"
+    },
+    {
+      "study_id": "T07",
+      "short_label_zh": "机械与氧化应激：另一条损伤入口",
+      "question_zh": "桥粒异常如何从细胞连接问题转成心肌细胞损伤？",
+      "approach_zh": "小鼠、PKP2缺失hiPSC-CM及5例患者/3名对照活检；核膜、ROS、DNA损伤测量和药物扰动。",
+      "finding_zh": "核膜/机械失衡可通过非ROS路径致DNA损伤；氧化应激可放大损伤，模型中HKL减轻RV重塑。",
+      "unresolved_zh": "人类活检是横断面；ROS并非所有DNA损伤的必经前置步骤，也未确立临床药物获益。",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474627/",
+      "source_locator": "Results；Figs 1、3、4、6；Methods"
+    },
+    {
+      "study_id": "T08",
+      "short_label_zh": "机制拆解：能量储备为何下降",
+      "question_zh": "PKP2与线粒体程序之间是否存在可救援的细胞内联系？",
+      "approach_zh": "PKP2杂合突变/isogenic hiPSC-CM，RNA测序、呼吸与EHM收缩，PPARGC1A扰动/救援；终末期患者组织补充验证。",
+      "finding_zh": "支持PKP2—AMPKα/PGC1α—OXPHOS联系；突变细胞能量储备下降，PPARGC1A过表达部分恢复表达及收缩。",
+      "unresolved_zh": "并未证明患者中代谢改变先于炎症；AICAR不是全部运动效应，GTEx相关不是因果。",
+      "source_url": "https://academic.oup.com/cardiovascres/article/122/14/2024/8907303",
+      "source_locator": "Methods 2.6、2.8、2.10–2.13；Results 3.1–3.6；Figs 1–6"
+    },
+    {
+      "study_id": "T09",
+      "short_label_zh": "上游救援Ⅲ：细胞至长期小鼠结局",
+      "question_zh": "上游修复能否同时改善电、收缩和长期生存？",
+      "approach_zh": "siPKP2 hiPSC-CM时间序列与成年cKO鼠，多给药时点AAV9:PKP2及随访。",
+      "finding_zh": "支持模型内电/收缩/结构多维改善及长期生存获益；明显病变后仍可能存在干预余地。",
+      "unresolved_zh": "急性双等位缺失不等于杂合慢性患者；晚期独立队列不能与预防队列合成单一病程。",
+      "source_url": "https://www.nature.com/articles/s43856-024-00450-w",
+      "source_locator": "Results；Figs 1–5；晚期补充细节未全面复审"
+    }
+  ],
+  "curation_provenance": {
+    "process": "AI-assisted integration of existing targeted full-text audits plus targeted primary-source verification; not dual human coding.",
+    "primary_sources_rechecked": [
+      "https://academic.oup.com/cardiovascres/article/122/14/2024/8907303",
+      "https://academic.oup.com/europace/article/25/7/euad197/7222859",
+      "https://doi.org/10.1093/eurjpc/zwag130",
+      "https://link.springer.com/article/10.1186/s12916-023-03232-8",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11872638/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13158593/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594750/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6207200/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6817418/",
+      "https://www.jci.org/articles/view/172014",
+      "https://www.nature.com/articles/s44161-026-00894-4"
+    ],
+    "citation_genealogy_verified": false
+  },
+  "cross_paper_tensions": [
+    {
+      "pair_id": "CP-001",
+      "paper_a": "Gaertner2012",
+      "paper_b": "Fu2024",
+      "candidate_basis": "shared chamber-comparison topic",
+      "overlap_topic": "双心室差异",
+      "a_finding": "全组织配对表达支持双室受累，室间平均差异较弱。",
+      "b_finding": "非心肌单细胞层面观察到室间亚群/状态差异。",
+      "a_evidence_pointer": "原始摘要；GSE29819设计与配对GSM记录；原文小节Gene Expression Analysis Reveals Biventricular Cardiomyopathy in ARVC",
+      "b_evidence_pointer": "Abstract；Methods / Human specimen collection、Isolation of cardiac cells；Results / CCL3+ macrophages及NLRP3干预；Additional file 1 Tables S1–S2",
+      "pair_assessment": "conditional_difference",
+      "resolution_status": "flagged_unresolved",
+      "interpretation_zh": "可由全组织平均与细胞分解的尺度不同解释一部分差异，但还需匹配取材与捕获方式的直接比较。",
+      "scholar_confirmation": "pending"
+    },
+    {
+      "pair_id": "CP-002",
+      "paper_a": "Penna2026",
+      "paper_b": "IL1_PEDIATRIC_2026",
+      "candidate_basis": "shared target and treatment-response topic",
+      "overlap_topic": "IL1干预与泵功能反应",
+      "a_finding": "Dsg2模型中抗IL1B改善多类表型。",
+      "b_finding": "2例儿童病例炎症/异位改善而收缩功能未恢复。",
+      "a_evidence_pointer": "Results / Spatial transcriptomics reveal formation of an inflammatory-fibrotic niche in ACM，Figures 1–4；Figure 5及Supplemental Figure 8；Methods / Neutralization of IL1B；Supplemental Tables 1–2",
+      "b_evidence_pointer": "Case reports / 两例治疗经过与移植结局；Discussion",
+      "pair_assessment": "insufficient_overlap",
+      "resolution_status": "not_applicable",
+      "interpretation_zh": "物种、遗传背景、病期及控制条件不同，不能称为互相否定；这促使下一项研究分开测量不同域的反应。",
+      "scholar_confirmation": "pending"
+    }
+  ]
+}

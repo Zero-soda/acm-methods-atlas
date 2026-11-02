@@ -1,5 +1,5 @@
 {
-  "corpus_version": "0.1.0",
+  "corpus_version": "0.2.0",
   "evidence_cutoff": "2026-11-01",
   "cohort": "manuscript",
   "denominator": 23,

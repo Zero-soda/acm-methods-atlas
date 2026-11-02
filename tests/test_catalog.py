@@ -1,4 +1,5 @@
 from copy import deepcopy
+from html.parser import HTMLParser
 from pathlib import Path
 import csv
 import json
@@ -76,6 +77,56 @@ class CountingPolicyTests(unittest.TestCase):
                 with (out / "method_summary.csv").open(encoding="utf-8-sig") as handle:
                     for row in csv.DictReader(handle):
                         self.assertEqual(int(row["denominator"]), n)
+
+
+class PathwayIntegrityTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.catalog = load_catalog(ROOT / "data")
+
+    def test_path_coverage_matches_review_without_supplemental_records(self):
+        data = self.catalog["research_paths"]
+        covered = {sid for path in data["paths"] for stage in path["stages"] for sid in stage["study_ids"]}
+        self.assertEqual(covered, {s["study_id"] for s in select_studies(self.catalog["studies"])})
+        self.assertFalse(data["curation_provenance"]["citation_genealogy_verified"])
+
+    def test_dangling_evidence_and_unverified_causal_edges_are_rejected(self):
+        bad = deepcopy(self.catalog)
+        bad["research_paths"]["paths"][0]["stages"][0]["study_ids"].append("NONEXISTENT_STUDY")
+        with self.assertRaisesRegex(ValueError, "unknown evidence"):
+            validate(bad)
+        bad = deepcopy(self.catalog)
+        bad["research_paths"]["paths"][0]["connections"][0]["relation_type"] = "causal"
+        with self.assertRaisesRegex(ValueError, "causal/citation"):
+            validate(bad)
+
+    def test_pathway_exports_and_internal_navigation(self):
+        class Links(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.ids, self.targets, self.controls = [], [], []
+            def handle_starttag(self, tag, attrs):
+                a = dict(attrs)
+                if "id" in a:
+                    self.ids.append(a["id"])
+                if a.get("href", "").startswith("#"):
+                    self.targets.append(a["href"][1:])
+                if "aria-controls" in a:
+                    self.controls.append(a["aria-controls"])
+        with tempfile.TemporaryDirectory() as temp:
+            out = Path(temp)
+            build(ROOT, out, "manuscript")
+            exported = json.loads((out / "exports/research_paths.json").read_text())
+            self.assertEqual(exported, self.catalog["research_paths"])
+            text = (out / "research_paths.html").read_text()
+            parser = Links()
+            parser.feed(text)
+            self.assertEqual(len(parser.ids), len(set(parser.ids)))
+            self.assertTrue(set(parser.targets + parser.controls) <= set(parser.ids))
+            self.assertEqual(len(parser.controls), 3)
+            for path in exported["paths"]:
+                self.assertIn(path["next_study"]["public_data_now_zh"], text)
+                self.assertIn(path["next_study"]["falsification_zh"], text)
 
 
 if __name__ == "__main__":
