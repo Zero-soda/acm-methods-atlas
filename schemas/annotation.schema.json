@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ACM positive study-method annotation",
+  "type": "object",
+  "required": ["annotation_id", "study_id", "method_id", "evidence_basis", "source_locator", "annotation_status", "data_origin", "source_url"],
+  "properties": {
+    "annotation_id": {"type":"string","minLength":1},
+    "study_id": {"type":"string","minLength":1},
+    "method_id": {"type":"string","pattern":"^[a-z][a-z0-9_]*$"},
+    "evidence_basis": {"type":"string","minLength":1},
+    "source_locator": {"type":"string","minLength":1},
+    "annotation_status": {"enum":["verified_local_text","verified_existing_audit","abstract_only"]},
+    "data_origin": {"enum":["generated","reused","not_classified"]},
+    "source_url": {"type":"string","pattern":"^https://"}
+  },
+  "additionalProperties": false
+}

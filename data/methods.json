@@ -1,0 +1,856 @@
+[
+  {
+    "method_id": "aav_gene_rescue",
+    "label_zh": "AAV基因补充或救援",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "adrenergic_challenge",
+    "label_zh": "急性肾上腺素能挑战",
+    "family": "intervention",
+    "group_id": "pharmacological_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "ambient_rna_doublet_control",
+    "label_zh": "环境RNA与双细胞控制",
+    "family": "computational",
+    "group_id": "omics_preprocessing",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "arrhythmia_burden_assessment",
+    "label_zh": "心律失常负荷评估",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "batch_integration",
+    "label_zh": "批次整合",
+    "family": "computational",
+    "group_id": "omics_preprocessing",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "body_surface_potential_mapping",
+    "label_zh": "体表电势标测（BSPM）",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "bulk_rna_sequencing",
+    "label_zh": "批量RNA测序数据使用",
+    "family": "measurement",
+    "group_id": "transcriptomics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "calcium_imaging",
+    "label_zh": "细胞钙瞬变测量",
+    "family": "measurement",
+    "group_id": "cellular_function",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cardiac_function_assessment",
+    "label_zh": "心脏收缩功能评估",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cardiac_mri",
+    "label_zh": "心脏磁共振",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cardiac_thoracic_geometry_registration",
+    "label_zh": "心脏与胸廓几何配准",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cell_clustering_annotation",
+    "label_zh": "细胞聚类与注释",
+    "family": "computational",
+    "group_id": "omics_preprocessing",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cell_communication_inference",
+    "label_zh": "细胞间通讯推断",
+    "family": "computational",
+    "group_id": "network_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cell_composition_modeling",
+    "label_zh": "细胞组成统计建模",
+    "family": "computational",
+    "group_id": "expression_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cell_culture_model",
+    "label_zh": "培养细胞模型",
+    "family": "design",
+    "group_id": "model_system",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cell_pharmacological_rescue",
+    "label_zh": "细胞药理与代谢物救援",
+    "family": "intervention",
+    "group_id": "pharmacological_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cell_type_marker_enrichment",
+    "label_zh": "细胞类型标记富集",
+    "family": "computational",
+    "group_id": "expression_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "chip_qpcr",
+    "label_zh": "染色质免疫沉淀定量PCR",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cite_seq",
+    "label_zh": "CITE-seq多模态单细胞测量",
+    "family": "measurement",
+    "group_id": "single_cell_omics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "clinical_disease_staging",
+    "label_zh": "临床表型分期",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cmr_regional_strain",
+    "label_zh": "磁共振区域应变分析",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "conditional_genetic_mouse_model",
+    "label_zh": "条件性遗传小鼠模型",
+    "family": "design",
+    "group_id": "model_system",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "contractility_measurement",
+    "label_zh": "收缩功能测量",
+    "family": "measurement",
+    "group_id": "cellular_function",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "controlled_preclinical_intervention",
+    "label_zh": "受控临床前干预",
+    "family": "design",
+    "group_id": "model_system",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "controlled_time_course",
+    "label_zh": "受控分批时间序列",
+    "family": "design",
+    "group_id": "temporal_design",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cox_proportional_hazards_regression",
+    "label_zh": "Cox比例风险回归",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cross_dataset_comparison",
+    "label_zh": "跨研究数据集比较",
+    "family": "computational",
+    "group_id": "omics_preprocessing",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cross_sectional_human_comparison",
+    "label_zh": "人体横断面比较",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "cross_sectional_human_tissue_comparison",
+    "label_zh": "人类横断面组织比较",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "deep_learning_image_segmentation",
+    "label_zh": "深度学习图像分割",
+    "family": "computational",
+    "group_id": "ai_image_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "differential_expression",
+    "label_zh": "差异表达分析",
+    "family": "computational",
+    "group_id": "expression_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "dna_damage_assay",
+    "label_zh": "DNA损伤检测",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "dna_pull_down",
+    "label_zh": "DNA拉下实验",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "echocardiography",
+    "label_zh": "超声心动图",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "electroanatomic_mapping",
+    "label_zh": "心内电解剖标测",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "electrocardiography",
+    "label_zh": "心电图或心律监测",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "engineered_heart_tissue_model",
+    "label_zh": "工程化心肌组织模型",
+    "family": "design",
+    "group_id": "model_system",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "engineered_myocardium_contractility",
+    "label_zh": "工程化心肌收缩测量",
+    "family": "measurement",
+    "group_id": "cellular_function",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "enzyme_activity_assay",
+    "label_zh": "酶活性检测",
+    "family": "measurement",
+    "group_id": "cellular_function",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "event_adjacent_plasma_comparison",
+    "label_zh": "事件邻近血浆分组比较",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "expression_correlation_analysis",
+    "label_zh": "表达相关分析",
+    "family": "computational",
+    "group_id": "expression_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "familial_clustering_sensitivity_analysis",
+    "label_zh": "家系聚类敏感性分析",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "fdg_pet",
+    "label_zh": "FDG正电子发射断层成像",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "fine_gray_competing_risk_regression",
+    "label_zh": "Fine–Gray竞争风险回归",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "flow_cytometry",
+    "label_zh": "流式细胞术",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "flow_cytometry_apoptosis",
+    "label_zh": "流式细胞术凋亡检测",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "functional_pathway_analysis",
+    "label_zh": "功能通路分析（摘要层面）",
+    "family": "computational",
+    "group_id": "pathway_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "gene_coexpression_analysis",
+    "label_zh": "基因共表达与跨供者汇总",
+    "family": "computational",
+    "group_id": "expression_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "gene_expression_measurement_unspecified",
+    "label_zh": "RNA表达测量（平台待核）",
+    "family": "measurement",
+    "group_id": "transcriptomics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "gene_knockdown",
+    "label_zh": "基因敲低",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "genetic_cell_perturbation",
+    "label_zh": "细胞基因扰动",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "genetic_pathway_perturbation",
+    "label_zh": "遗传通路扰动",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "genetic_perturbation",
+    "label_zh": "遗传或表达扰动",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "genetic_variant_classification",
+    "label_zh": "遗传变异致病性分类",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "hierarchical_trajectory_clustering",
+    "label_zh": "层次轨迹聚类",
+    "family": "computational",
+    "group_id": "trajectory_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "histology_fibrosis_quantification",
+    "label_zh": "组织学与纤维化定量",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "histology_immunofluorescence",
+    "label_zh": "组织学与免疫荧光验证",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "holter_monitoring",
+    "label_zh": "动态心电监测",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "icd_interrogation_outcome_assessment",
+    "label_zh": "ICD事件记录结局判定",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "immunofluorescence",
+    "label_zh": "免疫荧光与多重免疫染色",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "inducible_cardiomyocyte_knockout",
+    "label_zh": "诱导性心肌细胞基因敲除",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "inflammatory_marker_assessment",
+    "label_zh": "炎症指标评估",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "ipsc_cardiomyocyte_model",
+    "label_zh": "人iPSC来源心肌细胞模型",
+    "family": "design",
+    "group_id": "model_system",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "isotope_tracing",
+    "label_zh": "稳定同位素示踪",
+    "family": "measurement",
+    "group_id": "lipidomics_metabolism",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "kaplan_meier_survival_analysis",
+    "label_zh": "Kaplan–Meier生存分析",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "late_gadolinium_enhancement_mri",
+    "label_zh": "心脏磁共振延迟钆增强（LGE）",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "lipid_histological_staining",
+    "label_zh": "脂质组织化学染色",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "longitudinal_clinical_follow_up",
+    "label_zh": "临床事件纵向随访",
+    "family": "design",
+    "group_id": "temporal_design",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "longitudinal_within_subject_followup",
+    "label_zh": "同个体功能或生存随访",
+    "family": "design",
+    "group_id": "temporal_design",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "luciferase_reporter_assay",
+    "label_zh": "双荧光素酶报告实验",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "mass_spectrometry_proteomics",
+    "label_zh": "质谱蛋白组学",
+    "family": "measurement",
+    "group_id": "proteomics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "matched_blood_tissue_sampling",
+    "label_zh": "同人血液与心肌联合取材",
+    "family": "design",
+    "group_id": "spatial_sampling",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "microarray_transcriptomics",
+    "label_zh": "微阵列转录组测量",
+    "family": "measurement",
+    "group_id": "transcriptomics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "mitochondrial_respiration",
+    "label_zh": "线粒体呼吸功能测量",
+    "family": "measurement",
+    "group_id": "cellular_function",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "mixed_effects_model",
+    "label_zh": "混合效应模型",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "multielectrode_array",
+    "label_zh": "多电极阵列",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "multistate_markov_model",
+    "label_zh": "多状态转移模型",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "observational_treatment_comparison",
+    "label_zh": "观察性治疗比较",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "observational_treatment_exposure",
+    "label_zh": "临床治疗暴露观察（非随机）",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "optical_action_potential",
+    "label_zh": "光学动作电位测量",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "optical_voltage_mapping",
+    "label_zh": "离体心脏光学电压标测",
+    "family": "measurement",
+    "group_id": "electrophysiology",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "oxidative_stress_assay",
+    "label_zh": "氧化应激检测",
+    "family": "measurement",
+    "group_id": "cellular_function",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "paired_ventricular_sampling",
+    "label_zh": "同个体双心室配对取样",
+    "family": "design",
+    "group_id": "spatial_sampling",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "pathway_activity_inference",
+    "label_zh": "通路活性推断",
+    "family": "computational",
+    "group_id": "pathway_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "pathway_enrichment",
+    "label_zh": "通路或基因集富集",
+    "family": "computational",
+    "group_id": "pathway_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "patient_clustered_regional_analysis",
+    "label_zh": "患者聚类的区域统计比较",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "pharmacological_intervention",
+    "label_zh": "临床前药理扰动",
+    "family": "intervention",
+    "group_id": "pharmacological_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "plasma_lcms_lipidomics",
+    "label_zh": "血浆LC-MS/MS脂质测量",
+    "family": "measurement",
+    "group_id": "lipidomics_metabolism",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "principal_component_analysis",
+    "label_zh": "主成分分析",
+    "family": "computational",
+    "group_id": "omics_preprocessing",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "prospective_clinical_follow_up",
+    "label_zh": "前瞻性临床随访",
+    "family": "design",
+    "group_id": "temporal_design",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "protein_interaction_network",
+    "label_zh": "蛋白相互作用网络与社区识别",
+    "family": "computational",
+    "group_id": "network_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "proximity_ligation_assay",
+    "label_zh": "原位邻近连接实验（PLA）",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "pseudobulk_differential_expression",
+    "label_zh": "供者级伪批量差异表达",
+    "family": "computational",
+    "group_id": "expression_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "quantitative_pcr",
+    "label_zh": "定量PCR",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "regional_mri_mapping",
+    "label_zh": "磁共振区域分布标注",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "regulatory_network_inference",
+    "label_zh": "转录调控网络推断",
+    "family": "computational",
+    "group_id": "pathway_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "retrospective_clinical_cohort",
+    "label_zh": "回顾性临床队列",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "retrospective_multimodal_comparison",
+    "label_zh": "回顾性多模态区域比较",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "retrospective_registry_analysis",
+    "label_zh": "登记资料回顾分析",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "right_ventricular_deformation_analysis",
+    "label_zh": "右室形变分析",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "rna_seq_alignment_quantification",
+    "label_zh": "RNA序列比对与定量",
+    "family": "computational",
+    "group_id": "omics_preprocessing",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "serial_cardiac_mri",
+    "label_zh": "同人重复心脏磁共振",
+    "family": "measurement",
+    "group_id": "clinical_imaging",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "single_cell_rna_sequencing",
+    "label_zh": "单细胞RNA测序",
+    "family": "measurement",
+    "group_id": "single_cell_omics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "single_nucleus_rna_sequencing",
+    "label_zh": "单核RNA测序",
+    "family": "measurement",
+    "group_id": "single_cell_omics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "sirna_loss_of_function",
+    "label_zh": "siRNA功能缺失扰动",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "spatial_cell_mapping",
+    "label_zh": "单核与空间表达整合映射",
+    "family": "computational",
+    "group_id": "spatial_integration",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "spatial_expression_pattern_analysis",
+    "label_zh": "空间表达模式分析",
+    "family": "computational",
+    "group_id": "spatial_integration",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "spatial_niche_analysis",
+    "label_zh": "空间生态位聚类与共定位",
+    "family": "computational",
+    "group_id": "spatial_integration",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "spatial_transcriptomics",
+    "label_zh": "空间转录组测量",
+    "family": "measurement",
+    "group_id": "spatial_omics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "thermal_proteome_profiling",
+    "label_zh": "热蛋白组分析",
+    "family": "measurement",
+    "group_id": "proteomics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "time_regression",
+    "label_zh": "分类时间回归",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "time_varying_cox_regression",
+    "label_zh": "时变协变量Cox回归",
+    "family": "computational",
+    "group_id": "clinical_statistics",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "tissue_lcms_lipidomics",
+    "label_zh": "组织LC-MS/MS脂质组学",
+    "family": "measurement",
+    "group_id": "lipidomics_metabolism",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "trajectory_inference",
+    "label_zh": "轨迹与拟时序推断",
+    "family": "computational",
+    "group_id": "trajectory_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "transcription_factor_motif_analysis",
+    "label_zh": "转录因子结合基序富集",
+    "family": "computational",
+    "group_id": "pathway_analysis",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "transmission_electron_microscopy",
+    "label_zh": "透射电子显微镜",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "transmural_sampling",
+    "label_zh": "跨壁组织取材",
+    "family": "design",
+    "group_id": "spatial_sampling",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "troponin_measurement",
+    "label_zh": "心肌肌钙蛋白测量",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "tunel_apoptosis_assay",
+    "label_zh": "TUNEL凋亡检测",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "uncontrolled_case_series",
+    "label_zh": "无对照病例系列",
+    "family": "design",
+    "group_id": "clinical_observation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "viral_gene_rescue",
+    "label_zh": "病毒介导的基因补充或救援",
+    "family": "intervention",
+    "group_id": "genetic_perturbation",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  },
+  {
+    "method_id": "western_blot",
+    "label_zh": "免疫印迹",
+    "family": "measurement",
+    "group_id": "pathology_molecular_assay",
+    "definition": "按原文或既有审读记录确认的方法概念；具体平台、物种与设计见逐篇标注。"
+  }
+]

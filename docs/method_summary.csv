@@ -1,0 +1,122 @@
+﻿id,label,family,group_id,n_studies,denominator,percent,study_ids
+pharmacological_intervention,临床前药理扰动,intervention,pharmacological_perturbation,9,23,39.13,FASN_CERAMIDE_2026 | Fu2024 | Penna2026 | T01 | T02 | T03 | T04 | T07 | T08
+cross_sectional_human_tissue_comparison,人类横断面组织比较,design,clinical_observation,8,23,34.78,FASN_CERAMIDE_2026 | Fu2024 | Gaertner2012 | Kyriakopoulou2025 | Penna2026 | Simonson2026 | T07 | T08
+echocardiography,超声心动图,measurement,clinical_imaging,8,23,34.78,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | FASN_CERAMIDE_2026 | Fu2024 | Penna2026 | T02 | T06
+electrocardiography,心电图或心律监测,measurement,electrophysiology,8,23,34.78,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | Fu2024 | Penna2026 | T02 | T03 | T06
+pathway_enrichment,通路或基因集富集,computational,pathway_analysis,7,23,30.43,FASN_CERAMIDE_2026 | Fu2024 | Kyriakopoulou2025 | Penna2026 | Simonson2026 | T01 | T04
+controlled_time_course,受控分批时间序列,design,temporal_design,6,23,26.09,T01 | T02 | T04 | T05 | T08 | T09
+bulk_rna_sequencing,批量RNA测序数据使用,measurement,transcriptomics,5,23,21.74,FASN_CERAMIDE_2026 | Kyriakopoulou2025 | Simonson2026 | T02 | T08
+late_gadolinium_enhancement_mri,心脏磁共振延迟钆增强（LGE）,measurement,clinical_imaging,5,23,21.74,CMR_EAM_2018 | DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | SERIAL_CMR_2026
+longitudinal_within_subject_followup,同个体功能或生存随访,design,temporal_design,5,23,21.74,T02 | T04 | T05 | T06 | T09
+cell_clustering_annotation,细胞聚类与注释,computational,omics_preprocessing,4,23,17.39,Fu2024 | Penna2026 | Simonson2026 | T04
+differential_expression,差异表达分析,computational,expression_analysis,4,23,17.39,FASN_CERAMIDE_2026 | Gaertner2012 | Kyriakopoulou2025 | T04
+histology_immunofluorescence,组织学与免疫荧光验证,measurement,pathology_molecular_assay,4,23,17.39,Fu2024 | Kyriakopoulou2025 | Penna2026 | Simonson2026
+inducible_cardiomyocyte_knockout,诱导性心肌细胞基因敲除,intervention,genetic_perturbation,4,23,17.39,T01 | T02 | T06 | T09
+ipsc_cardiomyocyte_model,人iPSC来源心肌细胞模型,design,model_system,4,23,17.39,T03 | T07 | T08 | T09
+aav_gene_rescue,AAV基因补充或救援,intervention,genetic_perturbation,3,23,13.04,T05 | T06 | T09
+holter_monitoring,动态心电监测,measurement,electrophysiology,3,23,13.04,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020
+kaplan_meier_survival_analysis,Kaplan–Meier生存分析,computational,clinical_statistics,3,23,13.04,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020
+longitudinal_clinical_follow_up,临床事件纵向随访,design,temporal_design,3,23,13.04,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | SERIAL_CMR_2026
+oxidative_stress_assay,氧化应激检测,measurement,cellular_function,3,23,13.04,Kyriakopoulou2025 | T01 | T07
+paired_ventricular_sampling,同个体双心室配对取样,design,spatial_sampling,3,23,13.04,Fu2024 | Gaertner2012 | T01
+pseudobulk_differential_expression,供者级伪批量差异表达,computational,expression_analysis,3,23,13.04,Fu2024 | Penna2026 | Simonson2026
+retrospective_clinical_cohort,回顾性临床队列,design,clinical_observation,3,23,13.04,DSP_ERADOS_800 | DSP_VS_PKP2_2020 | SERIAL_CMR_2026
+single_cell_rna_sequencing,单细胞RNA测序,measurement,single_cell_omics,3,23,13.04,Fu2024 | Penna2026 | T08
+single_nucleus_rna_sequencing,单核RNA测序,measurement,single_cell_omics,3,23,13.04,Penna2026 | Simonson2026 | T04
+batch_integration,批次整合,computational,omics_preprocessing,2,23,8.7,Fu2024 | Simonson2026
+clinical_disease_staging,临床表型分期,design,clinical_observation,2,23,8.7,DSP_VS_PKP2_2020 | PKP2_BSPM_2023
+contractility_measurement,收缩功能测量,measurement,cellular_function,2,23,8.7,T08 | T09
+cox_proportional_hazards_regression,Cox比例风险回归,computational,clinical_statistics,2,23,8.7,DSP_ERADOS_800 | DSP_HOTPHASE_1014
+electroanatomic_mapping,心内电解剖标测,measurement,electrophysiology,2,23,8.7,CMR_EAM_2018 | EAM_RISK_2012
+genetic_perturbation,遗传或表达扰动,intervention,genetic_perturbation,2,23,8.7,Kyriakopoulou2025 | Simonson2026
+genetic_variant_classification,遗传变异致病性分类,computational,clinical_statistics,2,23,8.7,DSP_ERADOS_800 | DSP_VS_PKP2_2020
+mass_spectrometry_proteomics,质谱蛋白组学,measurement,proteomics,2,23,8.7,FASN_CERAMIDE_2026 | T01
+quantitative_pcr,定量PCR,measurement,pathology_molecular_assay,2,23,8.7,FASN_CERAMIDE_2026 | T01
+serial_cardiac_mri,同人重复心脏磁共振,measurement,clinical_imaging,2,23,8.7,DSP_HOTPHASE_1014 | SERIAL_CMR_2026
+sirna_loss_of_function,siRNA功能缺失扰动,intervention,genetic_perturbation,2,23,8.7,T08 | T09
+spatial_transcriptomics,空间转录组测量,measurement,spatial_omics,2,23,8.7,Kyriakopoulou2025 | Penna2026
+transmission_electron_microscopy,透射电子显微镜,measurement,pathology_molecular_assay,2,23,8.7,FASN_CERAMIDE_2026 | T01
+transmural_sampling,跨壁组织取材,design,spatial_sampling,2,23,8.7,Kyriakopoulou2025 | Penna2026
+western_blot,免疫印迹,measurement,pathology_molecular_assay,2,23,8.7,FASN_CERAMIDE_2026 | T01
+adrenergic_challenge,急性肾上腺素能挑战,intervention,pharmacological_perturbation,1,23,4.35,T07
+ambient_rna_doublet_control,环境RNA与双细胞控制,computational,omics_preprocessing,1,23,4.35,Simonson2026
+arrhythmia_burden_assessment,心律失常负荷评估,measurement,electrophysiology,1,23,4.35,IL1_PEDIATRIC_2026
+body_surface_potential_mapping,体表电势标测（BSPM）,measurement,electrophysiology,1,23,4.35,PKP2_BSPM_2023
+calcium_imaging,细胞钙瞬变测量,measurement,cellular_function,1,23,4.35,T02
+cardiac_function_assessment,心脏收缩功能评估,measurement,clinical_imaging,1,23,4.35,IL1_PEDIATRIC_2026
+cardiac_mri,心脏磁共振,measurement,clinical_imaging,1,23,4.35,T05
+cardiac_thoracic_geometry_registration,心脏与胸廓几何配准,computational,clinical_statistics,1,23,4.35,PKP2_BSPM_2023
+cell_communication_inference,细胞间通讯推断,computational,network_analysis,1,23,4.35,Fu2024
+cell_composition_modeling,细胞组成统计建模,computational,expression_analysis,1,23,4.35,Simonson2026
+cell_culture_model,培养细胞模型,design,model_system,1,23,4.35,FASN_CERAMIDE_2026
+cell_pharmacological_rescue,细胞药理与代谢物救援,intervention,pharmacological_perturbation,1,23,4.35,FASN_CERAMIDE_2026
+cell_type_marker_enrichment,细胞类型标记富集,computational,expression_analysis,1,23,4.35,T01
+chip_qpcr,染色质免疫沉淀定量PCR,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+cite_seq,CITE-seq多模态单细胞测量,measurement,single_cell_omics,1,23,4.35,T04
+cmr_regional_strain,磁共振区域应变分析,measurement,clinical_imaging,1,23,4.35,CMR_EAM_2018
+conditional_genetic_mouse_model,条件性遗传小鼠模型,design,model_system,1,23,4.35,FASN_CERAMIDE_2026
+controlled_preclinical_intervention,受控临床前干预,design,model_system,1,23,4.35,T03
+cross_dataset_comparison,跨研究数据集比较,computational,omics_preprocessing,1,23,4.35,Simonson2026
+cross_sectional_human_comparison,人体横断面比较,design,clinical_observation,1,23,4.35,PKP2_BSPM_2023
+deep_learning_image_segmentation,深度学习图像分割,computational,ai_image_analysis,1,23,4.35,T01
+dna_damage_assay,DNA损伤检测,measurement,pathology_molecular_assay,1,23,4.35,T07
+dna_pull_down,DNA拉下实验,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+engineered_heart_tissue_model,工程化心肌组织模型,design,model_system,1,23,4.35,T08
+engineered_myocardium_contractility,工程化心肌收缩测量,measurement,cellular_function,1,23,4.35,Kyriakopoulou2025
+enzyme_activity_assay,酶活性检测,measurement,cellular_function,1,23,4.35,T01
+event_adjacent_plasma_comparison,事件邻近血浆分组比较,design,clinical_observation,1,23,4.35,FASN_CERAMIDE_2026
+expression_correlation_analysis,表达相关分析,computational,expression_analysis,1,23,4.35,T08
+familial_clustering_sensitivity_analysis,家系聚类敏感性分析,computational,clinical_statistics,1,23,4.35,DSP_ERADOS_800
+fdg_pet,FDG正电子发射断层成像,measurement,clinical_imaging,1,23,4.35,DSP_VS_PKP2_2020
+fine_gray_competing_risk_regression,Fine–Gray竞争风险回归,computational,clinical_statistics,1,23,4.35,DSP_ERADOS_800
+flow_cytometry,流式细胞术,measurement,pathology_molecular_assay,1,23,4.35,T04
+flow_cytometry_apoptosis,流式细胞术凋亡检测,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+gene_coexpression_analysis,基因共表达与跨供者汇总,computational,expression_analysis,1,23,4.35,Simonson2026
+gene_expression_measurement_unspecified,RNA表达测量（平台待核）,measurement,transcriptomics,1,23,4.35,T09
+gene_knockdown,基因敲低,intervention,genetic_perturbation,1,23,4.35,FASN_CERAMIDE_2026
+genetic_cell_perturbation,细胞基因扰动,intervention,genetic_perturbation,1,23,4.35,T03
+genetic_pathway_perturbation,遗传通路扰动,intervention,genetic_perturbation,1,23,4.35,T04
+hierarchical_trajectory_clustering,层次轨迹聚类,computational,trajectory_analysis,1,23,4.35,T01
+histology_fibrosis_quantification,组织学与纤维化定量,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+icd_interrogation_outcome_assessment,ICD事件记录结局判定,measurement,electrophysiology,1,23,4.35,EAM_RISK_2012
+immunofluorescence,免疫荧光与多重免疫染色,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+inflammatory_marker_assessment,炎症指标评估,measurement,pathology_molecular_assay,1,23,4.35,IL1_PEDIATRIC_2026
+isotope_tracing,稳定同位素示踪,measurement,lipidomics_metabolism,1,23,4.35,FASN_CERAMIDE_2026
+lipid_histological_staining,脂质组织化学染色,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+luciferase_reporter_assay,双荧光素酶报告实验,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+matched_blood_tissue_sampling,同人血液与心肌联合取材,design,spatial_sampling,1,23,4.35,Fu2024
+microarray_transcriptomics,微阵列转录组测量,measurement,transcriptomics,1,23,4.35,Gaertner2012
+mitochondrial_respiration,线粒体呼吸功能测量,measurement,cellular_function,1,23,4.35,Kyriakopoulou2025
+mixed_effects_model,混合效应模型,computational,clinical_statistics,1,23,4.35,T01
+multielectrode_array,多电极阵列,measurement,electrophysiology,1,23,4.35,T09
+multistate_markov_model,多状态转移模型,computational,clinical_statistics,1,23,4.35,DSP_HOTPHASE_1014
+observational_treatment_comparison,观察性治疗比较,design,clinical_observation,1,23,4.35,DSP_HOTPHASE_1014
+observational_treatment_exposure,临床治疗暴露观察（非随机）,design,clinical_observation,1,23,4.35,IL1_PEDIATRIC_2026
+optical_action_potential,光学动作电位测量,measurement,electrophysiology,1,23,4.35,Simonson2026
+optical_voltage_mapping,离体心脏光学电压标测,measurement,electrophysiology,1,23,4.35,FASN_CERAMIDE_2026
+pathway_activity_inference,通路活性推断,computational,pathway_analysis,1,23,4.35,Penna2026
+patient_clustered_regional_analysis,患者聚类的区域统计比较,computational,clinical_statistics,1,23,4.35,CMR_EAM_2018
+plasma_lcms_lipidomics,血浆LC-MS/MS脂质测量,measurement,lipidomics_metabolism,1,23,4.35,FASN_CERAMIDE_2026
+principal_component_analysis,主成分分析,computational,omics_preprocessing,1,23,4.35,T01
+prospective_clinical_follow_up,前瞻性临床随访,design,temporal_design,1,23,4.35,EAM_RISK_2012
+protein_interaction_network,蛋白相互作用网络与社区识别,computational,network_analysis,1,23,4.35,T01
+proximity_ligation_assay,原位邻近连接实验（PLA）,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+regional_mri_mapping,磁共振区域分布标注,measurement,clinical_imaging,1,23,4.35,SERIAL_CMR_2026
+regulatory_network_inference,转录调控网络推断,computational,pathway_analysis,1,23,4.35,Fu2024
+retrospective_multimodal_comparison,回顾性多模态区域比较,design,clinical_observation,1,23,4.35,CMR_EAM_2018
+retrospective_registry_analysis,登记资料回顾分析,design,clinical_observation,1,23,4.35,DSP_HOTPHASE_1014
+right_ventricular_deformation_analysis,右室形变分析,measurement,clinical_imaging,1,23,4.35,PKP2_BSPM_2023
+rna_seq_alignment_quantification,RNA序列比对与定量,computational,omics_preprocessing,1,23,4.35,FASN_CERAMIDE_2026
+spatial_cell_mapping,单核与空间表达整合映射,computational,spatial_integration,1,23,4.35,Penna2026
+spatial_expression_pattern_analysis,空间表达模式分析,computational,spatial_integration,1,23,4.35,Kyriakopoulou2025
+spatial_niche_analysis,空间生态位聚类与共定位,computational,spatial_integration,1,23,4.35,Penna2026
+thermal_proteome_profiling,热蛋白组分析,measurement,proteomics,1,23,4.35,T01
+time_regression,分类时间回归,computational,clinical_statistics,1,23,4.35,T01
+time_varying_cox_regression,时变协变量Cox回归,computational,clinical_statistics,1,23,4.35,DSP_ERADOS_800
+tissue_lcms_lipidomics,组织LC-MS/MS脂质组学,measurement,lipidomics_metabolism,1,23,4.35,FASN_CERAMIDE_2026
+trajectory_inference,轨迹与拟时序推断,computational,trajectory_analysis,1,23,4.35,Fu2024
+transcription_factor_motif_analysis,转录因子结合基序富集,computational,pathway_analysis,1,23,4.35,Kyriakopoulou2025
+troponin_measurement,心肌肌钙蛋白测量,measurement,pathology_molecular_assay,1,23,4.35,DSP_HOTPHASE_1014
+tunel_apoptosis_assay,TUNEL凋亡检测,measurement,pathology_molecular_assay,1,23,4.35,FASN_CERAMIDE_2026
+uncontrolled_case_series,无对照病例系列,design,clinical_observation,1,23,4.35,IL1_PEDIATRIC_2026
+viral_gene_rescue,病毒介导的基因补充或救援,intervention,genetic_perturbation,1,23,4.35,T08

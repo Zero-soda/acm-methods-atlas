@@ -1,0 +1,462 @@
+[
+  {
+    "study_id": "CMR_EAM_2018",
+    "title": "Regional Strain by CMR Improves Detection of Right Ventricular Scar Compared to Late-Gadolinium Enhancement on a Multi-Modality Scar Evaluation in Patients with Arrhythmogenic Right Ventricular Cardiomyopathy",
+    "doi": "10.1161/CIRCIMAGING.118.007546",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6207200/",
+    "year": 2018,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "PMC全文相关方法、摘要/结果与限制定向阅读",
+    "clinical_question_ids": [
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "DSP_ERADOS_800",
+    "title": "Clinical features and outcomes in carriers of pathogenic desmoplakin variants",
+    "doi": "10.1093/eurheartj/ehae571",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11745529/",
+    "year": 2024,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "full XML including time-varying outcome methods and limitations",
+    "clinical_question_ids": [
+      "Q2",
+      "Q4"
+    ],
+    "independence_note": "与同网络DSP登记论文可能有患者重叠；文章数不等于独立队列数。"
+  },
+  {
+    "study_id": "DSP_HOTPHASE_1014",
+    "title": "Prognostic Role of Myocarditis-like Episodes and Their Treatment in Patients with Pathogenic Desmoplakin Variants",
+    "doi": "10.1161/CIRCULATIONAHA.125.073919",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13036385/",
+    "year": 2025,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "full author-manuscript HTML including cohort, event definition, paired CMR text and treatment limitations",
+    "clinical_question_ids": [
+      "Q2",
+      "Q3"
+    ],
+    "independence_note": "同网络登记可能与其他DSP研究重叠；观察性用药不是随机分配。"
+  },
+  {
+    "study_id": "DSP_STAGE_605_PREPRINT",
+    "title": "Diagnostic Criteria and Disease Staging for Desmoplakin Cardiomyopathy",
+    "doi": "10.1101/2025.06.16.25329734",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12262750/",
+    "year": 2025,
+    "publication_status": "preprint",
+    "in_manuscript": false,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "full text methods, stage definitions, LGE topology and event results",
+    "clinical_question_ids": [
+      "Q1",
+      "Q4"
+    ],
+    "independence_note": "来自DSP登记网络；不能与其他网络论文简单相加当独立患者。"
+  },
+  {
+    "study_id": "DSP_VS_PKP2_2020",
+    "title": "Desmoplakin Cardiomyopathy, a Fibrotic and Inflammatory Form of Cardiomyopathy Distinct from Typical Dilated or Arrhythmogenic Right Ventricular Cardiomyopathy",
+    "doi": "10.1161/CIRCULATIONAHA.119.044934",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286080/",
+    "year": 2020,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "full author-manuscript HTML; abstract, clinical comparison and selected outcome results inspected",
+    "clinical_question_ids": [
+      "Q1",
+      "Q2",
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "EAM_RISK_2012",
+    "title": "Fragmented and delayed electrograms within fibrofatty scar predict arrhythmic events in arrhythmogenic right ventricular cardiomyopathy: results from a prospective risk stratification study",
+    "doi": "10.1016/j.hrthm.2012.03.057",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22465294/",
+    "year": 2012,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "PubMed原始结构式摘要及DOI/作者/卷页已核对；非全文审阅",
+    "clinical_question_ids": [
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "FASN_CERAMIDE_2026",
+    "title": "FASN-mediated de novo lipogenesis promotes ceramide accumulation and myocardial damage in arrhythmogenic cardiomyopathy",
+    "doi": "10.1016/j.isci.2026.117251",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545394/",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "animal",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "full XML including experiments, human collection, plasma timing, limitations and availability",
+    "clinical_question_ids": [
+      "Q2",
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "Fu2024",
+    "title": "Single-cell RNA sequencing in donor and end-stage heart failure patients identifies NLRP3 as a therapeutic target for arrhythmogenic right ventricular cardiomyopathy",
+    "doi": "10.1186/s12916-023-03232-8",
+    "url": "https://link.springer.com/article/10.1186/s12916-023-03232-8",
+    "year": 2024,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "animal"
+    ],
+    "reading_depth": "Full article and actual supplementary clinical DOCX Tables S1–S2.",
+    "clinical_question_ids": [
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "independence_note": "与Zhao2025作者/中心有交叠，供者是否复用尚未排除。"
+  },
+  {
+    "study_id": "Gaertner2012",
+    "title": "Myocardial transcriptome analysis of human arrhythmogenic right ventricular cardiomyopathy",
+    "doi": "10.1152/physiolgenomics.00094.2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22085907/",
+    "year": 2012,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "PubMed abstract, publisher indexed snippets (full article blocked), official sample-level GEO metadata, actual full series matrix and GPL570 annotation.",
+    "clinical_question_ids": [
+      "Q4"
+    ],
+    "independence_note": "大量后续分析复用GSE29819；本库只纳入原始研究一次。"
+  },
+  {
+    "study_id": "IL1_PEDIATRIC_2026",
+    "title": "Targeted Anti-IL-1 Immunomodulatory Therapy in Pediatric Onset PPP1R13L-Related Arrhythmogenic Cardiomyopathy",
+    "doi": "10.1002/ajmg.a.70156",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/ajmg.a.70156",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "原始Wiley全文方法/病例结局/讨论定向核对；2例、无对照、有并用治疗。",
+    "clinical_question_ids": [
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "Kyriakopoulou2025",
+    "title": "EPAS1 induction drives myocardial degeneration in desmoplakin-cardiomyopathy",
+    "doi": "10.1016/j.isci.2025.111895",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11872638/",
+    "year": 2025,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "Full article, actual supplementary PDF clinical Table S1, official GEO metadata.",
+    "clinical_question_ids": [
+      "Q1",
+      "Q2",
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "PKP2_BSPM_2023",
+    "title": "Body surface potential mapping detects early disease onset in plakophilin-2-pathogenic variant carriers",
+    "doi": "10.1093/europace/euad197",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10368448/",
+    "year": 2023,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "full text including methods/results/limitations/data availability",
+    "clinical_question_ids": [
+      "Q1",
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "Penna2026",
+    "title": "Interleukin-1β Drives Disease Progression in Arrhythmogenic Cardiomyopathy",
+    "doi": "10.1016/j.jacbts.2026.101542",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13158593/",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "animal"
+    ],
+    "reading_depth": "Full published article XML and actual 12.7 MB supplementary DOCX including Tables 1–2.",
+    "clinical_question_ids": [
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "independence_note": "空间供者是本研究单核队列子集；前置预印本与正式版只计一次。"
+  },
+  {
+    "study_id": "SERIAL_CMR_2026",
+    "title": "Disease progression in arrhythmogenic cardiomyopathy: a cardiac magnetic resonance longitudinal study",
+    "doi": "10.1093/eurjpc/zwag130",
+    "url": "https://academic.oup.com/eurjpc/advance-article/doi/10.1093/eurjpc/zwag130/8519177",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "full publisher text including methods, tables 1/2, figures 1/2 and limitations",
+    "clinical_question_ids": [
+      "Q1",
+      "Q2",
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "Simonson2026",
+    "title": "Single nucleus RNA sequencing identifies PLXNA4 upregulation in end-stage arrhythmogenic right ventricular cardiomyopathy",
+    "doi": "10.1016/j.isci.2026.117486",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594750/",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "Full article; actual Supplemental Table S1 XLSX and GEO family SOFT, exact 19-person join.",
+    "clinical_question_ids": [
+      "Q2",
+      "Q4"
+    ],
+    "independence_note": "HeartMap复用本队列；不当作独立重复验证。"
+  },
+  {
+    "study_id": "T01",
+    "title": "Temporal proteomics maps concealed-stage remodeling and reveals early mitochondrial alteration as an intervention target in a model of PKP2-arrhythmogenic cardiomyopathy",
+    "doi": "10.1038/s44161-026-00894-4",
+    "url": "https://www.nature.com/articles/s44161-026-00894-4",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal"
+    ],
+    "reading_depth": "全文定向阅读：Methods/Results/Figs2,6,7/统计；Fig2源XLSX及PRIDE项目JSON实际审计。",
+    "clinical_question_ids": [
+      "Q1",
+      "Q3",
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T02",
+    "title": "Plakophilin-2 is required for transcription of genes that control calcium cycling and cardiac rhythm",
+    "doi": "10.1038/s41467-017-00127-0",
+    "url": "https://www.nature.com/articles/s41467-017-00127-0",
+    "year": 2017,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal"
+    ],
+    "reading_depth": "全文定向阅读：Results/Fig1,2,7,9/Methods。",
+    "clinical_question_ids": [
+      "Q1",
+      "Q4"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T03",
+    "title": "Therapeutic Modulation of the Immune Response in Arrhythmogenic Cardiomyopathy",
+    "doi": "10.1161/CIRCULATIONAHA.119.040676",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6817418/",
+    "year": 2019,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "PMC全文定向阅读：Methods/Results/Table1及Fig3。",
+    "clinical_question_ids": [
+      "Q2",
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T04",
+    "title": "NFĸB signaling drives myocardial injury via CCR2+ macrophages in a preclinical model of arrhythmogenic cardiomyopathy",
+    "doi": "10.1172/JCI172014",
+    "url": "https://www.jci.org/articles/view/172014",
+    "year": 2024,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal"
+    ],
+    "reading_depth": "JCI全文定向阅读：Figs1–8/Methods；注意2024年7月有corrigendum链接，当前网页已标记。",
+    "clinical_question_ids": [
+      "Q2",
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T05",
+    "title": "Plakophilin 2 gene therapy prevents and rescues arrhythmogenic right ventricular cardiomyopathy in a mouse model harboring patient genetics",
+    "doi": "10.1038/s44161-023-00370-3",
+    "url": "https://www.nature.com/articles/s44161-023-00370-3",
+    "year": 2023,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal"
+    ],
+    "reading_depth": "全文定向阅读：Figs1–8/Methods及Extended5,7。",
+    "clinical_question_ids": [
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T06",
+    "title": "AAV-mediated Delivery of Plakophilin-2a Arrests Progression of Arrhythmogenic Right Ventricular Cardiomyopathy in Murine Hearts: Preclinical Evidence Supporting Gene Therapy in Humans",
+    "doi": "10.1161/CIRCGEN.123.004305",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10923105/",
+    "year": 2024,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal"
+    ],
+    "reading_depth": "PMC全文定向阅读：Methods/Results/Figs2–7。",
+    "clinical_question_ids": [
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T07",
+    "title": "Loss of nuclear envelope integrity and increased oxidant production cause DNA damage in adult hearts deficient in PKP2: a molecular substrate of ARVC",
+    "doi": "10.1161/CIRCULATIONAHA.122.060454",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474627/",
+    "year": 2022,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "animal",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "PMC全文定向阅读：Methods/Results/Figs1,3,4,6。",
+    "clinical_question_ids": [
+      "Q1",
+      "Q2"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T08",
+    "title": "PKP2 orchestrates OXPHOS expression in cardiomyocytes via a PGC1α-dependent mechanism",
+    "doi": "10.1093/cvr/cvag141",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13653674/",
+    "year": 2026,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "human",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "PMC全文定向阅读：Methods及Results3.1–3.6。",
+    "clinical_question_ids": [
+      "Q1",
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "T09",
+    "title": "AAV9:PKP2 improves heart function and survival in a Pkp2-deficient mouse model of arrhythmogenic right ventricular cardiomyopathy",
+    "doi": "10.1038/s43856-024-00450-w",
+    "url": "https://www.nature.com/articles/s43856-024-00450-w",
+    "year": 2024,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": true,
+    "systems": [
+      "animal",
+      "in_vitro_or_engineered_model"
+    ],
+    "reading_depth": "全文定向阅读：Figs1–5/Results，晚期细节仅摘要/段落核对，未全审Supplement。",
+    "clinical_question_ids": [
+      "Q3"
+    ],
+    "independence_note": "按文章计数；多技术、取样点和细胞数不作为独立研究。"
+  },
+  {
+    "study_id": "Zhao2025",
+    "title": "Molecular features and cell composition of left-dominant arrhythmogenic cardiomyopathy reveals key pathways and therapeutic targets",
+    "doi": "10.1016/j.carpath.2025.107743",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40383406/",
+    "year": 2025,
+    "publication_status": "peer_reviewed",
+    "in_manuscript": false,
+    "systems": [
+      "human"
+    ],
+    "reading_depth": "PubMed abstract only; full methods, clinical supplement and public expression accessions not verified.",
+    "clinical_question_ids": [
+      "Q2",
+      "Q4"
+    ],
+    "independence_note": "与Fu2024供者/对照是否重叠尚未排除；仅摘要级方法信息。"
+  }
+]

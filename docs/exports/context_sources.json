@@ -1,0 +1,114 @@
+[
+  {
+    "source_id": "REV03",
+    "title": "Molecular Pathogenesis of Arrhythmogenic Cardiomyopathy: Mechanisms and Therapeutic Perspectives",
+    "doi": "10.3390/biom15111512",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650292/",
+    "source_kind": "review",
+    "evidence_note": "full_text_relevant_sections"
+  },
+  {
+    "source_id": "REV04",
+    "title": "Arrhythmogenic cardiomyopathy: pathogenesis, pro-arrhythmic remodelling, and novel approaches for risk stratification and therapy",
+    "doi": "10.1093/cvr/cvaa084",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7526754/",
+    "source_kind": "review",
+    "evidence_note": "publisher/search_excerpt; full PMC verification page"
+  },
+  {
+    "source_id": "REV01",
+    "title": "Inflammatory Hot Phases in Arrhythmogenic Cardiomyopathy: A Dynamic Electrophysiologic Substrate Beyond Scar",
+    "doi": "10.1016/j.jacadv.2026.103154",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13524599/",
+    "source_kind": "review",
+    "evidence_note": "full_text_relevant_sections"
+  },
+  {
+    "source_id": "G_ESC_CM_2023",
+    "title": "2023 ESC Guidelines for the management of cardiomyopathies",
+    "doi": "10.1093/eurheartj/ehad194",
+    "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "官方网页及出版社原文检索内容核对；直接打开部分时段500重定向，未声称逐页通读全指南。"
+  },
+  {
+    "source_id": "G_EHRA_INFL_2026",
+    "title": "Workup and management of rhythm disorders in myocarditis and inflammatory cardiomyopathy: a clinical consensus statement of EHRA, HFA and partner associations",
+    "doi": "10.1093/europace/euag153",
+    "url": "https://academic.oup.com/europace/article/28/8/euag153/8767644",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "出版社原文表格、遗传风险及研究空白段落核对；临床共识与ESC正式指南证据类别分开。"
+  },
+  {
+    "source_id": "G_HRS_ACM_2019",
+    "title": "2019 HRS expert consensus statement on evaluation, risk stratification, and management of arrhythmogenic cardiomyopathy",
+    "doi": "10.1016/j.hrthm.2019.05.007",
+    "url": "https://www.hrsonline.org/wp-content/uploads/2025/02/2019-HRS-Management-of-ACM.pdf",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "HRS官方PDF检索原文与ISHLT官方背书PDF内容核对；HRS直接下载403、ISHLT后续请求202，未绕过访问限制。"
+  },
+  {
+    "source_id": "G_ESC_MYO_2025",
+    "title": "2025 ESC Guidelines for the management of myocarditis and pericarditis",
+    "doi": "10.1093/eurheartj/ehaf192",
+    "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "ESC官方页与出版社原文遗传重叠、炎症性心肌病治疗段落核对。"
+  },
+  {
+    "source_id": "G_ESC_VA_2022",
+    "title": "2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death",
+    "doi": "10.1093/eurheartj/ehac262",
+    "url": "https://academic.oup.com/eurheartj/article/43/40/3997/6675633",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "官方页、出版社原文检索章节与治疗段落核对。"
+  },
+  {
+    "source_id": "G_AHA_ACC_SPORT_2025",
+    "title": "Clinical Considerations for Competitive Sports Participation for Athletes With Cardiovascular Abnormalities: A Scientific Statement From the American Heart Association and American College of Cardiology",
+    "doi": "10.1161/CIR.0000000000001297",
+    "url": "https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001297?download=true",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "AHA/JACC官方原文表格及ACM段落核对；两个DOI属同一科学声明的并行发表，不计两项独立证据。"
+  },
+  {
+    "source_id": "G_ESC_HF_2026",
+    "title": "2026 ESC Guidelines for the management of heart failure",
+    "doi": "10.1093/eurheartj/ehag100",
+    "url": "https://doi.org/10.1093/eurheartj/ehag100",
+    "source_kind": "guideline_or_consensus",
+    "evidence_note": "ESC官方新闻原页明确当日正式发表；出版社完整索引内容含推荐表与key messages核对。"
+  },
+  {
+    "source_id": "REG_NCT06922994",
+    "title": "Statin Effect on Arrhythmogenic Cardiomyopathy Disease Progression (SEARCH)",
+    "doi": null,
+    "url": "https://clinicaltrials.gov/study/NCT06922994",
+    "source_kind": "trial_registry",
+    "evidence_note": "官方注册；状态RECRUITING；最后更新2026-10-26；按2026-11-01核对，注册不等于疗效结果。"
+  },
+  {
+    "source_id": "REG_NCT06174220",
+    "title": "Targeted Therapy With Glycogen Synthase Kinase-3 Inhibition for Arrhythmogenic Cardiomyopathy",
+    "doi": null,
+    "url": "https://clinicaltrials.gov/study/NCT06174220",
+    "source_kind": "trial_registry",
+    "evidence_note": "官方注册；状态RECRUITING；最后更新2026-03-12；按2026-11-01核对，注册不等于疗效结果。"
+  },
+  {
+    "source_id": "REG_NCT06109181",
+    "title": "Gene Therapy for ACM Due to a PKP2 Pathogenic Variant",
+    "doi": null,
+    "url": "https://clinicaltrials.gov/study/NCT06109181",
+    "source_kind": "trial_registry",
+    "evidence_note": "官方注册；状态ACTIVE_NOT_RECRUITING；最后更新2025-11-12；按2026-11-01核对，注册不等于疗效结果。"
+  },
+  {
+    "source_id": "CONF_LX2020_2026",
+    "title": "HEROIC-PKP2/LX2020: investigator interim clinical presentation at ACC 2026",
+    "doi": null,
+    "url": "https://www.lexeotx.com/wp-content/uploads/2026/05/Parikh_PKP2_FINAL_ACC_LB_24MAR26.pdf",
+    "source_kind": "conference_presentation",
+    "evidence_note": "小样本无对照会议中期资料，未与同行评议临床疗效证据混合。"
+  }
+]

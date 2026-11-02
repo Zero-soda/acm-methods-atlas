@@ -1,0 +1,45 @@
+{
+  "version": "0.1.0",
+  "annotation_date": "2026-11-02",
+  "evidence_cutoff": "2026-11-01",
+  "default_cohort": "manuscript",
+  "sampling": "purposive corpus assembled for an integrative ACM review, not an exhaustive systematic search",
+  "default_denominator_rule": "peer-reviewed primary articles cited by the review",
+  "missingness_rule": "unannotated means unconfirmed, not absent",
+  "annotation_process": "AI-assisted source reading and existing-audit review, followed by targeted independent AI audit; no claim of dual human full-text annotation",
+  "licenses": {
+    "code": "MIT",
+    "original_curation": "CC-BY-4.0"
+  },
+  "group_labels_zh": {
+    "temporal_design": "时间与随访设计",
+    "clinical_observation": "临床观察设计",
+    "spatial_sampling": "空间/配对取材",
+    "model_system": "细胞或动物模型",
+    "transcriptomics": "转录组测量与数据使用",
+    "single_cell_omics": "单细胞/单核组学",
+    "spatial_omics": "空间转录组",
+    "proteomics": "蛋白组",
+    "lipidomics_metabolism": "脂质组与代谢示踪",
+    "clinical_imaging": "临床影像与功能测量",
+    "electrophysiology": "心电与电生理",
+    "pathology_molecular_assay": "组织与分子验证",
+    "cellular_function": "细胞功能测量",
+    "omics_preprocessing": "组学预处理/整合",
+    "expression_analysis": "表达与组成统计",
+    "pathway_analysis": "通路与调控分析",
+    "trajectory_analysis": "计算轨迹与状态聚类",
+    "spatial_integration": "空间表达整合/模式",
+    "network_analysis": "通讯/相互作用网络",
+    "clinical_statistics": "临床统计建模",
+    "ai_image_analysis": "AI图像分析",
+    "genetic_perturbation": "遗传扰动/救援",
+    "pharmacological_perturbation": "临床前药理/刺激"
+  },
+  "corrections": [
+    "T04补入原文明确的snRNA-seq及核心计算方法。",
+    "T08单细胞为本研究新生成，bulk和GTEx为复用。",
+    "TomoSeq切片模式与细胞生态位分析分开。",
+    "临床IL-1暴露观察归入观察性设计，不与受控扰动或RCT合并。"
+  ]
+}

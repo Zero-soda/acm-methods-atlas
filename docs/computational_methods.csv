@@ -1,0 +1,36 @@
+﻿id,label,n_studies,denominator,percent,study_ids
+pathway_enrichment,通路或基因集富集,7,23,30.43,FASN_CERAMIDE_2026 | Fu2024 | Kyriakopoulou2025 | Penna2026 | Simonson2026 | T01 | T04
+cell_clustering_annotation,细胞聚类与注释,4,23,17.39,Fu2024 | Penna2026 | Simonson2026 | T04
+differential_expression,差异表达分析,4,23,17.39,FASN_CERAMIDE_2026 | Gaertner2012 | Kyriakopoulou2025 | T04
+kaplan_meier_survival_analysis,Kaplan–Meier生存分析,3,23,13.04,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020
+pseudobulk_differential_expression,供者级伪批量差异表达,3,23,13.04,Fu2024 | Penna2026 | Simonson2026
+batch_integration,批次整合,2,23,8.7,Fu2024 | Simonson2026
+cox_proportional_hazards_regression,Cox比例风险回归,2,23,8.7,DSP_ERADOS_800 | DSP_HOTPHASE_1014
+genetic_variant_classification,遗传变异致病性分类,2,23,8.7,DSP_ERADOS_800 | DSP_VS_PKP2_2020
+ambient_rna_doublet_control,环境RNA与双细胞控制,1,23,4.35,Simonson2026
+cardiac_thoracic_geometry_registration,心脏与胸廓几何配准,1,23,4.35,PKP2_BSPM_2023
+cell_communication_inference,细胞间通讯推断,1,23,4.35,Fu2024
+cell_composition_modeling,细胞组成统计建模,1,23,4.35,Simonson2026
+cell_type_marker_enrichment,细胞类型标记富集,1,23,4.35,T01
+cross_dataset_comparison,跨研究数据集比较,1,23,4.35,Simonson2026
+deep_learning_image_segmentation,深度学习图像分割,1,23,4.35,T01
+expression_correlation_analysis,表达相关分析,1,23,4.35,T08
+familial_clustering_sensitivity_analysis,家系聚类敏感性分析,1,23,4.35,DSP_ERADOS_800
+fine_gray_competing_risk_regression,Fine–Gray竞争风险回归,1,23,4.35,DSP_ERADOS_800
+gene_coexpression_analysis,基因共表达与跨供者汇总,1,23,4.35,Simonson2026
+hierarchical_trajectory_clustering,层次轨迹聚类,1,23,4.35,T01
+mixed_effects_model,混合效应模型,1,23,4.35,T01
+multistate_markov_model,多状态转移模型,1,23,4.35,DSP_HOTPHASE_1014
+pathway_activity_inference,通路活性推断,1,23,4.35,Penna2026
+patient_clustered_regional_analysis,患者聚类的区域统计比较,1,23,4.35,CMR_EAM_2018
+principal_component_analysis,主成分分析,1,23,4.35,T01
+protein_interaction_network,蛋白相互作用网络与社区识别,1,23,4.35,T01
+regulatory_network_inference,转录调控网络推断,1,23,4.35,Fu2024
+rna_seq_alignment_quantification,RNA序列比对与定量,1,23,4.35,FASN_CERAMIDE_2026
+spatial_cell_mapping,单核与空间表达整合映射,1,23,4.35,Penna2026
+spatial_expression_pattern_analysis,空间表达模式分析,1,23,4.35,Kyriakopoulou2025
+spatial_niche_analysis,空间生态位聚类与共定位,1,23,4.35,Penna2026
+time_regression,分类时间回归,1,23,4.35,T01
+time_varying_cox_regression,时变协变量Cox回归,1,23,4.35,DSP_ERADOS_800
+trajectory_inference,轨迹与拟时序推断,1,23,4.35,Fu2024
+transcription_factor_motif_analysis,转录因子结合基序富集,1,23,4.35,Kyriakopoulou2025

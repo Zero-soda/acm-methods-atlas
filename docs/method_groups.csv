@@ -1,0 +1,24 @@
+﻿id,n_studies,denominator,percent,study_ids
+ai_image_analysis,1,23,4.35,T01
+cellular_function,6,23,26.09,Kyriakopoulou2025 | T01 | T02 | T07 | T08 | T09
+clinical_imaging,13,23,56.52,CMR_EAM_2018 | DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | FASN_CERAMIDE_2026 | Fu2024 | IL1_PEDIATRIC_2026 | PKP2_BSPM_2023 | Penna2026 | SERIAL_CMR_2026 | T02 | T05 | T06
+clinical_observation,15,23,65.22,CMR_EAM_2018 | DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | FASN_CERAMIDE_2026 | Fu2024 | Gaertner2012 | IL1_PEDIATRIC_2026 | Kyriakopoulou2025 | PKP2_BSPM_2023 | Penna2026 | SERIAL_CMR_2026 | Simonson2026 | T07 | T08
+clinical_statistics,6,23,26.09,CMR_EAM_2018 | DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | PKP2_BSPM_2023 | T01
+electrophysiology,15,23,65.22,CMR_EAM_2018 | DSP_ERADOS_800 | DSP_HOTPHASE_1014 | DSP_VS_PKP2_2020 | EAM_RISK_2012 | FASN_CERAMIDE_2026 | Fu2024 | IL1_PEDIATRIC_2026 | PKP2_BSPM_2023 | Penna2026 | Simonson2026 | T02 | T03 | T06 | T09
+expression_analysis,9,23,39.13,FASN_CERAMIDE_2026 | Fu2024 | Gaertner2012 | Kyriakopoulou2025 | Penna2026 | Simonson2026 | T01 | T04 | T08
+genetic_perturbation,11,23,47.83,FASN_CERAMIDE_2026 | Kyriakopoulou2025 | Simonson2026 | T01 | T02 | T03 | T04 | T05 | T06 | T08 | T09
+lipidomics_metabolism,1,23,4.35,FASN_CERAMIDE_2026
+model_system,5,23,21.74,FASN_CERAMIDE_2026 | T03 | T07 | T08 | T09
+network_analysis,2,23,8.7,Fu2024 | T01
+omics_preprocessing,6,23,26.09,FASN_CERAMIDE_2026 | Fu2024 | Penna2026 | Simonson2026 | T01 | T04
+pathology_molecular_assay,10,23,43.48,DSP_HOTPHASE_1014 | FASN_CERAMIDE_2026 | Fu2024 | IL1_PEDIATRIC_2026 | Kyriakopoulou2025 | Penna2026 | Simonson2026 | T01 | T04 | T07
+pathway_analysis,7,23,30.43,FASN_CERAMIDE_2026 | Fu2024 | Kyriakopoulou2025 | Penna2026 | Simonson2026 | T01 | T04
+pharmacological_perturbation,9,23,39.13,FASN_CERAMIDE_2026 | Fu2024 | Penna2026 | T01 | T02 | T03 | T04 | T07 | T08
+proteomics,2,23,8.7,FASN_CERAMIDE_2026 | T01
+single_cell_omics,5,23,21.74,Fu2024 | Penna2026 | Simonson2026 | T04 | T08
+spatial_integration,2,23,8.7,Kyriakopoulou2025 | Penna2026
+spatial_omics,2,23,8.7,Kyriakopoulou2025 | Penna2026
+spatial_sampling,5,23,21.74,Fu2024 | Gaertner2012 | Kyriakopoulou2025 | Penna2026 | T01
+temporal_design,11,23,47.83,DSP_ERADOS_800 | DSP_HOTPHASE_1014 | EAM_RISK_2012 | SERIAL_CMR_2026 | T01 | T02 | T04 | T05 | T06 | T08 | T09
+trajectory_analysis,2,23,8.7,Fu2024 | T01
+transcriptomics,7,23,30.43,FASN_CERAMIDE_2026 | Gaertner2012 | Kyriakopoulou2025 | Simonson2026 | T02 | T08 | T09

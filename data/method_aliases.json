@@ -1,0 +1,17 @@
+{
+  "bulk_rnaseq": "bulk_rna_sequencing",
+  "single_cell_rnaseq": "single_cell_rna_sequencing",
+  "ecg": "electrocardiography",
+  "paired_chamber_sampling": "paired_ventricular_sampling",
+  "human_cross_sectional_tissue_comparison": "cross_sectional_human_tissue_comparison",
+  "cross_sectional_human_tissue": "cross_sectional_human_tissue_comparison",
+  "electron_microscopy": "transmission_electron_microscopy",
+  "differential_gene_expression": "differential_expression",
+  "functional_enrichment": "pathway_enrichment",
+  "gene_ontology_enrichment": "pathway_enrichment",
+  "pharmacological_perturbation": "pharmacological_intervention",
+  "animal_pharmacological_intervention": "pharmacological_intervention",
+  "tmt_mass_spectrometry_proteomics": "mass_spectrometry_proteomics",
+  "reactive_oxygen_species_assay": "oxidative_stress_assay",
+  "observational_il1_blockade": "observational_treatment_exposure"
+}

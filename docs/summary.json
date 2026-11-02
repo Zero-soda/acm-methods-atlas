@@ -1,0 +1,5502 @@
+{
+  "corpus_version": "0.1.0",
+  "evidence_cutoff": "2026-11-01",
+  "cohort": "manuscript",
+  "denominator": 23,
+  "denominator_unit": "research articles, not patients or independent cohorts",
+  "annotation_count": 223,
+  "annotated_method_count": 121,
+  "catalog_studies": 25,
+  "context_sources": 14,
+  "missingness_rule": "Only positive verified annotations are counted; unrecorded is unknown, not absent.",
+  "multilabel": true,
+  "by_family": [
+    {
+      "id": "computational",
+      "n_studies": 14,
+      "denominator": 23,
+      "percent": 60.87,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T04",
+        "T08"
+      ]
+    },
+    {
+      "id": "design",
+      "n_studies": 23,
+      "denominator": 23,
+      "percent": 100.0,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "EAM_RISK_2012",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Gaertner2012",
+        "IL1_PEDIATRIC_2026",
+        "Kyriakopoulou2025",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "SERIAL_CMR_2026",
+        "Simonson2026",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "intervention",
+      "n_studies": 14,
+      "denominator": 23,
+      "percent": 60.87,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "measurement",
+      "n_studies": 23,
+      "denominator": 23,
+      "percent": 100.0,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "EAM_RISK_2012",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Gaertner2012",
+        "IL1_PEDIATRIC_2026",
+        "Kyriakopoulou2025",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "SERIAL_CMR_2026",
+        "Simonson2026",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09"
+      ]
+    }
+  ],
+  "by_group": [
+    {
+      "id": "ai_image_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ]
+    },
+    {
+      "id": "cellular_function",
+      "n_studies": 6,
+      "denominator": 23,
+      "percent": 26.09,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "T01",
+        "T02",
+        "T07",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "clinical_imaging",
+      "n_studies": 13,
+      "denominator": 23,
+      "percent": 56.52,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "IL1_PEDIATRIC_2026",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "SERIAL_CMR_2026",
+        "T02",
+        "T05",
+        "T06"
+      ]
+    },
+    {
+      "id": "clinical_observation",
+      "n_studies": 15,
+      "denominator": 23,
+      "percent": 65.22,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Gaertner2012",
+        "IL1_PEDIATRIC_2026",
+        "Kyriakopoulou2025",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "SERIAL_CMR_2026",
+        "Simonson2026",
+        "T07",
+        "T08"
+      ]
+    },
+    {
+      "id": "clinical_statistics",
+      "n_studies": 6,
+      "denominator": 23,
+      "percent": 26.09,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "PKP2_BSPM_2023",
+        "T01"
+      ]
+    },
+    {
+      "id": "electrophysiology",
+      "n_studies": 15,
+      "denominator": 23,
+      "percent": 65.22,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "EAM_RISK_2012",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "IL1_PEDIATRIC_2026",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "Simonson2026",
+        "T02",
+        "T03",
+        "T06",
+        "T09"
+      ]
+    },
+    {
+      "id": "expression_analysis",
+      "n_studies": 9,
+      "denominator": 23,
+      "percent": 39.13,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T04",
+        "T08"
+      ]
+    },
+    {
+      "id": "genetic_perturbation",
+      "n_studies": 11,
+      "denominator": 23,
+      "percent": 47.83,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Kyriakopoulou2025",
+        "Simonson2026",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "lipidomics_metabolism",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ]
+    },
+    {
+      "id": "model_system",
+      "n_studies": 5,
+      "denominator": 23,
+      "percent": 21.74,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "T03",
+        "T07",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "network_analysis",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Fu2024",
+        "T01"
+      ]
+    },
+    {
+      "id": "omics_preprocessing",
+      "n_studies": 6,
+      "denominator": 23,
+      "percent": 26.09,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T04"
+      ]
+    },
+    {
+      "id": "pathology_molecular_assay",
+      "n_studies": 10,
+      "denominator": 23,
+      "percent": 43.48,
+      "study_ids": [
+        "DSP_HOTPHASE_1014",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "IL1_PEDIATRIC_2026",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T04",
+        "T07"
+      ]
+    },
+    {
+      "id": "pathway_analysis",
+      "n_studies": 7,
+      "denominator": 23,
+      "percent": 30.43,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T04"
+      ]
+    },
+    {
+      "id": "pharmacological_perturbation",
+      "n_studies": 9,
+      "denominator": 23,
+      "percent": 39.13,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Penna2026",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T07",
+        "T08"
+      ]
+    },
+    {
+      "id": "proteomics",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "T01"
+      ]
+    },
+    {
+      "id": "single_cell_omics",
+      "n_studies": 5,
+      "denominator": 23,
+      "percent": 21.74,
+      "study_ids": [
+        "Fu2024",
+        "Penna2026",
+        "Simonson2026",
+        "T04",
+        "T08"
+      ]
+    },
+    {
+      "id": "spatial_integration",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "Penna2026"
+      ]
+    },
+    {
+      "id": "spatial_omics",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "Penna2026"
+      ]
+    },
+    {
+      "id": "spatial_sampling",
+      "n_studies": 5,
+      "denominator": 23,
+      "percent": 21.74,
+      "study_ids": [
+        "Fu2024",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "T01"
+      ]
+    },
+    {
+      "id": "temporal_design",
+      "n_studies": 11,
+      "denominator": 23,
+      "percent": 47.83,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "EAM_RISK_2012",
+        "SERIAL_CMR_2026",
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T06",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "trajectory_analysis",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Fu2024",
+        "T01"
+      ]
+    },
+    {
+      "id": "transcriptomics",
+      "n_studies": 7,
+      "denominator": 23,
+      "percent": 30.43,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "Simonson2026",
+        "T02",
+        "T08",
+        "T09"
+      ]
+    }
+  ],
+  "by_method": [
+    {
+      "id": "pharmacological_intervention",
+      "n_studies": 9,
+      "denominator": 23,
+      "percent": 39.13,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Penna2026",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T07",
+        "T08"
+      ],
+      "label": "临床前药理扰动",
+      "family": "intervention",
+      "group_id": "pharmacological_perturbation"
+    },
+    {
+      "id": "cross_sectional_human_tissue_comparison",
+      "n_studies": 8,
+      "denominator": 23,
+      "percent": 34.78,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026",
+        "T07",
+        "T08"
+      ],
+      "label": "人类横断面组织比较",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "echocardiography",
+      "n_studies": 8,
+      "denominator": 23,
+      "percent": 34.78,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Penna2026",
+        "T02",
+        "T06"
+      ],
+      "label": "超声心动图",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "electrocardiography",
+      "n_studies": 8,
+      "denominator": 23,
+      "percent": 34.78,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "Fu2024",
+        "Penna2026",
+        "T02",
+        "T03",
+        "T06"
+      ],
+      "label": "心电图或心律监测",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "pathway_enrichment",
+      "n_studies": 7,
+      "denominator": 23,
+      "percent": 30.43,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026",
+        "T01",
+        "T04"
+      ],
+      "label": "通路或基因集富集",
+      "family": "computational",
+      "group_id": "pathway_analysis"
+    },
+    {
+      "id": "controlled_time_course",
+      "n_studies": 6,
+      "denominator": 23,
+      "percent": 26.09,
+      "study_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T08",
+        "T09"
+      ],
+      "label": "受控分批时间序列",
+      "family": "design",
+      "group_id": "temporal_design"
+    },
+    {
+      "id": "bulk_rna_sequencing",
+      "n_studies": 5,
+      "denominator": 23,
+      "percent": 21.74,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Kyriakopoulou2025",
+        "Simonson2026",
+        "T02",
+        "T08"
+      ],
+      "label": "批量RNA测序数据使用",
+      "family": "measurement",
+      "group_id": "transcriptomics"
+    },
+    {
+      "id": "late_gadolinium_enhancement_mri",
+      "n_studies": 5,
+      "denominator": 23,
+      "percent": 21.74,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "SERIAL_CMR_2026"
+      ],
+      "label": "心脏磁共振延迟钆增强（LGE）",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "longitudinal_within_subject_followup",
+      "n_studies": 5,
+      "denominator": 23,
+      "percent": 21.74,
+      "study_ids": [
+        "T02",
+        "T04",
+        "T05",
+        "T06",
+        "T09"
+      ],
+      "label": "同个体功能或生存随访",
+      "family": "design",
+      "group_id": "temporal_design"
+    },
+    {
+      "id": "cell_clustering_annotation",
+      "n_studies": 4,
+      "denominator": 23,
+      "percent": 17.39,
+      "study_ids": [
+        "Fu2024",
+        "Penna2026",
+        "Simonson2026",
+        "T04"
+      ],
+      "label": "细胞聚类与注释",
+      "family": "computational",
+      "group_id": "omics_preprocessing"
+    },
+    {
+      "id": "differential_expression",
+      "n_studies": 4,
+      "denominator": 23,
+      "percent": 17.39,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "T04"
+      ],
+      "label": "差异表达分析",
+      "family": "computational",
+      "group_id": "expression_analysis"
+    },
+    {
+      "id": "histology_immunofluorescence",
+      "n_studies": 4,
+      "denominator": 23,
+      "percent": 17.39,
+      "study_ids": [
+        "Fu2024",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "Simonson2026"
+      ],
+      "label": "组织学与免疫荧光验证",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "inducible_cardiomyocyte_knockout",
+      "n_studies": 4,
+      "denominator": 23,
+      "percent": 17.39,
+      "study_ids": [
+        "T01",
+        "T02",
+        "T06",
+        "T09"
+      ],
+      "label": "诱导性心肌细胞基因敲除",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "ipsc_cardiomyocyte_model",
+      "n_studies": 4,
+      "denominator": 23,
+      "percent": 17.39,
+      "study_ids": [
+        "T03",
+        "T07",
+        "T08",
+        "T09"
+      ],
+      "label": "人iPSC来源心肌细胞模型",
+      "family": "design",
+      "group_id": "model_system"
+    },
+    {
+      "id": "aav_gene_rescue",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "T05",
+        "T06",
+        "T09"
+      ],
+      "label": "AAV基因补充或救援",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "holter_monitoring",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020"
+      ],
+      "label": "动态心电监测",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "kaplan_meier_survival_analysis",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020"
+      ],
+      "label": "Kaplan–Meier生存分析",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "longitudinal_clinical_follow_up",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "SERIAL_CMR_2026"
+      ],
+      "label": "临床事件纵向随访",
+      "family": "design",
+      "group_id": "temporal_design"
+    },
+    {
+      "id": "oxidative_stress_assay",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "T01",
+        "T07"
+      ],
+      "label": "氧化应激检测",
+      "family": "measurement",
+      "group_id": "cellular_function"
+    },
+    {
+      "id": "paired_ventricular_sampling",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "Fu2024",
+        "Gaertner2012",
+        "T01"
+      ],
+      "label": "同个体双心室配对取样",
+      "family": "design",
+      "group_id": "spatial_sampling"
+    },
+    {
+      "id": "pseudobulk_differential_expression",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "Fu2024",
+        "Penna2026",
+        "Simonson2026"
+      ],
+      "label": "供者级伪批量差异表达",
+      "family": "computational",
+      "group_id": "expression_analysis"
+    },
+    {
+      "id": "retrospective_clinical_cohort",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_VS_PKP2_2020",
+        "SERIAL_CMR_2026"
+      ],
+      "label": "回顾性临床队列",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "single_cell_rna_sequencing",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "Fu2024",
+        "Penna2026",
+        "T08"
+      ],
+      "label": "单细胞RNA测序",
+      "family": "measurement",
+      "group_id": "single_cell_omics"
+    },
+    {
+      "id": "single_nucleus_rna_sequencing",
+      "n_studies": 3,
+      "denominator": 23,
+      "percent": 13.04,
+      "study_ids": [
+        "Penna2026",
+        "Simonson2026",
+        "T04"
+      ],
+      "label": "单核RNA测序",
+      "family": "measurement",
+      "group_id": "single_cell_omics"
+    },
+    {
+      "id": "batch_integration",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Fu2024",
+        "Simonson2026"
+      ],
+      "label": "批次整合",
+      "family": "computational",
+      "group_id": "omics_preprocessing"
+    },
+    {
+      "id": "clinical_disease_staging",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "DSP_VS_PKP2_2020",
+        "PKP2_BSPM_2023"
+      ],
+      "label": "临床表型分期",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "contractility_measurement",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "T08",
+        "T09"
+      ],
+      "label": "收缩功能测量",
+      "family": "measurement",
+      "group_id": "cellular_function"
+    },
+    {
+      "id": "cox_proportional_hazards_regression",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014"
+      ],
+      "label": "Cox比例风险回归",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "electroanatomic_mapping",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "EAM_RISK_2012"
+      ],
+      "label": "心内电解剖标测",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "genetic_perturbation",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "Simonson2026"
+      ],
+      "label": "遗传或表达扰动",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "genetic_variant_classification",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_VS_PKP2_2020"
+      ],
+      "label": "遗传变异致病性分类",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "mass_spectrometry_proteomics",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "T01"
+      ],
+      "label": "质谱蛋白组学",
+      "family": "measurement",
+      "group_id": "proteomics"
+    },
+    {
+      "id": "quantitative_pcr",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "T01"
+      ],
+      "label": "定量PCR",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "serial_cardiac_mri",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "DSP_HOTPHASE_1014",
+        "SERIAL_CMR_2026"
+      ],
+      "label": "同人重复心脏磁共振",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "sirna_loss_of_function",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "T08",
+        "T09"
+      ],
+      "label": "siRNA功能缺失扰动",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "spatial_transcriptomics",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "Penna2026"
+      ],
+      "label": "空间转录组测量",
+      "family": "measurement",
+      "group_id": "spatial_omics"
+    },
+    {
+      "id": "transmission_electron_microscopy",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "T01"
+      ],
+      "label": "透射电子显微镜",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "transmural_sampling",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "Kyriakopoulou2025",
+        "Penna2026"
+      ],
+      "label": "跨壁组织取材",
+      "family": "design",
+      "group_id": "spatial_sampling"
+    },
+    {
+      "id": "western_blot",
+      "n_studies": 2,
+      "denominator": 23,
+      "percent": 8.7,
+      "study_ids": [
+        "FASN_CERAMIDE_2026",
+        "T01"
+      ],
+      "label": "免疫印迹",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "adrenergic_challenge",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T07"
+      ],
+      "label": "急性肾上腺素能挑战",
+      "family": "intervention",
+      "group_id": "pharmacological_perturbation"
+    },
+    {
+      "id": "ambient_rna_doublet_control",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Simonson2026"
+      ],
+      "label": "环境RNA与双细胞控制",
+      "family": "computational",
+      "group_id": "omics_preprocessing"
+    },
+    {
+      "id": "arrhythmia_burden_assessment",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "IL1_PEDIATRIC_2026"
+      ],
+      "label": "心律失常负荷评估",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "body_surface_potential_mapping",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "PKP2_BSPM_2023"
+      ],
+      "label": "体表电势标测（BSPM）",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "calcium_imaging",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T02"
+      ],
+      "label": "细胞钙瞬变测量",
+      "family": "measurement",
+      "group_id": "cellular_function"
+    },
+    {
+      "id": "cardiac_function_assessment",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "IL1_PEDIATRIC_2026"
+      ],
+      "label": "心脏收缩功能评估",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "cardiac_mri",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T05"
+      ],
+      "label": "心脏磁共振",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "cardiac_thoracic_geometry_registration",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "PKP2_BSPM_2023"
+      ],
+      "label": "心脏与胸廓几何配准",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "cell_communication_inference",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Fu2024"
+      ],
+      "label": "细胞间通讯推断",
+      "family": "computational",
+      "group_id": "network_analysis"
+    },
+    {
+      "id": "cell_composition_modeling",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Simonson2026"
+      ],
+      "label": "细胞组成统计建模",
+      "family": "computational",
+      "group_id": "expression_analysis"
+    },
+    {
+      "id": "cell_culture_model",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "培养细胞模型",
+      "family": "design",
+      "group_id": "model_system"
+    },
+    {
+      "id": "cell_pharmacological_rescue",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "细胞药理与代谢物救援",
+      "family": "intervention",
+      "group_id": "pharmacological_perturbation"
+    },
+    {
+      "id": "cell_type_marker_enrichment",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "细胞类型标记富集",
+      "family": "computational",
+      "group_id": "expression_analysis"
+    },
+    {
+      "id": "chip_qpcr",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "染色质免疫沉淀定量PCR",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "cite_seq",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T04"
+      ],
+      "label": "CITE-seq多模态单细胞测量",
+      "family": "measurement",
+      "group_id": "single_cell_omics"
+    },
+    {
+      "id": "cmr_regional_strain",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "CMR_EAM_2018"
+      ],
+      "label": "磁共振区域应变分析",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "conditional_genetic_mouse_model",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "条件性遗传小鼠模型",
+      "family": "design",
+      "group_id": "model_system"
+    },
+    {
+      "id": "controlled_preclinical_intervention",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T03"
+      ],
+      "label": "受控临床前干预",
+      "family": "design",
+      "group_id": "model_system"
+    },
+    {
+      "id": "cross_dataset_comparison",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Simonson2026"
+      ],
+      "label": "跨研究数据集比较",
+      "family": "computational",
+      "group_id": "omics_preprocessing"
+    },
+    {
+      "id": "cross_sectional_human_comparison",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "PKP2_BSPM_2023"
+      ],
+      "label": "人体横断面比较",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "deep_learning_image_segmentation",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "深度学习图像分割",
+      "family": "computational",
+      "group_id": "ai_image_analysis"
+    },
+    {
+      "id": "dna_damage_assay",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T07"
+      ],
+      "label": "DNA损伤检测",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "dna_pull_down",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "DNA拉下实验",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "engineered_heart_tissue_model",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T08"
+      ],
+      "label": "工程化心肌组织模型",
+      "family": "design",
+      "group_id": "model_system"
+    },
+    {
+      "id": "engineered_myocardium_contractility",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Kyriakopoulou2025"
+      ],
+      "label": "工程化心肌收缩测量",
+      "family": "measurement",
+      "group_id": "cellular_function"
+    },
+    {
+      "id": "enzyme_activity_assay",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "酶活性检测",
+      "family": "measurement",
+      "group_id": "cellular_function"
+    },
+    {
+      "id": "event_adjacent_plasma_comparison",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "事件邻近血浆分组比较",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "expression_correlation_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T08"
+      ],
+      "label": "表达相关分析",
+      "family": "computational",
+      "group_id": "expression_analysis"
+    },
+    {
+      "id": "familial_clustering_sensitivity_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_ERADOS_800"
+      ],
+      "label": "家系聚类敏感性分析",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "fdg_pet",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_VS_PKP2_2020"
+      ],
+      "label": "FDG正电子发射断层成像",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "fine_gray_competing_risk_regression",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_ERADOS_800"
+      ],
+      "label": "Fine–Gray竞争风险回归",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "flow_cytometry",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T04"
+      ],
+      "label": "流式细胞术",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "flow_cytometry_apoptosis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "流式细胞术凋亡检测",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "gene_coexpression_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Simonson2026"
+      ],
+      "label": "基因共表达与跨供者汇总",
+      "family": "computational",
+      "group_id": "expression_analysis"
+    },
+    {
+      "id": "gene_expression_measurement_unspecified",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T09"
+      ],
+      "label": "RNA表达测量（平台待核）",
+      "family": "measurement",
+      "group_id": "transcriptomics"
+    },
+    {
+      "id": "gene_knockdown",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "基因敲低",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "genetic_cell_perturbation",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T03"
+      ],
+      "label": "细胞基因扰动",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "genetic_pathway_perturbation",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T04"
+      ],
+      "label": "遗传通路扰动",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    },
+    {
+      "id": "hierarchical_trajectory_clustering",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "层次轨迹聚类",
+      "family": "computational",
+      "group_id": "trajectory_analysis"
+    },
+    {
+      "id": "histology_fibrosis_quantification",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "组织学与纤维化定量",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "icd_interrogation_outcome_assessment",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "EAM_RISK_2012"
+      ],
+      "label": "ICD事件记录结局判定",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "immunofluorescence",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "免疫荧光与多重免疫染色",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "inflammatory_marker_assessment",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "IL1_PEDIATRIC_2026"
+      ],
+      "label": "炎症指标评估",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "isotope_tracing",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "稳定同位素示踪",
+      "family": "measurement",
+      "group_id": "lipidomics_metabolism"
+    },
+    {
+      "id": "lipid_histological_staining",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "脂质组织化学染色",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "luciferase_reporter_assay",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "双荧光素酶报告实验",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "matched_blood_tissue_sampling",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Fu2024"
+      ],
+      "label": "同人血液与心肌联合取材",
+      "family": "design",
+      "group_id": "spatial_sampling"
+    },
+    {
+      "id": "microarray_transcriptomics",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Gaertner2012"
+      ],
+      "label": "微阵列转录组测量",
+      "family": "measurement",
+      "group_id": "transcriptomics"
+    },
+    {
+      "id": "mitochondrial_respiration",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Kyriakopoulou2025"
+      ],
+      "label": "线粒体呼吸功能测量",
+      "family": "measurement",
+      "group_id": "cellular_function"
+    },
+    {
+      "id": "mixed_effects_model",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "混合效应模型",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "multielectrode_array",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T09"
+      ],
+      "label": "多电极阵列",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "multistate_markov_model",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_HOTPHASE_1014"
+      ],
+      "label": "多状态转移模型",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "observational_treatment_comparison",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_HOTPHASE_1014"
+      ],
+      "label": "观察性治疗比较",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "observational_treatment_exposure",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "IL1_PEDIATRIC_2026"
+      ],
+      "label": "临床治疗暴露观察（非随机）",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "optical_action_potential",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Simonson2026"
+      ],
+      "label": "光学动作电位测量",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "optical_voltage_mapping",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "离体心脏光学电压标测",
+      "family": "measurement",
+      "group_id": "electrophysiology"
+    },
+    {
+      "id": "pathway_activity_inference",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Penna2026"
+      ],
+      "label": "通路活性推断",
+      "family": "computational",
+      "group_id": "pathway_analysis"
+    },
+    {
+      "id": "patient_clustered_regional_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "CMR_EAM_2018"
+      ],
+      "label": "患者聚类的区域统计比较",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "plasma_lcms_lipidomics",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "血浆LC-MS/MS脂质测量",
+      "family": "measurement",
+      "group_id": "lipidomics_metabolism"
+    },
+    {
+      "id": "principal_component_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "主成分分析",
+      "family": "computational",
+      "group_id": "omics_preprocessing"
+    },
+    {
+      "id": "prospective_clinical_follow_up",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "EAM_RISK_2012"
+      ],
+      "label": "前瞻性临床随访",
+      "family": "design",
+      "group_id": "temporal_design"
+    },
+    {
+      "id": "protein_interaction_network",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "蛋白相互作用网络与社区识别",
+      "family": "computational",
+      "group_id": "network_analysis"
+    },
+    {
+      "id": "proximity_ligation_assay",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "原位邻近连接实验（PLA）",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "regional_mri_mapping",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "SERIAL_CMR_2026"
+      ],
+      "label": "磁共振区域分布标注",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "regulatory_network_inference",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Fu2024"
+      ],
+      "label": "转录调控网络推断",
+      "family": "computational",
+      "group_id": "pathway_analysis"
+    },
+    {
+      "id": "retrospective_multimodal_comparison",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "CMR_EAM_2018"
+      ],
+      "label": "回顾性多模态区域比较",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "retrospective_registry_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_HOTPHASE_1014"
+      ],
+      "label": "登记资料回顾分析",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "right_ventricular_deformation_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "PKP2_BSPM_2023"
+      ],
+      "label": "右室形变分析",
+      "family": "measurement",
+      "group_id": "clinical_imaging"
+    },
+    {
+      "id": "rna_seq_alignment_quantification",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "RNA序列比对与定量",
+      "family": "computational",
+      "group_id": "omics_preprocessing"
+    },
+    {
+      "id": "spatial_cell_mapping",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Penna2026"
+      ],
+      "label": "单核与空间表达整合映射",
+      "family": "computational",
+      "group_id": "spatial_integration"
+    },
+    {
+      "id": "spatial_expression_pattern_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Kyriakopoulou2025"
+      ],
+      "label": "空间表达模式分析",
+      "family": "computational",
+      "group_id": "spatial_integration"
+    },
+    {
+      "id": "spatial_niche_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Penna2026"
+      ],
+      "label": "空间生态位聚类与共定位",
+      "family": "computational",
+      "group_id": "spatial_integration"
+    },
+    {
+      "id": "thermal_proteome_profiling",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "热蛋白组分析",
+      "family": "measurement",
+      "group_id": "proteomics"
+    },
+    {
+      "id": "time_regression",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T01"
+      ],
+      "label": "分类时间回归",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "time_varying_cox_regression",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_ERADOS_800"
+      ],
+      "label": "时变协变量Cox回归",
+      "family": "computational",
+      "group_id": "clinical_statistics"
+    },
+    {
+      "id": "tissue_lcms_lipidomics",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "组织LC-MS/MS脂质组学",
+      "family": "measurement",
+      "group_id": "lipidomics_metabolism"
+    },
+    {
+      "id": "trajectory_inference",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Fu2024"
+      ],
+      "label": "轨迹与拟时序推断",
+      "family": "computational",
+      "group_id": "trajectory_analysis"
+    },
+    {
+      "id": "transcription_factor_motif_analysis",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "Kyriakopoulou2025"
+      ],
+      "label": "转录因子结合基序富集",
+      "family": "computational",
+      "group_id": "pathway_analysis"
+    },
+    {
+      "id": "troponin_measurement",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "DSP_HOTPHASE_1014"
+      ],
+      "label": "心肌肌钙蛋白测量",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "tunel_apoptosis_assay",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "FASN_CERAMIDE_2026"
+      ],
+      "label": "TUNEL凋亡检测",
+      "family": "measurement",
+      "group_id": "pathology_molecular_assay"
+    },
+    {
+      "id": "uncontrolled_case_series",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "IL1_PEDIATRIC_2026"
+      ],
+      "label": "无对照病例系列",
+      "family": "design",
+      "group_id": "clinical_observation"
+    },
+    {
+      "id": "viral_gene_rescue",
+      "n_studies": 1,
+      "denominator": 23,
+      "percent": 4.35,
+      "study_ids": [
+        "T08"
+      ],
+      "label": "病毒介导的基因补充或救援",
+      "family": "intervention",
+      "group_id": "genetic_perturbation"
+    }
+  ],
+  "by_year": {
+    "2012": 2,
+    "2017": 1,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2022": 1,
+    "2023": 2,
+    "2024": 5,
+    "2025": 2,
+    "2026": 7
+  },
+  "annotation_status_counts": {
+    "abstract_only": 3,
+    "verified_existing_audit": 81,
+    "verified_local_text": 139
+  },
+  "cooccurrence": [
+    {
+      "method_a": "echocardiography",
+      "method_b": "electrocardiography",
+      "n_studies": 7
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "pathway_enrichment",
+      "n_studies": 5
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 5
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 5
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "cross_sectional_human_tissue_comparison",
+      "n_studies": 4
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "pathway_enrichment",
+      "n_studies": 4
+    },
+    {
+      "method_a": "controlled_time_course",
+      "method_b": "longitudinal_within_subject_followup",
+      "n_studies": 4
+    },
+    {
+      "method_a": "controlled_time_course",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 4
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 4
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 4
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 4
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "pathway_enrichment",
+      "n_studies": 4
+    },
+    {
+      "method_a": "aav_gene_rescue",
+      "method_b": "longitudinal_within_subject_followup",
+      "n_studies": 3
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "pathway_enrichment",
+      "n_studies": 3
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "cross_sectional_human_tissue_comparison",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "single_nucleus_rna_sequencing",
+      "n_studies": 3
+    },
+    {
+      "method_a": "controlled_time_course",
+      "method_b": "inducible_cardiomyocyte_knockout",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "differential_expression",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "echocardiography",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 3
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 3
+    },
+    {
+      "method_a": "differential_expression",
+      "method_b": "pathway_enrichment",
+      "n_studies": 3
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "holter_monitoring",
+      "n_studies": 3
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "kaplan_meier_survival_analysis",
+      "n_studies": 3
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "late_gadolinium_enhancement_mri",
+      "n_studies": 3
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "pathway_enrichment",
+      "n_studies": 3
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "holter_monitoring",
+      "n_studies": 3
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "kaplan_meier_survival_analysis",
+      "n_studies": 3
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "late_gadolinium_enhancement_mri",
+      "n_studies": 3
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 3
+    },
+    {
+      "method_a": "holter_monitoring",
+      "method_b": "kaplan_meier_survival_analysis",
+      "n_studies": 3
+    },
+    {
+      "method_a": "holter_monitoring",
+      "method_b": "late_gadolinium_enhancement_mri",
+      "n_studies": 3
+    },
+    {
+      "method_a": "inducible_cardiomyocyte_knockout",
+      "method_b": "longitudinal_within_subject_followup",
+      "n_studies": 3
+    },
+    {
+      "method_a": "ipsc_cardiomyocyte_model",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 3
+    },
+    {
+      "method_a": "kaplan_meier_survival_analysis",
+      "method_b": "late_gadolinium_enhancement_mri",
+      "n_studies": 3
+    },
+    {
+      "method_a": "late_gadolinium_enhancement_mri",
+      "method_b": "longitudinal_clinical_follow_up",
+      "n_studies": 3
+    },
+    {
+      "method_a": "late_gadolinium_enhancement_mri",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 3
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 3
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "single_nucleus_rna_sequencing",
+      "n_studies": 3
+    },
+    {
+      "method_a": "pharmacological_intervention",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 3
+    },
+    {
+      "method_a": "aav_gene_rescue",
+      "method_b": "controlled_time_course",
+      "n_studies": 2
+    },
+    {
+      "method_a": "aav_gene_rescue",
+      "method_b": "inducible_cardiomyocyte_knockout",
+      "n_studies": 2
+    },
+    {
+      "method_a": "batch_integration",
+      "method_b": "cell_clustering_annotation",
+      "n_studies": 2
+    },
+    {
+      "method_a": "batch_integration",
+      "method_b": "cross_sectional_human_tissue_comparison",
+      "n_studies": 2
+    },
+    {
+      "method_a": "batch_integration",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 2
+    },
+    {
+      "method_a": "batch_integration",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "batch_integration",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 2
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "controlled_time_course",
+      "n_studies": 2
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "differential_expression",
+      "n_studies": 2
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "echocardiography",
+      "n_studies": 2
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "genetic_perturbation",
+      "n_studies": 2
+    },
+    {
+      "method_a": "bulk_rna_sequencing",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "echocardiography",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "electrocardiography",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cell_clustering_annotation",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "contractility_measurement",
+      "method_b": "controlled_time_course",
+      "n_studies": 2
+    },
+    {
+      "method_a": "contractility_measurement",
+      "method_b": "ipsc_cardiomyocyte_model",
+      "n_studies": 2
+    },
+    {
+      "method_a": "contractility_measurement",
+      "method_b": "sirna_loss_of_function",
+      "n_studies": 2
+    },
+    {
+      "method_a": "controlled_time_course",
+      "method_b": "ipsc_cardiomyocyte_model",
+      "n_studies": 2
+    },
+    {
+      "method_a": "controlled_time_course",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "controlled_time_course",
+      "method_b": "sirna_loss_of_function",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cox_proportional_hazards_regression",
+      "method_b": "echocardiography",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cox_proportional_hazards_regression",
+      "method_b": "electrocardiography",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cox_proportional_hazards_regression",
+      "method_b": "holter_monitoring",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cox_proportional_hazards_regression",
+      "method_b": "kaplan_meier_survival_analysis",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cox_proportional_hazards_regression",
+      "method_b": "late_gadolinium_enhancement_mri",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cox_proportional_hazards_regression",
+      "method_b": "longitudinal_clinical_follow_up",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "electrocardiography",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "genetic_perturbation",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "ipsc_cardiomyocyte_model",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "oxidative_stress_assay",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "paired_ventricular_sampling",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "single_nucleus_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "spatial_transcriptomics",
+      "n_studies": 2
+    },
+    {
+      "method_a": "cross_sectional_human_tissue_comparison",
+      "method_b": "transmural_sampling",
+      "n_studies": 2
+    },
+    {
+      "method_a": "differential_expression",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "genetic_variant_classification",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "inducible_cardiomyocyte_knockout",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "longitudinal_clinical_follow_up",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "longitudinal_within_subject_followup",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 2
+    },
+    {
+      "method_a": "echocardiography",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "genetic_variant_classification",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "inducible_cardiomyocyte_knockout",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "longitudinal_clinical_follow_up",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "longitudinal_within_subject_followup",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 2
+    },
+    {
+      "method_a": "electrocardiography",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "genetic_perturbation",
+      "method_b": "histology_immunofluorescence",
+      "n_studies": 2
+    },
+    {
+      "method_a": "genetic_perturbation",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "genetic_variant_classification",
+      "method_b": "holter_monitoring",
+      "n_studies": 2
+    },
+    {
+      "method_a": "genetic_variant_classification",
+      "method_b": "kaplan_meier_survival_analysis",
+      "n_studies": 2
+    },
+    {
+      "method_a": "genetic_variant_classification",
+      "method_b": "late_gadolinium_enhancement_mri",
+      "n_studies": 2
+    },
+    {
+      "method_a": "genetic_variant_classification",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 2
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "single_nucleus_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "spatial_transcriptomics",
+      "n_studies": 2
+    },
+    {
+      "method_a": "histology_immunofluorescence",
+      "method_b": "transmural_sampling",
+      "n_studies": 2
+    },
+    {
+      "method_a": "holter_monitoring",
+      "method_b": "longitudinal_clinical_follow_up",
+      "n_studies": 2
+    },
+    {
+      "method_a": "holter_monitoring",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 2
+    },
+    {
+      "method_a": "inducible_cardiomyocyte_knockout",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "ipsc_cardiomyocyte_model",
+      "method_b": "sirna_loss_of_function",
+      "n_studies": 2
+    },
+    {
+      "method_a": "kaplan_meier_survival_analysis",
+      "method_b": "longitudinal_clinical_follow_up",
+      "n_studies": 2
+    },
+    {
+      "method_a": "kaplan_meier_survival_analysis",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 2
+    },
+    {
+      "method_a": "late_gadolinium_enhancement_mri",
+      "method_b": "serial_cardiac_mri",
+      "n_studies": 2
+    },
+    {
+      "method_a": "longitudinal_clinical_follow_up",
+      "method_b": "retrospective_clinical_cohort",
+      "n_studies": 2
+    },
+    {
+      "method_a": "longitudinal_clinical_follow_up",
+      "method_b": "serial_cardiac_mri",
+      "n_studies": 2
+    },
+    {
+      "method_a": "longitudinal_within_subject_followup",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "mass_spectrometry_proteomics",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "mass_spectrometry_proteomics",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "mass_spectrometry_proteomics",
+      "method_b": "quantitative_pcr",
+      "n_studies": 2
+    },
+    {
+      "method_a": "mass_spectrometry_proteomics",
+      "method_b": "transmission_electron_microscopy",
+      "n_studies": 2
+    },
+    {
+      "method_a": "mass_spectrometry_proteomics",
+      "method_b": "western_blot",
+      "n_studies": 2
+    },
+    {
+      "method_a": "oxidative_stress_assay",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "oxidative_stress_assay",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "paired_ventricular_sampling",
+      "method_b": "pathway_enrichment",
+      "n_studies": 2
+    },
+    {
+      "method_a": "paired_ventricular_sampling",
+      "method_b": "pharmacological_intervention",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "quantitative_pcr",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "spatial_transcriptomics",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "transmission_electron_microscopy",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "transmural_sampling",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pathway_enrichment",
+      "method_b": "western_blot",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pharmacological_intervention",
+      "method_b": "pseudobulk_differential_expression",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pharmacological_intervention",
+      "method_b": "quantitative_pcr",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pharmacological_intervention",
+      "method_b": "single_nucleus_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pharmacological_intervention",
+      "method_b": "transmission_electron_microscopy",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pharmacological_intervention",
+      "method_b": "western_blot",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pseudobulk_differential_expression",
+      "method_b": "single_cell_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "pseudobulk_differential_expression",
+      "method_b": "single_nucleus_rna_sequencing",
+      "n_studies": 2
+    },
+    {
+      "method_a": "quantitative_pcr",
+      "method_b": "transmission_electron_microscopy",
+      "n_studies": 2
+    },
+    {
+      "method_a": "quantitative_pcr",
+      "method_b": "western_blot",
+      "n_studies": 2
+    },
+    {
+      "method_a": "spatial_transcriptomics",
+      "method_b": "transmural_sampling",
+      "n_studies": 2
+    },
+    {
+      "method_a": "transmission_electron_microscopy",
+      "method_b": "western_blot",
+      "n_studies": 2
+    }
+  ],
+  "clinical_questions": [
+    {
+      "question_id": "Q1",
+      "label_zh": "早期电/功能异常与组织进展",
+      "scope_note": "哪些设计能将隐匿期电—机械—代谢信号与后续组织变化对齐？",
+      "n_studies": 8,
+      "study_ids": [
+        "DSP_VS_PKP2_2020",
+        "Kyriakopoulou2025",
+        "PKP2_BSPM_2023",
+        "SERIAL_CMR_2026",
+        "T01",
+        "T02",
+        "T07",
+        "T08"
+      ],
+      "methods": [
+        {
+          "method_id": "pharmacological_intervention",
+          "label": "临床前药理扰动",
+          "n_studies": 4,
+          "study_ids": [
+            "T01",
+            "T02",
+            "T07",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "bulk_rna_sequencing",
+          "label": "批量RNA测序数据使用",
+          "n_studies": 3,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "T02",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "controlled_time_course",
+          "label": "受控分批时间序列",
+          "n_studies": 3,
+          "study_ids": [
+            "T01",
+            "T02",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "cross_sectional_human_tissue_comparison",
+          "label": "人类横断面组织比较",
+          "n_studies": 3,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "T07",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "oxidative_stress_assay",
+          "label": "氧化应激检测",
+          "n_studies": 3,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "T01",
+            "T07"
+          ]
+        },
+        {
+          "method_id": "clinical_disease_staging",
+          "label": "临床表型分期",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "echocardiography",
+          "label": "超声心动图",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "electrocardiography",
+          "label": "心电图或心律监测",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "inducible_cardiomyocyte_knockout",
+          "label": "诱导性心肌细胞基因敲除",
+          "n_studies": 2,
+          "study_ids": [
+            "T01",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "ipsc_cardiomyocyte_model",
+          "label": "人iPSC来源心肌细胞模型",
+          "n_studies": 2,
+          "study_ids": [
+            "T07",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "late_gadolinium_enhancement_mri",
+          "label": "心脏磁共振延迟钆增强（LGE）",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "pathway_enrichment",
+          "label": "通路或基因集富集",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "retrospective_clinical_cohort",
+          "label": "回顾性临床队列",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "adrenergic_challenge",
+          "label": "急性肾上腺素能挑战",
+          "n_studies": 1,
+          "study_ids": [
+            "T07"
+          ]
+        },
+        {
+          "method_id": "body_surface_potential_mapping",
+          "label": "体表电势标测（BSPM）",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "calcium_imaging",
+          "label": "细胞钙瞬变测量",
+          "n_studies": 1,
+          "study_ids": [
+            "T02"
+          ]
+        },
+        {
+          "method_id": "cardiac_thoracic_geometry_registration",
+          "label": "心脏与胸廓几何配准",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "cell_type_marker_enrichment",
+          "label": "细胞类型标记富集",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "contractility_measurement",
+          "label": "收缩功能测量",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "cross_sectional_human_comparison",
+          "label": "人体横断面比较",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "deep_learning_image_segmentation",
+          "label": "深度学习图像分割",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "differential_expression",
+          "label": "差异表达分析",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "dna_damage_assay",
+          "label": "DNA损伤检测",
+          "n_studies": 1,
+          "study_ids": [
+            "T07"
+          ]
+        },
+        {
+          "method_id": "engineered_heart_tissue_model",
+          "label": "工程化心肌组织模型",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "engineered_myocardium_contractility",
+          "label": "工程化心肌收缩测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "enzyme_activity_assay",
+          "label": "酶活性检测",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "expression_correlation_analysis",
+          "label": "表达相关分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "fdg_pet",
+          "label": "FDG正电子发射断层成像",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "genetic_perturbation",
+          "label": "遗传或表达扰动",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "genetic_variant_classification",
+          "label": "遗传变异致病性分类",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "hierarchical_trajectory_clustering",
+          "label": "层次轨迹聚类",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "histology_immunofluorescence",
+          "label": "组织学与免疫荧光验证",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "holter_monitoring",
+          "label": "动态心电监测",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "kaplan_meier_survival_analysis",
+          "label": "Kaplan–Meier生存分析",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "longitudinal_clinical_follow_up",
+          "label": "临床事件纵向随访",
+          "n_studies": 1,
+          "study_ids": [
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "longitudinal_within_subject_followup",
+          "label": "同个体功能或生存随访",
+          "n_studies": 1,
+          "study_ids": [
+            "T02"
+          ]
+        },
+        {
+          "method_id": "mass_spectrometry_proteomics",
+          "label": "质谱蛋白组学",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "mitochondrial_respiration",
+          "label": "线粒体呼吸功能测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "mixed_effects_model",
+          "label": "混合效应模型",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "paired_ventricular_sampling",
+          "label": "同个体双心室配对取样",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "principal_component_analysis",
+          "label": "主成分分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "protein_interaction_network",
+          "label": "蛋白相互作用网络与社区识别",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "quantitative_pcr",
+          "label": "定量PCR",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "regional_mri_mapping",
+          "label": "磁共振区域分布标注",
+          "n_studies": 1,
+          "study_ids": [
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "right_ventricular_deformation_analysis",
+          "label": "右室形变分析",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "serial_cardiac_mri",
+          "label": "同人重复心脏磁共振",
+          "n_studies": 1,
+          "study_ids": [
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "single_cell_rna_sequencing",
+          "label": "单细胞RNA测序",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "sirna_loss_of_function",
+          "label": "siRNA功能缺失扰动",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "spatial_expression_pattern_analysis",
+          "label": "空间表达模式分析",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "spatial_transcriptomics",
+          "label": "空间转录组测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "thermal_proteome_profiling",
+          "label": "热蛋白组分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "time_regression",
+          "label": "分类时间回归",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "transcription_factor_motif_analysis",
+          "label": "转录因子结合基序富集",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "transmission_electron_microscopy",
+          "label": "透射电子显微镜",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "transmural_sampling",
+          "label": "跨壁组织取材",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "viral_gene_rescue",
+          "label": "病毒介导的基因补充或救援",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "western_blot",
+          "label": "免疫印迹",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "label_zh": "损伤发作与局部修复",
+      "scope_note": "哪些时间、空间和干预证据支持发作后恢复或持续病灶的研究？",
+      "n_studies": 12,
+      "study_ids": [
+        "DSP_ERADOS_800",
+        "DSP_HOTPHASE_1014",
+        "DSP_VS_PKP2_2020",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "SERIAL_CMR_2026",
+        "Simonson2026",
+        "T03",
+        "T04",
+        "T07"
+      ],
+      "methods": [
+        {
+          "method_id": "cross_sectional_human_tissue_comparison",
+          "label": "人类横断面组织比较",
+          "n_studies": 6,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Kyriakopoulou2025",
+            "Penna2026",
+            "Simonson2026",
+            "T07"
+          ]
+        },
+        {
+          "method_id": "echocardiography",
+          "label": "超声心动图",
+          "n_studies": 6,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014",
+            "DSP_VS_PKP2_2020",
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "electrocardiography",
+          "label": "心电图或心律监测",
+          "n_studies": 6,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014",
+            "DSP_VS_PKP2_2020",
+            "Fu2024",
+            "Penna2026",
+            "T03"
+          ]
+        },
+        {
+          "method_id": "pathway_enrichment",
+          "label": "通路或基因集富集",
+          "n_studies": 6,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Kyriakopoulou2025",
+            "Penna2026",
+            "Simonson2026",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "pharmacological_intervention",
+          "label": "临床前药理扰动",
+          "n_studies": 6,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Penna2026",
+            "T03",
+            "T04",
+            "T07"
+          ]
+        },
+        {
+          "method_id": "cell_clustering_annotation",
+          "label": "细胞聚类与注释",
+          "n_studies": 4,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "Simonson2026",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "histology_immunofluorescence",
+          "label": "组织学与免疫荧光验证",
+          "n_studies": 4,
+          "study_ids": [
+            "Fu2024",
+            "Kyriakopoulou2025",
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "late_gadolinium_enhancement_mri",
+          "label": "心脏磁共振延迟钆增强（LGE）",
+          "n_studies": 4,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014",
+            "DSP_VS_PKP2_2020",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "bulk_rna_sequencing",
+          "label": "批量RNA测序数据使用",
+          "n_studies": 3,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Kyriakopoulou2025",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "differential_expression",
+          "label": "差异表达分析",
+          "n_studies": 3,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Kyriakopoulou2025",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "holter_monitoring",
+          "label": "动态心电监测",
+          "n_studies": 3,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014",
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "kaplan_meier_survival_analysis",
+          "label": "Kaplan–Meier生存分析",
+          "n_studies": 3,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014",
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "longitudinal_clinical_follow_up",
+          "label": "临床事件纵向随访",
+          "n_studies": 3,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "pseudobulk_differential_expression",
+          "label": "供者级伪批量差异表达",
+          "n_studies": 3,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "retrospective_clinical_cohort",
+          "label": "回顾性临床队列",
+          "n_studies": 3,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "single_nucleus_rna_sequencing",
+          "label": "单核RNA测序",
+          "n_studies": 3,
+          "study_ids": [
+            "Penna2026",
+            "Simonson2026",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "batch_integration",
+          "label": "批次整合",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "cox_proportional_hazards_regression",
+          "label": "Cox比例风险回归",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "genetic_perturbation",
+          "label": "遗传或表达扰动",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "genetic_variant_classification",
+          "label": "遗传变异致病性分类",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "ipsc_cardiomyocyte_model",
+          "label": "人iPSC来源心肌细胞模型",
+          "n_studies": 2,
+          "study_ids": [
+            "T03",
+            "T07"
+          ]
+        },
+        {
+          "method_id": "oxidative_stress_assay",
+          "label": "氧化应激检测",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "T07"
+          ]
+        },
+        {
+          "method_id": "serial_cardiac_mri",
+          "label": "同人重复心脏磁共振",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_HOTPHASE_1014",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "single_cell_rna_sequencing",
+          "label": "单细胞RNA测序",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "spatial_transcriptomics",
+          "label": "空间转录组测量",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "transmural_sampling",
+          "label": "跨壁组织取材",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "adrenergic_challenge",
+          "label": "急性肾上腺素能挑战",
+          "n_studies": 1,
+          "study_ids": [
+            "T07"
+          ]
+        },
+        {
+          "method_id": "ambient_rna_doublet_control",
+          "label": "环境RNA与双细胞控制",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "cell_communication_inference",
+          "label": "细胞间通讯推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "cell_composition_modeling",
+          "label": "细胞组成统计建模",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "cell_culture_model",
+          "label": "培养细胞模型",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "cell_pharmacological_rescue",
+          "label": "细胞药理与代谢物救援",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "chip_qpcr",
+          "label": "染色质免疫沉淀定量PCR",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "cite_seq",
+          "label": "CITE-seq多模态单细胞测量",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "clinical_disease_staging",
+          "label": "临床表型分期",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "conditional_genetic_mouse_model",
+          "label": "条件性遗传小鼠模型",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "controlled_preclinical_intervention",
+          "label": "受控临床前干预",
+          "n_studies": 1,
+          "study_ids": [
+            "T03"
+          ]
+        },
+        {
+          "method_id": "controlled_time_course",
+          "label": "受控分批时间序列",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "cross_dataset_comparison",
+          "label": "跨研究数据集比较",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "dna_damage_assay",
+          "label": "DNA损伤检测",
+          "n_studies": 1,
+          "study_ids": [
+            "T07"
+          ]
+        },
+        {
+          "method_id": "dna_pull_down",
+          "label": "DNA拉下实验",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "engineered_myocardium_contractility",
+          "label": "工程化心肌收缩测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "event_adjacent_plasma_comparison",
+          "label": "事件邻近血浆分组比较",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "familial_clustering_sensitivity_analysis",
+          "label": "家系聚类敏感性分析",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "fdg_pet",
+          "label": "FDG正电子发射断层成像",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "fine_gray_competing_risk_regression",
+          "label": "Fine–Gray竞争风险回归",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "flow_cytometry",
+          "label": "流式细胞术",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "flow_cytometry_apoptosis",
+          "label": "流式细胞术凋亡检测",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "gene_coexpression_analysis",
+          "label": "基因共表达与跨供者汇总",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "gene_knockdown",
+          "label": "基因敲低",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "genetic_cell_perturbation",
+          "label": "细胞基因扰动",
+          "n_studies": 1,
+          "study_ids": [
+            "T03"
+          ]
+        },
+        {
+          "method_id": "genetic_pathway_perturbation",
+          "label": "遗传通路扰动",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "histology_fibrosis_quantification",
+          "label": "组织学与纤维化定量",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "immunofluorescence",
+          "label": "免疫荧光与多重免疫染色",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "isotope_tracing",
+          "label": "稳定同位素示踪",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "lipid_histological_staining",
+          "label": "脂质组织化学染色",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "longitudinal_within_subject_followup",
+          "label": "同个体功能或生存随访",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "luciferase_reporter_assay",
+          "label": "双荧光素酶报告实验",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "mass_spectrometry_proteomics",
+          "label": "质谱蛋白组学",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "matched_blood_tissue_sampling",
+          "label": "同人血液与心肌联合取材",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "mitochondrial_respiration",
+          "label": "线粒体呼吸功能测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "multistate_markov_model",
+          "label": "多状态转移模型",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "observational_treatment_comparison",
+          "label": "观察性治疗比较",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "optical_action_potential",
+          "label": "光学动作电位测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "optical_voltage_mapping",
+          "label": "离体心脏光学电压标测",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "paired_ventricular_sampling",
+          "label": "同个体双心室配对取样",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "pathway_activity_inference",
+          "label": "通路活性推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "plasma_lcms_lipidomics",
+          "label": "血浆LC-MS/MS脂质测量",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "proximity_ligation_assay",
+          "label": "原位邻近连接实验（PLA）",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "quantitative_pcr",
+          "label": "定量PCR",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "regional_mri_mapping",
+          "label": "磁共振区域分布标注",
+          "n_studies": 1,
+          "study_ids": [
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "regulatory_network_inference",
+          "label": "转录调控网络推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "retrospective_registry_analysis",
+          "label": "登记资料回顾分析",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "rna_seq_alignment_quantification",
+          "label": "RNA序列比对与定量",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "spatial_cell_mapping",
+          "label": "单核与空间表达整合映射",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "spatial_expression_pattern_analysis",
+          "label": "空间表达模式分析",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "spatial_niche_analysis",
+          "label": "空间生态位聚类与共定位",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "time_varying_cox_regression",
+          "label": "时变协变量Cox回归",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "tissue_lcms_lipidomics",
+          "label": "组织LC-MS/MS脂质组学",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "trajectory_inference",
+          "label": "轨迹与拟时序推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "transcription_factor_motif_analysis",
+          "label": "转录因子结合基序富集",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "transmission_electron_microscopy",
+          "label": "透射电子显微镜",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "troponin_measurement",
+          "label": "心肌肌钙蛋白测量",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "tunel_apoptosis_assay",
+          "label": "TUNEL凋亡检测",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "western_blot",
+          "label": "免疫印迹",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "label_zh": "靶向治疗与终点分离",
+      "scope_note": "如何分别评价靶过程、电负荷、结构与泵功能反应？",
+      "n_studies": 12,
+      "study_ids": [
+        "DSP_HOTPHASE_1014",
+        "FASN_CERAMIDE_2026",
+        "Fu2024",
+        "IL1_PEDIATRIC_2026",
+        "Penna2026",
+        "T01",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T08",
+        "T09"
+      ],
+      "methods": [
+        {
+          "method_id": "pharmacological_intervention",
+          "label": "临床前药理扰动",
+          "n_studies": 7,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Penna2026",
+            "T01",
+            "T03",
+            "T04",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "controlled_time_course",
+          "label": "受控分批时间序列",
+          "n_studies": 5,
+          "study_ids": [
+            "T01",
+            "T04",
+            "T05",
+            "T08",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "echocardiography",
+          "label": "超声心动图",
+          "n_studies": 5,
+          "study_ids": [
+            "DSP_HOTPHASE_1014",
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Penna2026",
+            "T06"
+          ]
+        },
+        {
+          "method_id": "electrocardiography",
+          "label": "心电图或心律监测",
+          "n_studies": 5,
+          "study_ids": [
+            "DSP_HOTPHASE_1014",
+            "Fu2024",
+            "Penna2026",
+            "T03",
+            "T06"
+          ]
+        },
+        {
+          "method_id": "pathway_enrichment",
+          "label": "通路或基因集富集",
+          "n_studies": 5,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Penna2026",
+            "T01",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "cross_sectional_human_tissue_comparison",
+          "label": "人类横断面组织比较",
+          "n_studies": 4,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "Fu2024",
+            "Penna2026",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "longitudinal_within_subject_followup",
+          "label": "同个体功能或生存随访",
+          "n_studies": 4,
+          "study_ids": [
+            "T04",
+            "T05",
+            "T06",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "aav_gene_rescue",
+          "label": "AAV基因补充或救援",
+          "n_studies": 3,
+          "study_ids": [
+            "T05",
+            "T06",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "cell_clustering_annotation",
+          "label": "细胞聚类与注释",
+          "n_studies": 3,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "inducible_cardiomyocyte_knockout",
+          "label": "诱导性心肌细胞基因敲除",
+          "n_studies": 3,
+          "study_ids": [
+            "T01",
+            "T06",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "ipsc_cardiomyocyte_model",
+          "label": "人iPSC来源心肌细胞模型",
+          "n_studies": 3,
+          "study_ids": [
+            "T03",
+            "T08",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "single_cell_rna_sequencing",
+          "label": "单细胞RNA测序",
+          "n_studies": 3,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "bulk_rna_sequencing",
+          "label": "批量RNA测序数据使用",
+          "n_studies": 2,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "T08"
+          ]
+        },
+        {
+          "method_id": "contractility_measurement",
+          "label": "收缩功能测量",
+          "n_studies": 2,
+          "study_ids": [
+            "T08",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "differential_expression",
+          "label": "差异表达分析",
+          "n_studies": 2,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "histology_immunofluorescence",
+          "label": "组织学与免疫荧光验证",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "mass_spectrometry_proteomics",
+          "label": "质谱蛋白组学",
+          "n_studies": 2,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "paired_ventricular_sampling",
+          "label": "同个体双心室配对取样",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "pseudobulk_differential_expression",
+          "label": "供者级伪批量差异表达",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "quantitative_pcr",
+          "label": "定量PCR",
+          "n_studies": 2,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "single_nucleus_rna_sequencing",
+          "label": "单核RNA测序",
+          "n_studies": 2,
+          "study_ids": [
+            "Penna2026",
+            "T04"
+          ]
+        },
+        {
+          "method_id": "sirna_loss_of_function",
+          "label": "siRNA功能缺失扰动",
+          "n_studies": 2,
+          "study_ids": [
+            "T08",
+            "T09"
+          ]
+        },
+        {
+          "method_id": "transmission_electron_microscopy",
+          "label": "透射电子显微镜",
+          "n_studies": 2,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "western_blot",
+          "label": "免疫印迹",
+          "n_studies": 2,
+          "study_ids": [
+            "FASN_CERAMIDE_2026",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "arrhythmia_burden_assessment",
+          "label": "心律失常负荷评估",
+          "n_studies": 1,
+          "study_ids": [
+            "IL1_PEDIATRIC_2026"
+          ]
+        },
+        {
+          "method_id": "batch_integration",
+          "label": "批次整合",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "cardiac_function_assessment",
+          "label": "心脏收缩功能评估",
+          "n_studies": 1,
+          "study_ids": [
+            "IL1_PEDIATRIC_2026"
+          ]
+        },
+        {
+          "method_id": "cardiac_mri",
+          "label": "心脏磁共振",
+          "n_studies": 1,
+          "study_ids": [
+            "T05"
+          ]
+        },
+        {
+          "method_id": "cell_communication_inference",
+          "label": "细胞间通讯推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "cell_culture_model",
+          "label": "培养细胞模型",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "cell_pharmacological_rescue",
+          "label": "细胞药理与代谢物救援",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "cell_type_marker_enrichment",
+          "label": "细胞类型标记富集",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "chip_qpcr",
+          "label": "染色质免疫沉淀定量PCR",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "cite_seq",
+          "label": "CITE-seq多模态单细胞测量",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "conditional_genetic_mouse_model",
+          "label": "条件性遗传小鼠模型",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "controlled_preclinical_intervention",
+          "label": "受控临床前干预",
+          "n_studies": 1,
+          "study_ids": [
+            "T03"
+          ]
+        },
+        {
+          "method_id": "cox_proportional_hazards_regression",
+          "label": "Cox比例风险回归",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "deep_learning_image_segmentation",
+          "label": "深度学习图像分割",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "dna_pull_down",
+          "label": "DNA拉下实验",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "engineered_heart_tissue_model",
+          "label": "工程化心肌组织模型",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "enzyme_activity_assay",
+          "label": "酶活性检测",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "event_adjacent_plasma_comparison",
+          "label": "事件邻近血浆分组比较",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "expression_correlation_analysis",
+          "label": "表达相关分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        },
+        {
+          "method_id": "flow_cytometry",
+          "label": "流式细胞术",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "flow_cytometry_apoptosis",
+          "label": "流式细胞术凋亡检测",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "gene_expression_measurement_unspecified",
+          "label": "RNA表达测量（平台待核）",
+          "n_studies": 1,
+          "study_ids": [
+            "T09"
+          ]
+        },
+        {
+          "method_id": "gene_knockdown",
+          "label": "基因敲低",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "genetic_cell_perturbation",
+          "label": "细胞基因扰动",
+          "n_studies": 1,
+          "study_ids": [
+            "T03"
+          ]
+        },
+        {
+          "method_id": "genetic_pathway_perturbation",
+          "label": "遗传通路扰动",
+          "n_studies": 1,
+          "study_ids": [
+            "T04"
+          ]
+        },
+        {
+          "method_id": "hierarchical_trajectory_clustering",
+          "label": "层次轨迹聚类",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "histology_fibrosis_quantification",
+          "label": "组织学与纤维化定量",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "holter_monitoring",
+          "label": "动态心电监测",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "immunofluorescence",
+          "label": "免疫荧光与多重免疫染色",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "inflammatory_marker_assessment",
+          "label": "炎症指标评估",
+          "n_studies": 1,
+          "study_ids": [
+            "IL1_PEDIATRIC_2026"
+          ]
+        },
+        {
+          "method_id": "isotope_tracing",
+          "label": "稳定同位素示踪",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "kaplan_meier_survival_analysis",
+          "label": "Kaplan–Meier生存分析",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "late_gadolinium_enhancement_mri",
+          "label": "心脏磁共振延迟钆增强（LGE）",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "lipid_histological_staining",
+          "label": "脂质组织化学染色",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "longitudinal_clinical_follow_up",
+          "label": "临床事件纵向随访",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "luciferase_reporter_assay",
+          "label": "双荧光素酶报告实验",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "matched_blood_tissue_sampling",
+          "label": "同人血液与心肌联合取材",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "mixed_effects_model",
+          "label": "混合效应模型",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "multielectrode_array",
+          "label": "多电极阵列",
+          "n_studies": 1,
+          "study_ids": [
+            "T09"
+          ]
+        },
+        {
+          "method_id": "multistate_markov_model",
+          "label": "多状态转移模型",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "observational_treatment_comparison",
+          "label": "观察性治疗比较",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "observational_treatment_exposure",
+          "label": "临床治疗暴露观察（非随机）",
+          "n_studies": 1,
+          "study_ids": [
+            "IL1_PEDIATRIC_2026"
+          ]
+        },
+        {
+          "method_id": "optical_voltage_mapping",
+          "label": "离体心脏光学电压标测",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "oxidative_stress_assay",
+          "label": "氧化应激检测",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "pathway_activity_inference",
+          "label": "通路活性推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "plasma_lcms_lipidomics",
+          "label": "血浆LC-MS/MS脂质测量",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "principal_component_analysis",
+          "label": "主成分分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "protein_interaction_network",
+          "label": "蛋白相互作用网络与社区识别",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "proximity_ligation_assay",
+          "label": "原位邻近连接实验（PLA）",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "regulatory_network_inference",
+          "label": "转录调控网络推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "retrospective_registry_analysis",
+          "label": "登记资料回顾分析",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "rna_seq_alignment_quantification",
+          "label": "RNA序列比对与定量",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "serial_cardiac_mri",
+          "label": "同人重复心脏磁共振",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "spatial_cell_mapping",
+          "label": "单核与空间表达整合映射",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "spatial_niche_analysis",
+          "label": "空间生态位聚类与共定位",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "spatial_transcriptomics",
+          "label": "空间转录组测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "thermal_proteome_profiling",
+          "label": "热蛋白组分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "time_regression",
+          "label": "分类时间回归",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "tissue_lcms_lipidomics",
+          "label": "组织LC-MS/MS脂质组学",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "trajectory_inference",
+          "label": "轨迹与拟时序推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "transmural_sampling",
+          "label": "跨壁组织取材",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "troponin_measurement",
+          "label": "心肌肌钙蛋白测量",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_HOTPHASE_1014"
+          ]
+        },
+        {
+          "method_id": "tunel_apoptosis_assay",
+          "label": "TUNEL凋亡检测",
+          "n_studies": 1,
+          "study_ids": [
+            "FASN_CERAMIDE_2026"
+          ]
+        },
+        {
+          "method_id": "uncontrolled_case_series",
+          "label": "无对照病例系列",
+          "n_studies": 1,
+          "study_ids": [
+            "IL1_PEDIATRIC_2026"
+          ]
+        },
+        {
+          "method_id": "viral_gene_rescue",
+          "label": "病毒介导的基因补充或救援",
+          "n_studies": 1,
+          "study_ids": [
+            "T08"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "Q4",
+      "label_zh": "区域异质性与风险解释",
+      "scope_note": "局部电、力学与组织分布如何补充全心指标的解释？",
+      "n_studies": 13,
+      "study_ids": [
+        "CMR_EAM_2018",
+        "DSP_ERADOS_800",
+        "DSP_VS_PKP2_2020",
+        "EAM_RISK_2012",
+        "Fu2024",
+        "Gaertner2012",
+        "Kyriakopoulou2025",
+        "PKP2_BSPM_2023",
+        "Penna2026",
+        "SERIAL_CMR_2026",
+        "Simonson2026",
+        "T01",
+        "T02"
+      ],
+      "methods": [
+        {
+          "method_id": "cross_sectional_human_tissue_comparison",
+          "label": "人类横断面组织比较",
+          "n_studies": 5,
+          "study_ids": [
+            "Fu2024",
+            "Gaertner2012",
+            "Kyriakopoulou2025",
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "echocardiography",
+          "label": "超声心动图",
+          "n_studies": 5,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020",
+            "Fu2024",
+            "Penna2026",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "electrocardiography",
+          "label": "心电图或心律监测",
+          "n_studies": 5,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020",
+            "Fu2024",
+            "Penna2026",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "pathway_enrichment",
+          "label": "通路或基因集富集",
+          "n_studies": 5,
+          "study_ids": [
+            "Fu2024",
+            "Kyriakopoulou2025",
+            "Penna2026",
+            "Simonson2026",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "histology_immunofluorescence",
+          "label": "组织学与免疫荧光验证",
+          "n_studies": 4,
+          "study_ids": [
+            "Fu2024",
+            "Kyriakopoulou2025",
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "late_gadolinium_enhancement_mri",
+          "label": "心脏磁共振延迟钆增强（LGE）",
+          "n_studies": 4,
+          "study_ids": [
+            "CMR_EAM_2018",
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "pharmacological_intervention",
+          "label": "临床前药理扰动",
+          "n_studies": 4,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "T01",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "bulk_rna_sequencing",
+          "label": "批量RNA测序数据使用",
+          "n_studies": 3,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Simonson2026",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "cell_clustering_annotation",
+          "label": "细胞聚类与注释",
+          "n_studies": 3,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "paired_ventricular_sampling",
+          "label": "同个体双心室配对取样",
+          "n_studies": 3,
+          "study_ids": [
+            "Fu2024",
+            "Gaertner2012",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "pseudobulk_differential_expression",
+          "label": "供者级伪批量差异表达",
+          "n_studies": 3,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "retrospective_clinical_cohort",
+          "label": "回顾性临床队列",
+          "n_studies": 3,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "batch_integration",
+          "label": "批次整合",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "clinical_disease_staging",
+          "label": "临床表型分期",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_VS_PKP2_2020",
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "controlled_time_course",
+          "label": "受控分批时间序列",
+          "n_studies": 2,
+          "study_ids": [
+            "T01",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "differential_expression",
+          "label": "差异表达分析",
+          "n_studies": 2,
+          "study_ids": [
+            "Gaertner2012",
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "electroanatomic_mapping",
+          "label": "心内电解剖标测",
+          "n_studies": 2,
+          "study_ids": [
+            "CMR_EAM_2018",
+            "EAM_RISK_2012"
+          ]
+        },
+        {
+          "method_id": "genetic_perturbation",
+          "label": "遗传或表达扰动",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "genetic_variant_classification",
+          "label": "遗传变异致病性分类",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "holter_monitoring",
+          "label": "动态心电监测",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "inducible_cardiomyocyte_knockout",
+          "label": "诱导性心肌细胞基因敲除",
+          "n_studies": 2,
+          "study_ids": [
+            "T01",
+            "T02"
+          ]
+        },
+        {
+          "method_id": "kaplan_meier_survival_analysis",
+          "label": "Kaplan–Meier生存分析",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "longitudinal_clinical_follow_up",
+          "label": "临床事件纵向随访",
+          "n_studies": 2,
+          "study_ids": [
+            "DSP_ERADOS_800",
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "oxidative_stress_assay",
+          "label": "氧化应激检测",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "T01"
+          ]
+        },
+        {
+          "method_id": "single_cell_rna_sequencing",
+          "label": "单细胞RNA测序",
+          "n_studies": 2,
+          "study_ids": [
+            "Fu2024",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "single_nucleus_rna_sequencing",
+          "label": "单核RNA测序",
+          "n_studies": 2,
+          "study_ids": [
+            "Penna2026",
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "spatial_transcriptomics",
+          "label": "空间转录组测量",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "transmural_sampling",
+          "label": "跨壁组织取材",
+          "n_studies": 2,
+          "study_ids": [
+            "Kyriakopoulou2025",
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "ambient_rna_doublet_control",
+          "label": "环境RNA与双细胞控制",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "body_surface_potential_mapping",
+          "label": "体表电势标测（BSPM）",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "calcium_imaging",
+          "label": "细胞钙瞬变测量",
+          "n_studies": 1,
+          "study_ids": [
+            "T02"
+          ]
+        },
+        {
+          "method_id": "cardiac_thoracic_geometry_registration",
+          "label": "心脏与胸廓几何配准",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "cell_communication_inference",
+          "label": "细胞间通讯推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "cell_composition_modeling",
+          "label": "细胞组成统计建模",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "cell_type_marker_enrichment",
+          "label": "细胞类型标记富集",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "cmr_regional_strain",
+          "label": "磁共振区域应变分析",
+          "n_studies": 1,
+          "study_ids": [
+            "CMR_EAM_2018"
+          ]
+        },
+        {
+          "method_id": "cox_proportional_hazards_regression",
+          "label": "Cox比例风险回归",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "cross_dataset_comparison",
+          "label": "跨研究数据集比较",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "cross_sectional_human_comparison",
+          "label": "人体横断面比较",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "deep_learning_image_segmentation",
+          "label": "深度学习图像分割",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "engineered_myocardium_contractility",
+          "label": "工程化心肌收缩测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "enzyme_activity_assay",
+          "label": "酶活性检测",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "familial_clustering_sensitivity_analysis",
+          "label": "家系聚类敏感性分析",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "fdg_pet",
+          "label": "FDG正电子发射断层成像",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_VS_PKP2_2020"
+          ]
+        },
+        {
+          "method_id": "fine_gray_competing_risk_regression",
+          "label": "Fine–Gray竞争风险回归",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "gene_coexpression_analysis",
+          "label": "基因共表达与跨供者汇总",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "hierarchical_trajectory_clustering",
+          "label": "层次轨迹聚类",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "icd_interrogation_outcome_assessment",
+          "label": "ICD事件记录结局判定",
+          "n_studies": 1,
+          "study_ids": [
+            "EAM_RISK_2012"
+          ]
+        },
+        {
+          "method_id": "longitudinal_within_subject_followup",
+          "label": "同个体功能或生存随访",
+          "n_studies": 1,
+          "study_ids": [
+            "T02"
+          ]
+        },
+        {
+          "method_id": "mass_spectrometry_proteomics",
+          "label": "质谱蛋白组学",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "matched_blood_tissue_sampling",
+          "label": "同人血液与心肌联合取材",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "microarray_transcriptomics",
+          "label": "微阵列转录组测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Gaertner2012"
+          ]
+        },
+        {
+          "method_id": "mitochondrial_respiration",
+          "label": "线粒体呼吸功能测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "mixed_effects_model",
+          "label": "混合效应模型",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "optical_action_potential",
+          "label": "光学动作电位测量",
+          "n_studies": 1,
+          "study_ids": [
+            "Simonson2026"
+          ]
+        },
+        {
+          "method_id": "pathway_activity_inference",
+          "label": "通路活性推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "patient_clustered_regional_analysis",
+          "label": "患者聚类的区域统计比较",
+          "n_studies": 1,
+          "study_ids": [
+            "CMR_EAM_2018"
+          ]
+        },
+        {
+          "method_id": "principal_component_analysis",
+          "label": "主成分分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "prospective_clinical_follow_up",
+          "label": "前瞻性临床随访",
+          "n_studies": 1,
+          "study_ids": [
+            "EAM_RISK_2012"
+          ]
+        },
+        {
+          "method_id": "protein_interaction_network",
+          "label": "蛋白相互作用网络与社区识别",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "quantitative_pcr",
+          "label": "定量PCR",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "regional_mri_mapping",
+          "label": "磁共振区域分布标注",
+          "n_studies": 1,
+          "study_ids": [
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "regulatory_network_inference",
+          "label": "转录调控网络推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "retrospective_multimodal_comparison",
+          "label": "回顾性多模态区域比较",
+          "n_studies": 1,
+          "study_ids": [
+            "CMR_EAM_2018"
+          ]
+        },
+        {
+          "method_id": "right_ventricular_deformation_analysis",
+          "label": "右室形变分析",
+          "n_studies": 1,
+          "study_ids": [
+            "PKP2_BSPM_2023"
+          ]
+        },
+        {
+          "method_id": "serial_cardiac_mri",
+          "label": "同人重复心脏磁共振",
+          "n_studies": 1,
+          "study_ids": [
+            "SERIAL_CMR_2026"
+          ]
+        },
+        {
+          "method_id": "spatial_cell_mapping",
+          "label": "单核与空间表达整合映射",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "spatial_expression_pattern_analysis",
+          "label": "空间表达模式分析",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "spatial_niche_analysis",
+          "label": "空间生态位聚类与共定位",
+          "n_studies": 1,
+          "study_ids": [
+            "Penna2026"
+          ]
+        },
+        {
+          "method_id": "thermal_proteome_profiling",
+          "label": "热蛋白组分析",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "time_regression",
+          "label": "分类时间回归",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "time_varying_cox_regression",
+          "label": "时变协变量Cox回归",
+          "n_studies": 1,
+          "study_ids": [
+            "DSP_ERADOS_800"
+          ]
+        },
+        {
+          "method_id": "trajectory_inference",
+          "label": "轨迹与拟时序推断",
+          "n_studies": 1,
+          "study_ids": [
+            "Fu2024"
+          ]
+        },
+        {
+          "method_id": "transcription_factor_motif_analysis",
+          "label": "转录因子结合基序富集",
+          "n_studies": 1,
+          "study_ids": [
+            "Kyriakopoulou2025"
+          ]
+        },
+        {
+          "method_id": "transmission_electron_microscopy",
+          "label": "透射电子显微镜",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        },
+        {
+          "method_id": "western_blot",
+          "label": "免疫印迹",
+          "n_studies": 1,
+          "study_ids": [
+            "T01"
+          ]
+        }
+      ]
+    }
+  ],
+  "selected_study_ids": [
+    "CMR_EAM_2018",
+    "DSP_ERADOS_800",
+    "DSP_HOTPHASE_1014",
+    "DSP_VS_PKP2_2020",
+    "EAM_RISK_2012",
+    "FASN_CERAMIDE_2026",
+    "Fu2024",
+    "Gaertner2012",
+    "IL1_PEDIATRIC_2026",
+    "Kyriakopoulou2025",
+    "PKP2_BSPM_2023",
+    "Penna2026",
+    "SERIAL_CMR_2026",
+    "Simonson2026",
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09"
+  ]
+}
