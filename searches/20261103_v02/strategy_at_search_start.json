@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "prepared_date": "2026-11-03",
+  "purpose": "Feasibility/update search for an existing purposive pilot; not a completed systematic search or review.",
+  "cutoff": "2026-11-03",
+  "pubmed": {
+    "database": "PubMed (includes MEDLINE and additional records)",
+    "query_id": "PUBMED_UPDATE_20261103_V02",
+    "query": "(\"Arrhythmogenic Right Ventricular Dysplasia\"[MeSH Terms] OR \"arrhythmogenic cardiomyopathy\"[Title/Abstract] OR \"arrhythmogenic right ventricular cardiomyopathy\"[Title/Abstract] OR \"arrhythmogenic left ventricular cardiomyopathy\"[Title/Abstract] OR ARVC[Title/Abstract] OR (desmoplakin[Title/Abstract] AND cardiomyopath*[Title/Abstract]) OR ((PKP2[Title/Abstract] OR \"plakophilin-2\"[Title/Abstract]) AND (cardiomyopath*[Title/Abstract] OR cardiac[Title/Abstract] OR heart*[Title/Abstract]))) AND (longitudinal[Title/Abstract] OR serial[Title/Abstract] OR progression[Title/Abstract] OR temporal[Title/Abstract] OR \"time course\"[Title/Abstract] OR spatial[Title/Abstract] OR regional[Title/Abstract] OR electroanatomical[Title/Abstract] OR \"single cell\"[Title/Abstract] OR \"single nucleus\"[Title/Abstract] OR proteomic*[Title/Abstract] OR metabol*[Title/Abstract] OR inflamm*[Title/Abstract] OR \"hot phase\"[Title/Abstract] OR \"gene therapy\"[Title/Abstract] OR electrogram*[Title/Abstract] OR electrical[Title/Abstract] OR transcrip*[Title/Abstract] OR calcium[Title/Abstract] OR oxidant*[Title/Abstract] OR \"DNA damage\"[Title/Abstract] OR \"body surface\"[Title/Abstract] OR outcome*[Title/Abstract] OR myocarditis[Title/Abstract]) AND (\"1800/01/01\"[Date - Publication] : \"2026/11/03\"[Date - Publication])",
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "retmax": 9999
+  },
+  "europe_pmc": {
+    "database": "Europe PMC",
+    "query_id": "EPMC_UPDATE_20261103_V02",
+    "query": "(TITLE_ABS:\"arrhythmogenic cardiomyopathy\" OR TITLE_ABS:\"arrhythmogenic right ventricular cardiomyopathy\" OR TITLE_ABS:\"arrhythmogenic left ventricular cardiomyopathy\" OR TITLE_ABS:ARVC OR (TITLE_ABS:desmoplakin AND TITLE_ABS:cardiomyopath*) OR ((TITLE_ABS:PKP2 OR TITLE_ABS:\"plakophilin-2\") AND (TITLE_ABS:cardiomyopath* OR TITLE_ABS:cardiac OR TITLE_ABS:heart*))) AND (TITLE_ABS:longitudinal OR TITLE_ABS:serial OR TITLE_ABS:progression OR TITLE_ABS:temporal OR TITLE_ABS:\"time course\" OR TITLE_ABS:spatial OR TITLE_ABS:regional OR TITLE_ABS:electroanatomical OR TITLE_ABS:\"single cell\" OR TITLE_ABS:\"single nucleus\" OR TITLE_ABS:proteomic* OR TITLE_ABS:metabol* OR TITLE_ABS:inflamm* OR TITLE_ABS:\"hot phase\" OR TITLE_ABS:\"gene therapy\" OR TITLE_ABS:electrogram* OR TITLE_ABS:electrical OR TITLE_ABS:transcrip* OR TITLE_ABS:calcium OR TITLE_ABS:oxidant* OR TITLE_ABS:\"DNA damage\" OR TITLE_ABS:\"body surface\" OR TITLE_ABS:outcome* OR TITLE_ABS:myocarditis) AND FIRST_PDATE:[1800-01-01 TO 2026-11-03]",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+    "scope_note": "Europe PMC and PubMed overlap substantially. They are not treated as independent databases or independent confirmation."
+  },
+  "planned_additional_sources": [
+    "Embase or Web of Science/Scopus subject to institutional access",
+    "backward and forward citation chasing for included studies",
+    "publisher checks for early-online publications and corrections"
+  ],
+  "screening_status": "Not started for these search results. Existing 23 studies remain the unchanged pilot corpus.",
+  "amendment_note": "After the v0.1 feasibility run retrieved 18/25 seed records, seven DOI-specific checks confirmed the missed records were PubMed-indexed. Added gene/synonym terms and electrogram, transcript, calcium, oxidant and outcome concepts. This is known-item calibration, not proof of exhaustive recall."
+}

@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "annotation_date": "2026-11-02",
+  "version": "0.3.0",
+  "annotation_date": "2026-11-03",
   "evidence_cutoff": "2026-11-01",
   "default_cohort": "manuscript",
   "sampling": "purposive corpus assembled for an integrative ACM review, not an exhaustive systematic search",
@@ -42,5 +42,7 @@
     "TomoSeq切片模式与细胞生态位分析分开。",
     "临床IL-1暴露观察归入观察性设计，不与受控扰动或RCT合并。"
   ],
-  "pathway_synthesis": "Question-driven conceptual connections; not verified citation genealogy, universal disease chronology or a validated clinical model."
+  "pathway_synthesis": "Question-driven conceptual connections; not verified citation genealogy, universal disease chronology or a validated clinical model.",
+  "relationship_audit": "29 selected within-study assertions across 23 pilot studies; descriptive design conditions, not validated quality scores. Human dual review pending.",
+  "search_update": "PubMed/Europe PMC overlapping update retrieval, unscreened, no automatic inclusion."
 }

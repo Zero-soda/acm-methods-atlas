@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "prepared_date": "2026-11-03",
+  "purpose": "Feasibility/update search for an existing purposive pilot; not a completed systematic search or review.",
+  "cutoff": "2026-11-03",
+  "pubmed": {
+    "database": "PubMed (includes MEDLINE and additional records)",
+    "query_id": "PUBMED_UPDATE_20261103",
+    "query": "(\"Arrhythmogenic Right Ventricular Dysplasia\"[MeSH Terms] OR \"arrhythmogenic cardiomyopathy\"[Title/Abstract] OR \"arrhythmogenic right ventricular cardiomyopathy\"[Title/Abstract] OR \"arrhythmogenic left ventricular cardiomyopathy\"[Title/Abstract] OR \"desmoplakin cardiomyopathy\"[Title/Abstract] OR \"desmoplakin-related cardiomyopathy\"[Title/Abstract] OR \"PKP2 cardiomyopathy\"[Title/Abstract]) AND (longitudinal[Title/Abstract] OR serial[Title/Abstract] OR progression[Title/Abstract] OR temporal[Title/Abstract] OR \"time course\"[Title/Abstract] OR spatial[Title/Abstract] OR regional[Title/Abstract] OR electroanatomical[Title/Abstract] OR \"single cell\"[Title/Abstract] OR \"single nucleus\"[Title/Abstract] OR proteomic*[Title/Abstract] OR metabol*[Title/Abstract] OR inflamm*[Title/Abstract] OR \"hot phase\"[Title/Abstract] OR \"gene therapy\"[Title/Abstract]) AND (\"1800/01/01\"[Date - Publication] : \"2026/11/03\"[Date - Publication])",
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "retmax": 9999
+  },
+  "europe_pmc": {
+    "database": "Europe PMC",
+    "query_id": "EPMC_UPDATE_20261103",
+    "query": "(TITLE_ABS:\"arrhythmogenic cardiomyopathy\" OR TITLE_ABS:\"arrhythmogenic right ventricular cardiomyopathy\" OR TITLE_ABS:\"arrhythmogenic left ventricular cardiomyopathy\" OR TITLE_ABS:\"desmoplakin cardiomyopathy\" OR TITLE_ABS:\"PKP2 cardiomyopathy\") AND (TITLE_ABS:longitudinal OR TITLE_ABS:serial OR TITLE_ABS:progression OR TITLE_ABS:temporal OR TITLE_ABS:spatial OR TITLE_ABS:regional OR TITLE_ABS:electroanatomical OR TITLE_ABS:\"single cell\" OR TITLE_ABS:\"single nucleus\" OR TITLE_ABS:proteomic* OR TITLE_ABS:metabol* OR TITLE_ABS:inflamm* OR TITLE_ABS:\"hot phase\" OR TITLE_ABS:\"gene therapy\") AND FIRST_PDATE:[1800-01-01 TO 2026-11-03]",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+    "scope_note": "Europe PMC and PubMed overlap substantially. They are not treated as independent databases or independent confirmation."
+  },
+  "planned_additional_sources": [
+    "Embase or Web of Science/Scopus subject to institutional access",
+    "backward and forward citation chasing for included studies",
+    "publisher checks for early-online publications and corrections"
+  ],
+  "screening_status": "Not started for these search results. Existing 23 studies remain the unchanged pilot corpus."
+}

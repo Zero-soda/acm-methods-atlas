@@ -6,6 +6,14 @@
 
 [先看研究路径图](https://zero-soda.github.io/acm-methods-atlas/research_paths.html) · [浏览方法目录](https://zero-soda.github.io/acm-methods-atlas/) · [统计快照](docs/README.md) · [标注协议](docs/annotation_protocol.md) · [English](README_EN.md)
 
+## v0.3 证据条件审计与检索升级
+
+新增[逐条证据条件审计](https://zero-soda.github.io/acm-methods-atlas/connection_audit.html)：从23篇核心研究中选取29条具体关系，记录真实时间、空间、扰动/对照与临床结局依据，并审查6个临床桥接问题需要哪些对齐条件。主设计域按断言编码，不能把断言数当独立研究数或质量评分；人工独立双人核对待完成。
+
+新增[范围综述方案草案](protocol/scoping_protocol.md)、[完整检索式](protocol/search_strategy.json)及[实际运行快照](searches/current_run.json)。第二版PubMed/Europe PMC取回来源记录3741条，标识去重后2079条**待筛候选**；两平台高度重叠，不当作独立数据库确认。现有23篇核心条目均检出，代表已知条目校准，不能估计未知遗漏。候选不自动加入先导库，23/24/25篇方法分母不变。
+
+初版检索漏掉7个已知条目，校准和两版日志均保留。当前是方法升级与先导审计，**尚未完成正式范围综述、全面检索、人类独立筛选或人工双人编码**。[检索更新说明](docs/search_update.md) · [人工关系复核空表](data/human_connection_review_template.csv)。
+
 ## v0.2 研究路径
 
 三条路径覆盖综述中的23篇正式研究，包含12条跨研究连接，其中4条明确标为待验证桥接：
@@ -32,7 +40,7 @@
 | 单列背景来源 | 14项指南/共识、综述、试验注册和会议资料，不进入方法统计分母 |
 | 临床问题 | 早期进展、损伤与修复、治疗应答、区域风险解释 |
 
-证据整理截至2026-11-01，标注版本日期2026-11-02。原文/PDF、第三方图表、患者级资料及未发表综述稿件不包含在仓库中。
+先导文献整理截至2026-11-01，方法标注初版2026-11-02；关系审计与检索更新2026-11-03，检索候选未并入原始队列。原文/PDF、第三方图表、患者级资料及未发表综述稿件不包含在仓库中。
 
 ## 能做什么
 
@@ -64,6 +72,12 @@ python3 -m unittest discover -s tests -v
 python3 scripts/build_atlas.py
 ```
 
+重新运行联网书目更新（不执行筛选，不改变先导库）：
+
+```bash
+python3 scripts/search_update.py --out /tmp/acm-search-update
+```
+
 生成的目录在`docs/index.html`，可直接打开。三种统计口径：
 
 ```bash
@@ -84,6 +98,9 @@ python3 scripts/build_atlas.py --cohort all --out /tmp/acm-all
 | `data/clinical_questions.json` | 综述问题映射的定义 |
 | `data/context_sources.json` | 单列临床背景来源 |
 | `data/research_paths.json` | 三条研究路径、逐篇发现/缺口、连接依据、待验证设计与两组跨研究差异 |
+| `data/connection_evidence.json` | 29条选定关系的四轴依据与6个临床桥接问题 |
+| `protocol/` | 范围综述方案草案、精确检索式及校准记录 |
+| `searches/` | 两版书目检索的原始记录、去重候选、运行日志；全部待筛选 |
 | `data/method_aliases.json` | 同义方法名归并记录 |
 | `docs/method_summary.csv` | 当前默认队列的全部方法计数 |
 | `docs/computational_methods.csv` | 计算与统计方法计数 |
@@ -92,6 +109,7 @@ python3 scripts/build_atlas.py --cohort all --out /tmp/acm-all
 | `docs/exports/` | 可下载的研究及标注JSON/CSV |
 | `docs/research_paths.html` | 可切换、可展开证据的研究路径图 |
 | `docs/research_paths.md` | 完整文字路径及逐篇来源 |
+| `docs/connection_audit.html` | 可按设计域筛选并追溯来源的条件审计 |
 
 [数据字典](docs/data_dictionary.md)说明字段。`tests/`检查分母、重复标注、上下位去重及关键科学区别。`contrib/`提供可选GitHub Actions检查模板。
 

@@ -1,0 +1,41 @@
+{
+  "audit_date": "2026-11-03",
+  "unit": "selected relationship assertions, not independent studies",
+  "n_relations": 29,
+  "n_studies": 23,
+  "n_predefined_bridges": 6,
+  "by_domain": [
+    {
+      "domain": "human_longitudinal",
+      "label_zh": "人体真实时间观察（含病例）",
+      "n_relations": 6,
+      "n_distinct_studies": 5
+    },
+    {
+      "domain": "human_cross_sectional",
+      "label_zh": "人体横断面/空间观察",
+      "n_relations": 8,
+      "n_distinct_studies": 8
+    },
+    {
+      "domain": "animal_time_series",
+      "label_zh": "动物真实时点/分批序列",
+      "n_relations": 2,
+      "n_distinct_studies": 2
+    },
+    {
+      "domain": "animal_intervention",
+      "label_zh": "动物受控扰动",
+      "n_relations": 9,
+      "n_distinct_studies": 7
+    },
+    {
+      "domain": "cell_intervention",
+      "label_zh": "细胞/工程模型扰动",
+      "n_relations": 4,
+      "n_distinct_studies": 4
+    }
+  ],
+  "human_dual_review_status": "pending",
+  "scope_zh": "覆盖现有23篇正式研究，定向选取29条断言和6个临床桥接问题。未记录代表当前审读未确认；标签不是质量评分，不推断领域缺失率。"
+}

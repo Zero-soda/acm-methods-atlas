@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "acm-methods-atlas"
-version = "0.2.0"
+version = "0.3.0"
 description = "Traceable methods catalogue and descriptive evidence map for arrhythmogenic cardiomyopathy"
 requires-python = ">=3.10"
 license = {text = "MIT (code); CC-BY-4.0 (original curation)"}

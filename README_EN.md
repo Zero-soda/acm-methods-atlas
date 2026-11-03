@@ -1,5 +1,9 @@
 # ACM Methods Atlas
 
+**v0.3 adds a pilot audit of evidence conditions.** Twenty-nine selected within-study assertions from the 23 core articles retain temporal, spatial, perturbational and clinical-outcome evidence. Six predefined translational questions list applicable validation conditions and missing alignment. These are descriptive annotations, not quality scores or field-wide absence claims. [Browse the audit](https://zero-soda.github.io/acm-methods-atlas/connection_audit.html).
+
+A scoping-review protocol draft and two logged retrieval runs are available. The calibrated PubMed/Europe PMC run retrieved 3,741 overlapping source records, deduplicated by identifiers into 2,079 **unscreened candidates**. Retrieval, inclusion and the existing pilot corpus remain separate. The project has not completed an exhaustive scoping review or independent dual-human screening/coding. Both the initial known-item failures and query amendments are retained.
+
 **v0.2 connects studies into question-driven research paths.** Each step links a research question, approach, within-study finding, unresolved gap and a proposed clinical validation study. [Explore the research paths](https://zero-soda.github.io/acm-methods-atlas/research_paths.html).
 
 Three paths cover the 23 primary peer-reviewed studies cited by the review: early electrical/metabolic abnormalities and progression; injury, inflammation and repair; and local tissue states, electrophysiology and risk. Twelve cross-study connections distinguish conceptual synthesis, parallel evidence and four unvalidated bridges. The paths are not verified citation genealogy or a universal disease chronology. Proposed studies include falsification conditions and a statement of what public data can currently establish.

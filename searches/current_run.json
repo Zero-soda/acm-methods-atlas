@@ -1,0 +1,8 @@
+{
+  "directory": "20261103_v02",
+  "scope": "Feasibility/update retrieval; unscreened, no automatic inclusion.",
+  "baseline_directory": "20261103",
+  "main_pilot_known_item_retrieval": "23/23",
+  "catalogue_known_item_retrieval": "24/25; supplemental preprint not retrieved by this query",
+  "note": "Known-item retrieval is calibration, not evidence of exhaustive recall or independent database confirmation."
+}

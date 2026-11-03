@@ -8,6 +8,7 @@ from pathlib import Path
 
 from .catalog import COHORTS, load_catalog, summarize
 from .pathways import build_pathways
+from .evidence import build_evidence
 
 FAMILY_LABELS = {"design": "研究设计", "measurement": "测量技术", "computational": "计算与统计", "intervention": "受控扰动"}
 
@@ -32,6 +33,7 @@ def write_csv(path, rows, fields):
 def build(root, out_dir, cohort):
     catalog = load_catalog(root / "data")
     out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / ".nojekyll").write_text("", encoding="utf-8")
     exports = out_dir / "exports"
     exports.mkdir(exist_ok=True)
     summaries = {name: summarize(catalog, name) for name in COHORTS}
@@ -62,9 +64,10 @@ def build(root, out_dir, cohort):
                "questions": catalog["clinical_questions"], "context": catalog["context_sources"],
                "summaries": summaries, "defaultCohort": cohort, "manifest": catalog["manifest"], "families": FAMILY_LABELS}
     data = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
-    page = TEMPLATE.replace("__ATLAS_DATA__", data).replace("__ATLAS_VERSION__", html.escape(catalog["manifest"]["version"]))
+    page = TEMPLATE.replace("__ATLAS_DATA__", data).replace("__ATLAS_VERSION__", html.escape(catalog["manifest"]["version"])).replace("__ANNOTATION_DATE__", html.escape(catalog["manifest"]["annotation_date"]))
     (out_dir / "index.html").write_text(page, encoding="utf-8")
     build_pathways(catalog, out_dir)
+    build_evidence(catalog, root, out_dir)
     return stats
 
 
@@ -87,8 +90,9 @@ def main(root=None):
 TEMPLATE = r'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ACM Methods Atlas · 方法与临床问题证据图谱</title>
 <style>
 :root{--ink:#243b4a;--blue:#154f68;--muted:#657c89;--line:#d8e4ea;--bg:#f3f7f9}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}header{background:#133f55;color:#fff;padding:38px max(24px,calc((100vw - 1160px)/2))}h1{font-size:34px;margin:8px 0}header p{color:#d9e9ef;max-width:940px}header a{color:#f4d79b}main{max-width:1200px;padding:25px 22px 60px;margin:auto}h2{font-size:22px;color:var(--blue);margin:30px 0 14px}a{color:#086b91}.note{background:#e9f2f6;border-left:4px solid #4c8ca2;padding:15px 18px;margin:15px 0}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.metric{padding:18px;border:1px solid var(--line);border-radius:9px;background:white}.metric b{display:block;font-size:28px;color:var(--blue)}.metric span{color:var(--muted);font-size:13px}.controls{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}input,select{padding:11px 13px;background:#fff;border:1px solid #b6cbd6;border-radius:6px;font:inherit;color:var(--ink)}input{flex:1;min-width:230px}table{border-collapse:collapse;width:100%;font-size:13px;background:#fff}th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}th{background:#e9f1f5}.table-wrap{overflow:auto;max-height:520px}.bar{display:inline-block;height:9px;background:#4b91a9;border-radius:4px;margin-left:8px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}details.study,details.context{background:#fff;border:1px solid var(--line);border-radius:8px;margin:13px 0;padding:16px 19px}summary{cursor:pointer;font-weight:600;line-height:1.7}summary small{font-weight:400;color:var(--muted)}.pill{display:inline-block;border:1px solid #c8dce6;background:#f3f8fa;border-radius:12px;padding:1px 8px;margin:2px;font-size:12px}.methods{padding-left:21px}.methods li{margin:12px 0}.methods p{margin:3px 0;font-size:13px}.source-note{color:var(--muted);font-size:12px;overflow-wrap:anywhere}.question{padding:14px 17px;background:#fff;border:1px solid var(--line);border-radius:7px;margin:10px 0}.question h3{margin:2px 0;font-size:16px}.downloads a{display:inline-block;margin-right:16px;margin-bottom:7px}footer{padding-top:20px;margin-top:30px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}@media(max-width:800px){h1{font-size:27px}.cards{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}header{padding:28px 23px}}button{cursor:pointer}
-</style></head><body><header><small>研究路径与方法目录 · v__ATLAS_VERSION__ · 2026-11-02</small><h1>ACM Methods Atlas</h1><p>把致心律失常性心肌病研究中的方法、证据类型与临床问题放在一起。逐篇可追溯，统计可复现，支持持续补充和纠错。</p><a href="https://github.com/Zero-soda/acm-methods-atlas">GitHub 开源项目</a></header><main>
+</style></head><body><header><small>研究路径与方法目录 · v__ATLAS_VERSION__ · __ANNOTATION_DATE__</small><h1>ACM Methods Atlas</h1><p>把致心律失常性心肌病研究中的方法、证据类型与临床问题放在一起。逐篇可追溯，统计可复现，支持持续补充和纠错。</p><a href="https://github.com/Zero-soda/acm-methods-atlas">GitHub 开源项目</a></header><main>
 <div class="note"><b>先看研究如何串联：</b><a href="research_paths.html">打开研究路径图：从问题、方法与发现走向下一步临床研究 →</a></div>
+<div class="note"><b>研究连接的支持条件：</b><a href="connection_audit.html">查看时间、空间、扰动与临床结局审计 →</a></div>
 <div class="note"><b>统计口径：</b>当前定向文献库中已确认的方法标注频次。分母为研究文章，同一文章可包含多种方法；未标注表示未确认。此库不估计整个ACM领域的方法使用率，也不以方法数量评价研究质量。</div>
 <label for="cohort">统计队列：</label><select id="cohort"><option value="manuscript">综述引用的正式原始研究</option><option value="peer_reviewed">目录内全部正式原始研究</option><option value="all">全部研究记录（含预印本）</option></select>
 <div class="cards" id="metrics"></div>

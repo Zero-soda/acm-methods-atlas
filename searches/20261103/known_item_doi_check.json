@@ -1,0 +1,210 @@
+{
+  "query": "\"10.1161/CIRCULATIONAHA.125.073919\"[AID] OR \"10.1101/2025.06.16.25329734\"[AID] OR \"10.1016/j.hrthm.2012.03.057\"[AID] OR \"10.1152/physiolgenomics.00094.2011\"[AID] OR \"10.1093/europace/euad197\"[AID] OR \"10.1038/s41467-017-00127-0\"[AID] OR \"10.1161/CIRCULATIONAHA.122.060454\"[AID]",
+  "count": "7",
+  "records": [
+    {
+      "pmid": "40832715",
+      "title": "Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants.",
+      "pubdate": "2025 Oct 7",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40832715"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS2109414"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC13036385"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC13036385;manuscript-id: NIHMS2109414;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1161/CIRCULATIONAHA.125.073919"
+        }
+      ]
+    },
+    {
+      "pmid": "40666337",
+      "title": "Diagnostic Criteria and Disease Staging for Desmoplakin Cardiomyopathy.",
+      "pubdate": "2025 Jun 23",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40666337"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12262750"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12262750;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1101/2025.06.16.25329734"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "2025.06.16.25329734"
+        }
+      ]
+    },
+    {
+      "pmid": "37433034",
+      "title": "Body surface potential mapping detects early disease onset in plakophilin-2-pathogenic variant carriers.",
+      "pubdate": "2023 Jul 4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "37433034"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10368448"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10368448;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/europace/euad197"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "7222859"
+        }
+      ]
+    },
+    {
+      "pmid": "35959657",
+      "title": "Loss of Nuclear Envelope Integrity and Increased Oxidant Production Cause DNA Damage in Adult Hearts Deficient in PKP2: A Molecular Substrate of ARVC.",
+      "pubdate": "2022 Sep 13",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "35959657"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS1826708"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC9474627"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC9474627;manuscript-id: NIHMS1826708;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1161/CIRCULATIONAHA.122.060454"
+        }
+      ]
+    },
+    {
+      "pmid": "28740174",
+      "title": "Plakophilin-2 is required for transcription of genes that control calcium cycling and cardiac rhythm.",
+      "pubdate": "2017 Jul 24",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "28740174"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC5524637"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC5524637;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41467-017-00127-0"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41467-017-00127-0"
+        }
+      ]
+    },
+    {
+      "pmid": "22465294",
+      "title": "Fragmented and delayed electrograms within fibrofatty scar predict arrhythmic events in arrhythmogenic right ventricular cardiomyopathy: results from a prospective risk stratification study.",
+      "pubdate": "2012 Aug",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "22465294"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.hrthm.2012.03.057"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1547-5271(12)00347-5"
+        }
+      ]
+    },
+    {
+      "pmid": "22085907",
+      "title": "Myocardial transcriptome analysis of human arrhythmogenic right ventricular cardiomyopathy.",
+      "pubdate": "2012 Jan 18",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "22085907"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1152/physiolgenomics.00094.2011"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "physiolgenomics.00094.2011"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,14 @@
 
 所有源JSON为UTF-8。`docs/exports/`是可重新生成的副本；编辑时修改`data/`。
 
+## 关系条件审计：connection_evidence.json
+
+`relations` 的单位是选定研究内关系断言，不是论文、患者或完整全文断言全集。`study_id` 关联原始研究，`design_domain` 是该断言的主要支持设计，不能当整篇唯一设计或质量分；同论文可跨域。四个 `*_basis` 对象保存原始可解释 `code` 及 `description_zh`，不将不同细分code强制合为统一量表。每条保留来源定位、边界及人工复核状态。
+
+`clinical_bridges` 是6个预先定义的临床问题，各列必要条件、已有片段、缺失对齐和不适用于该问题的要求。`not_identified_in_pilot_corpus` 表示当前先导审读未检出直接目标验证，不推断全领域不存在。人体观察性用药没有被编码为受控干预；病例真实时间记录也没有被当作前瞻比较试验。
+
+`human_connection_review_template.csv` 为待两位研究者填写的空白复核列；空白不表示已确认。`searches/` 中记录均为 `not_screened_this_update`，重复平台记录经DOI/PMID去重后仍是候选，不能充当纳入分母。`current_run.json` 指向当前运行目录，初版和修订版保留各自精确策略及方案hash。PubMed出版日期与Europe PMC首次发表日期语义不同，正式筛选需核对版本/日期。
+
 ## 研究路径：research_paths.json
 
 `paths` 保存三条问题路径；`stages` 记录阶段问题、代表研究及未解问题；`connections` 记录阶段之间的联系与推断边界。`relation_type` 仅接受 `research_synthesis`（跨研究整合）、`parallel_evidence`（并行互补）和 `proposed_bridge`（待验证桥接），不默认因果、直接引用或患者共同病程。

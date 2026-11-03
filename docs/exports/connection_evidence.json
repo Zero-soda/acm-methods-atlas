@@ -1,0 +1,1001 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-03",
+  "status": "pilot_claim_audit_not_completed_scoping_review",
+  "unit_zh": "选定的研究内关系断言；不是独立研究、患者或所有全文断言。",
+  "scope_zh": "覆盖现有23篇正式研究，定向选取29条断言和6个临床桥接问题。未记录代表当前审读未确认；标签不是质量评分，不推断领域缺失率。",
+  "human_dual_review_status": "pending",
+  "domain_labels_zh": {
+    "human_longitudinal": "人体真实时间观察（含病例）",
+    "human_cross_sectional": "人体横断面/空间观察",
+    "animal_time_series": "动物真实时点/分批序列",
+    "animal_intervention": "动物受控扰动",
+    "cell_intervention": "细胞/工程模型扰动"
+  },
+  "relations": [
+    {
+      "relation_id": "TEMP-001",
+      "study_id": "T02",
+      "from_construct": "experimental_Pkp2_loss",
+      "to_construct": "calcium_and_arrhythmic_phenotype",
+      "statement_zh": "诱导Pkp2缺失后出现钙调控与节律易感改变；部分早期动物在无明显超声结构表型时可被诱发室颤。",
+      "design_domain": "animal_time_series",
+      "temporal_basis": {
+        "code": "within_animal_functional_followup_plus_terminal_assays",
+        "description_zh": "Echo/ECG按诱导后真实日期随访；病理分批，RNA及主要钙实验为21 dpi单终点，16 dpi另有异丙肾上腺素挑战。"
+      },
+      "spatial_basis": {
+        "code": "chamber_label_not_multimodal_region_registration",
+        "description_zh": "记录RV/LV功能/组织表型，但并非分子—电位同一区域配准。"
+      },
+      "perturbation_basis": {
+        "code": "induced_gene_loss_and_acute_drug_challenge",
+        "description_zh": "心肌Pkp2 cKO；急性flecainide/ISO检验节律反应。"
+      },
+      "clinical_outcome_basis": {
+        "code": "not_evaluated_in_humans",
+        "description_zh": "本条结局为动物功能、诱发心律失常与生存；不是患者长期VA/HF。"
+      },
+      "source_locator": "Results；Figs 1–2、7、9；Methods",
+      "source_url": "https://www.nature.com/articles/s41467-017-00127-0",
+      "limits_zh": "RV面积14 dpi已经增大，不能写成所有个体必先电后结构；单终点RNA不能给全部分子事件排序。",
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-002",
+      "study_id": "T01",
+      "from_construct": "known_time_since_Pkp2_loss",
+      "to_construct": "paired_chamber_proteome_remodeling",
+      "statement_zh": "已知诱导日起的分批蛋白组序列显示RV重塑较LV早，并可观察线粒体相关下降与后续免疫/ECM程序变化。",
+      "design_domain": "animal_time_series",
+      "temporal_basis": {
+        "code": "destructive_sampling_at_known_timepoints",
+        "description_zh": "7/10/14/17/21 dpi各批处死；36只鼠、72份配对双室组织。不是同鼠重复组织活检。"
+      },
+      "spatial_basis": {
+        "code": "paired_chambers_within_animal",
+        "description_zh": "每只鼠RV/LV游离壁配对；不含跨壁传播坐标或临床区域电位配准。"
+      },
+      "perturbation_basis": {
+        "code": "induced_gene_loss_with_separate_drug_endpoint",
+        "description_zh": "Pkp2 cKO提供上游扰动；独立HKL组7→21 dpi给药，仅为终点干预补充。"
+      },
+      "clinical_outcome_basis": {
+        "code": "not_evaluated_in_humans",
+        "description_zh": "动物组织/线粒体及蛋白网络终点，无患者结局。"
+      },
+      "source_locator": "Results / Global proteome remodeling occurs earlier in the RV than in the LV；Figs 2、6–7；Methods；Fig 2 source data/PXD072962",
+      "source_url": "https://www.nature.com/articles/s44161-026-00894-4",
+      "limits_zh": "急性双等位cKO不等于人的杂合慢性病程；单时点对照在元数据记为time=0，不能视为真正0 dpi基线。HKL不能证明线粒体是唯一靶点。",
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-003",
+      "study_id": "T07",
+      "from_construct": "PKP2_related_mechanical_and_oxidant_stress",
+      "to_construct": "DNA_damage_and_remodeling",
+      "statement_zh": "PKP2缺失及机械扰动实验支持核膜机械失衡可通过非ROS路径参与DNA损伤；氧化应激可进一步放大损伤。",
+      "design_domain": "cell_intervention",
+      "temporal_basis": {
+        "code": "controlled_exposure_intervals_not_human_disease_time",
+        "description_zh": "体外处理与动物7→21 dpi干预给出先处理后测量；人体活检仅一次。"
+      },
+      "spatial_basis": {
+        "code": "subcellular_localization_not_clinical_region_registration",
+        "description_zh": "测量核膜/DNA损伤等亚细胞读数；人体RV间隔活检不构成病灶与EAM配准。"
+      },
+      "perturbation_basis": {
+        "code": "mechanical_pharmacological_and_cell_model_perturbation",
+        "description_zh": "PKP2缺失细胞、机械/肾上腺素刺激与HKL/colchicine等分别检验机制。"
+      },
+      "clinical_outcome_basis": {
+        "code": "cross_sectional_human_tissue_support_only",
+        "description_zh": "5例患者/3名对照活检为横断面一致性；未检验人用HKL疗效。"
+      },
+      "source_locator": "Results；Figs 1、3、4、6；Methods",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474627/",
+      "limits_zh": "核膜损伤存在非ROS路径，不能规定ROS必先出现；人体组织不定先后，HKL多靶点不能全部归于SIRT3。",
+      "design_domains_secondary": [
+        "animal_intervention",
+        "human_cross_sectional"
+      ],
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-004",
+      "study_id": "T08",
+      "from_construct": "PPARGC1A_rescue_in_PKP2_mutant_cells",
+      "to_construct": "OXPHOS_expression_and_contractility",
+      "statement_zh": "PKP2突变人源细胞/EHM中，PPARGC1A过表达部分提高OXPHOS基因表达并改善收缩，支持可救援的细胞内机制联系。",
+      "design_domain": "cell_intervention",
+      "temporal_basis": {
+        "code": "defined_cell_treatment_and_functional_timepoints",
+        "description_zh": "慢病毒转导7天；EHM在35/42天测功能。患者终末期组织是单次横断面。"
+      },
+      "spatial_basis": {
+        "code": "cell_or_engineered_tissue_without_patient_region_coordinates",
+        "description_zh": "人源心肌细胞/EHM与患者组织补充验证，未与同人区域电位/影像配准。"
+      },
+      "perturbation_basis": {
+        "code": "genetic_knockdown_and_rescue",
+        "description_zh": "siPKP2/siPPARGC1A、AICAR与PPARGC1A过表达；救援比较支持所研究系统内机制。"
+      },
+      "clinical_outcome_basis": {
+        "code": "not_evaluated_in_humans",
+        "description_zh": "细胞/EHM表达与收缩读数；4例终末期患者/2对照不是人体治疗试验。"
+      },
+      "source_locator": "Methods 2.6、2.8、2.10–2.13；Results 3.1–3.6；Fig 6 / PPARGC1A overexpression",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13653674/",
+      "limits_zh": "不能证明人体代谢改变先于炎症，也不能把AICAR当全部运动效应；技术重复不是患者或独立供者。",
+      "design_domains_secondary": [
+        "human_cross_sectional"
+      ],
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-005",
+      "study_id": "PKP2_BSPM_2023",
+      "from_construct": "cross_sectional_prec_linical_carrier_state",
+      "to_construct": "BSPM_abnormality_despite_normal_RV_deformation",
+      "statement_zh": "19名临床前携带者中12名RV形变正常，其中7名BSPM异常，支持同次评估中精细电检测与常规形变的表型不一致。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "single_cross_sectional_assessment",
+        "description_zh": "临床分组与同次电/形变比较，不是对这7人的进展随访。"
+      },
+      "spatial_basis": {
+        "code": "patient_specific_surface_geometry_not_tissue_electrical_registration",
+        "description_zh": "67导联体表电势结合个体几何，与RV基底形变比较；无分子取样与病灶级影像配准。"
+      },
+      "perturbation_basis": {
+        "code": "none_observational",
+        "description_zh": "无随机/药理或基因干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "electrical_and_deformation_surrogates_only",
+        "description_zh": "研究早期检出，未用后续新LGE或VA/HF检验预测价值。"
+      },
+      "source_locator": "Abstract；Methods / Study population、BSPM、Deformation；Table 1；Discussion / Future research and limitations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10368448/",
+      "limits_zh": "横断面状态不一致不能证明同人的电异常先于结构改变；常规形变正常不等于所有成像和组织均正常。",
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-006",
+      "study_id": "SERIAL_CMR_2026",
+      "from_construct": "within_person_baseline_CMR",
+      "to_construct": "subsequent_LGE_appearance_or_extent",
+      "statement_zh": "重复CMR子队列观察到同一人LGE新生或范围扩大，支持结构影像负担可在真实随访中变化。",
+      "design_domain": "human_longitudinal",
+      "temporal_basis": {
+        "code": "within_person_serial_imaging",
+        "description_zh": "202例中97例有首末CMR，平均间隔约4年；是同人真实重复影像。"
+      },
+      "spatial_basis": {
+        "code": "segment_level_serial_imaging_without_molecular_EAM_alignment",
+        "description_zh": "按临床心肌分段比较LGE及双室功能；没有同区组学/EAM时间序列。"
+      },
+      "perturbation_basis": {
+        "code": "none_observational",
+        "description_zh": "回顾性观察，无分配治疗来检验影像进展机制。"
+      },
+      "clinical_outcome_basis": {
+        "code": "serial_structural_imaging_surrogate",
+        "description_zh": "本条支持LGE影像变化，不单独宣称已验证电/代谢预测或硬临床获益。"
+      },
+      "source_locator": "Methods；Tables 1–2；Figs 1–2；Limitations",
+      "source_url": "https://academic.oup.com/eurjpc/advance-article/doi/10.1093/eurjpc/zwag130/8519177",
+      "limits_zh": "复查受临床指征影响；无同步BSPM/代谢测量。正文和表2进展汇总不一致，不能不加条件沿用总进展数。LGE不等同细胞级永久瘢痕。",
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-007",
+      "study_id": "T05",
+      "from_construct": "AAV9_PKP2_replacement_at_defined_model_stages",
+      "to_construct": "subsequent_model_function_structure_survival",
+      "statement_zh": "在患者剪接变异背景的纯合鼠中，新生期或发病后补回PKP2可预防/减轻后续表型并稳定模型病程。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "defined_preventive_and_post_onset_intervention_schedules",
+        "description_zh": "P2或4周龄单次给药，后续影像/组织与生存终点；不同终点不能合成同一连续活检。"
+      },
+      "spatial_basis": {
+        "code": "whole_heart_chamber_outcomes_not_human_region_alignment",
+        "description_zh": "MRI、组织学及桥粒蛋白定位；不是患者局部病灶配准。"
+      },
+      "perturbation_basis": {
+        "code": "gene_replacement_with_controls",
+        "description_zh": "AAV9-PKP2与相应对照检验上游补回。"
+      },
+      "clinical_outcome_basis": {
+        "code": "not_evaluated_in_humans",
+        "description_zh": "模型MRI、组织及生存，不是独立患者试验。"
+      },
+      "source_locator": "Figs 1–8；Extended Data Figs 5、7；Methods",
+      "source_url": "https://www.nature.com/articles/s44161-023-00370-3",
+      "limits_zh": "纯合变异剂量不同于常见患者杂合；晚期改善不证明全部瘢痕/脂肪被清除，也不确定人体最佳窗口。",
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-008",
+      "study_id": "T06",
+      "from_construct": "post_onset_AAVrh74_PKP2a",
+      "to_construct": "subsequent_mouse_arrhythmia_function_survival",
+      "statement_zh": "成人诱导Pkp2 cKO后7或14天补回PKP2a，仍能减轻后续功能/节律表型并延长模型生存。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "defined_treatment_then_function_survival_followup",
+        "description_zh": "诱导后7/14 dpi给药，后续ECG/Echo及约155 dpi生存/组织终点。"
+      },
+      "spatial_basis": {
+        "code": "chamber_function_and_terminal_histology",
+        "description_zh": "双室功能与终点胶原评估；无同鼠重复组织或病灶级临床配准。"
+      },
+      "perturbation_basis": {
+        "code": "gene_replacement_with_controls_and_different_doses",
+        "description_zh": "7 dpi与14 dpi主要给药剂量不同；存在受控治疗比较，但时点与剂量不能完全分离。"
+      },
+      "clinical_outcome_basis": {
+        "code": "not_evaluated_in_humans",
+        "description_zh": "鼠生存和功能终点；不能当患者治疗有效性。"
+      },
+      "source_locator": "Results / post-onset injection；Figs 5–7；尤其Fig 6及对应段落",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10923105/",
+      "limits_zh": "未治动物早死，不能在155 dpi同时间直接比较其纤维化；低于另批28 dpi胶原不等于同鼠已形成瘢痕逆转。",
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "TEMP-009",
+      "study_id": "T09",
+      "from_construct": "AAV9_PKP2_replacement",
+      "to_construct": "mouse_electromechanical_and_survival_outcomes",
+      "statement_zh": "AAV9:PKP2在该cKO系统中改善电/收缩/结构相关表型及长期生存，支持上游恢复后多域终点可改变。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "multiple_schedules_and_within_animal_function_survival",
+        "description_zh": "包括TAM前预防、TAM后1周及另设较晚队列，鼠功能每周评估并长期随访；细胞端有独立siRNA时间序列。"
+      },
+      "spatial_basis": {
+        "code": "whole_model_function_without_patient_region_alignment",
+        "description_zh": "细胞功能、动物心脏影像和组织终点；没有同患者同区分子—电信号配准。"
+      },
+      "perturbation_basis": {
+        "code": "gene_replacement_with_controls",
+        "description_zh": "TN401/AAV9:mPkp2与cKO对照；不同给药队列分别解释。"
+      },
+      "clinical_outcome_basis": {
+        "code": "not_evaluated_in_humans",
+        "description_zh": "动物生存/功能与hiPSC-CM电活动，不是患者临床疗效。"
+      },
+      "source_locator": "Results；Figs 1–5；晚期补充细节本轮未全面复审",
+      "source_url": "https://www.nature.com/articles/s43856-024-00450-w",
+      "limits_zh": "急性双等位缺失与杂合慢性人病程不同；晚期独立队列不能拼成统一连续病程，长期生存不自动代表组织再生。",
+      "design_domains_secondary": [
+        "cell_intervention"
+      ],
+      "path_id": "early",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF01",
+      "study_id": "T03",
+      "from_construct": "NFkB_pharmacological_blockade",
+      "to_construct": "subsequent_injury_fibrosis_function_and_electrical_phenotypes",
+      "statement_zh": "Dsg2鼠早期NFκB阻断后，损伤、纤维化和电/功能终点减轻。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "known_intervention_then_endpoint",
+        "description_zh": "8周龄起给药，16周龄终点评估。"
+      },
+      "spatial_basis": {
+        "code": "whole_heart_and_histology",
+        "description_zh": "心功能、心电及心肌病理，非人体同区映射。"
+      },
+      "perturbation_basis": {
+        "code": "controlled_pharmacological",
+        "description_zh": "Bay11-7082与载体组比较。"
+      },
+      "clinical_outcome_basis": {
+        "code": "none_preclinical_only",
+        "description_zh": "只有模型表型，不是患者临床获益。"
+      },
+      "source_locator": "Methods / In vivo drug treatment；Results；Table 1；Figure 3",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6817418/",
+      "limits_zh": "早期给药不证明已有瘢痕逆转；药物多效性和模型背景限制靶点及人体外推。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF02",
+      "study_id": "T04",
+      "from_construct": "cardiomyocyte_NFkB_inhibition",
+      "to_construct": "CCR2_positive_cell_accumulation_and_injury",
+      "statement_zh": "心肌细胞NFκB遗传抑制伴CCR2细胞积聚、损伤及节律表型减少。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "constitutive_genotype_then_age_endpoints",
+        "description_zh": "遗传阻断贯穿发育，8/16周龄终点；不是发病后开始治疗。"
+      },
+      "spatial_basis": {
+        "code": "cell_type_resolved_histology",
+        "description_zh": "RNAscope/染色将CCR2细胞与受损心肌定位关联。"
+      },
+      "perturbation_basis": {
+        "code": "constitutive_genetic",
+        "description_zh": "Dsg2×心肌IκBαΔN与Dsg2背景比较。"
+      },
+      "clinical_outcome_basis": {
+        "code": "none_preclinical_only",
+        "description_zh": "模型心电与功能终点。"
+      },
+      "source_locator": "Results / Figures 1–2；Methods / Mouse models；July 2024 Corrigendum",
+      "source_url": "https://www.jci.org/articles/view/172014",
+      "limits_zh": "募集与损伤机制得到模型支持；遗传预防不等于治疗，也不能证明全部免疫效应均来自这一细胞信号。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF03",
+      "study_id": "T04",
+      "from_construct": "Ccr2_germline_deletion",
+      "to_construct": "fibroblast_state_fibrosis_and_arrhythmia",
+      "statement_zh": "Ccr2缺失减少Postn成纤维状态、纤维化及节律异常，但16周收缩功能未相应恢复。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "constitutive_genotype_then_age_endpoints",
+        "description_zh": "生殖系缺失；主要为16周组间比较。"
+      },
+      "spatial_basis": {
+        "code": "cell_type_and_local_histology",
+        "description_zh": "CITE-seq及染色显示免疫/成纤维状态与局部PostN分布。"
+      },
+      "perturbation_basis": {
+        "code": "constitutive_genetic",
+        "description_zh": "Dsg2×Ccr2缺失，不是急性选择性清除CCR2细胞。"
+      },
+      "clinical_outcome_basis": {
+        "code": "none_preclinical_only",
+        "description_zh": "纤维化、电与泵功能是分开的模型读数。"
+      },
+      "source_locator": "Results / Figure 2；Postn+ fibroblasts / Figure 6；Table 1",
+      "source_url": "https://www.jci.org/articles/view/172014",
+      "limits_zh": "单终点转录组不是细胞真实时间轨迹；pool心脏及细胞数不构成独立动物数。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF04",
+      "study_id": "T04",
+      "from_construct": "late_NFkB_blockade",
+      "to_construct": "subsequent_contractile_and_electrical_response",
+      "statement_zh": "16周已功能受损鼠接受NFκB阻断后，24周功能与电表型改善；Ccr2缺失背景的功能救援更明显。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "paired_function_before_after_with_control",
+        "description_zh": "16至24周给药，给药前后测功能，组织终点仍为终末取材。"
+      },
+      "spatial_basis": {
+        "code": "whole_heart_function_and_endpoint_histology",
+        "description_zh": "全心功能与组织终点，未对同一瘢痕重复活检。"
+      },
+      "perturbation_basis": {
+        "code": "controlled_pharmacological",
+        "description_zh": "两种Dsg2遗传背景内药物/载体比较。"
+      },
+      "clinical_outcome_basis": {
+        "code": "none_preclinical_only",
+        "description_zh": "模型功能与PVC，不是人体长期事件。"
+      },
+      "source_locator": "Results / NFκB-dependent effects on contractile dysfunction；Figure 8；Supplemental Table 4",
+      "source_url": "https://www.jci.org/articles/view/172014",
+      "limits_zh": "低纤维化与功能改善不证明同一病灶逆转；不能据鼠年龄直接选择患者用药窗口。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF05",
+      "study_id": "DSP_VS_PKP2_2020",
+      "from_construct": "LV_LGE",
+      "to_construct": "preserved_LV_systolic_function",
+      "statement_zh": "部分DSP患者在收缩功能仍正常时已有左室LGE，显示两类临床读数可以不同步。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "same_evaluation_coexistence",
+        "description_zh": "此关系来自影像/功能共存，非标准化同人先后序列。"
+      },
+      "spatial_basis": {
+        "code": "ventricular_imaging",
+        "description_zh": "左室LGE与左室功能；未配对分子或EAM。"
+      },
+      "perturbation_basis": {
+        "code": "none",
+        "description_zh": "无治疗随机或实验扰动。"
+      },
+      "clinical_outcome_basis": {
+        "code": "human_clinical_phenotype",
+        "description_zh": "可说明表型，不能直接说明后续风险或疗效。"
+      },
+      "source_locator": "Abstract；Results / Left Dominant Arrhythmogenic Cardiomyopathy with Fibrosis；CMR results",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286080/",
+      "limits_zh": "不能由正常EF时已有LGE推出LGE先于全部电异常/炎症；与后续DSP网络可能存在病例重叠。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF06",
+      "study_id": "DSP_ERADOS_800",
+      "from_construct": "timestamped_myocardial_injury",
+      "to_construct": "subsequent_VA_or_HF_hospitalization",
+      "statement_zh": "DSP登记中，发生心肌损伤后VA及HF住院风险升高。",
+      "design_domain": "human_longitudinal",
+      "temporal_basis": {
+        "code": "timestamped_events_time_varying_exposure",
+        "description_zh": "实际损伤与结局日期，损伤作为时变协变量。"
+      },
+      "spatial_basis": {
+        "code": "no_same_region_molecular_alignment",
+        "description_zh": "无连续分子/标准化局部影像进展对齐。"
+      },
+      "perturbation_basis": {
+        "code": "none",
+        "description_zh": "观察性自然史，不是损伤实验操纵。"
+      },
+      "clinical_outcome_basis": {
+        "code": "human_clinical_event_followup",
+        "description_zh": "后续VA和HF住院。"
+      },
+      "source_locator": "Methods / Study outcomes；Statistical analysis；Results / Myocardial injury；Limitations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11745529/",
+      "limits_zh": "事件先后不等于损伤的因果效应；转诊/检测偏倚及与1014人登记潜在病例重叠需保留。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF07",
+      "study_id": "DSP_HOTPHASE_1014",
+      "from_construct": "clinical_injury_episode",
+      "to_construct": "interval_LGE_segment_change",
+      "statement_zh": "有事件前及事件期CMR的DSP子集中，LGE累及节段增加而EF差异未显著。",
+      "design_domain": "human_longitudinal",
+      "temporal_basis": {
+        "code": "paired_pre_event_and_event_imaging",
+        "description_zh": "同人事件前/事件期影像；主文相关段未明确配对n，不能用全部事件影像数替代。"
+      },
+      "spatial_basis": {
+        "code": "same_person_segmental_imaging",
+        "description_zh": "以CMR心肌分段比较，非同区域组织分子取样。"
+      },
+      "perturbation_basis": {
+        "code": "none",
+        "description_zh": "临床事件观察。"
+      },
+      "clinical_outcome_basis": {
+        "code": "human_imaging_surrogate",
+        "description_zh": "此条关系的终点是影像/EF变化。"
+      },
+      "source_locator": "Results / First myocarditis-like episode characteristics and paired CMR paragraph；Limitations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13036385/",
+      "limits_zh": "急性LGE增加可能受水肿/细胞外变化影响；无恢复期证据不能当成不可逆新瘢痕。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF08",
+      "study_id": "DSP_HOTPHASE_1014",
+      "from_construct": "immunosuppressive_exposure",
+      "to_construct": "subsequent_VA_HF_composite",
+      "statement_zh": "DSP心肌炎样发作登记中，免疫抑制暴露与较低后续VA/HF复合结局相关。",
+      "design_domain": "human_longitudinal",
+      "temporal_basis": {
+        "code": "observational_exposure_and_event_followup",
+        "description_zh": "回顾记录用药与后续结局，有事件时间。"
+      },
+      "spatial_basis": {
+        "code": "no_activity_scar_stratified_same_region_trial",
+        "description_zh": "未构成按同区活动性/瘢痕预设分层的试验。"
+      },
+      "perturbation_basis": {
+        "code": "observational_treatment_exposure",
+        "description_zh": "医生选择药物、剂量与疗程；没有随机分配。"
+      },
+      "clinical_outcome_basis": {
+        "code": "human_clinical_event_followup",
+        "description_zh": "观察VA/HF复合结局。"
+      },
+      "source_locator": "Results / Outcomes according to immunosuppressive treatment；Methods / Statistical analysis；Limitations and Future Perspectives",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13036385/",
+      "limits_zh": "治疗选择和病程混杂仍在；未作倾向评分匹配，不等于已验证抗炎疗效，也不能生成个体用药阈值。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF09",
+      "study_id": "IL1_PEDIATRIC_2026",
+      "from_construct": "adjunct_IL1_blockade",
+      "to_construct": "cytokine_ectopy_and_contractile_trajectories",
+      "statement_zh": "两例儿童病例在IL1阻断期间炎症指标/室性异位改善，但收缩功能未恢复，最终移植。",
+      "design_domain": "human_longitudinal",
+      "temporal_basis": {
+        "code": "within_patient_observed_treatment_course",
+        "description_zh": "病例治疗前后轨迹，测量时点不构成受控自然史。"
+      },
+      "spatial_basis": {
+        "code": "limited_explant_histology",
+        "description_zh": "外植心脏组织分析不等于治疗前后同区组织重复。"
+      },
+      "perturbation_basis": {
+        "code": "observational_treatment_exposure",
+        "description_zh": "无对照，合并常规心衰与节律治疗。"
+      },
+      "clinical_outcome_basis": {
+        "code": "case_series_multidomain_trajectory",
+        "description_zh": "两例的生物标志物、电负荷、EF与移植经过。"
+      },
+      "source_locator": "Abstract；Case reports / both clinical courses；Discussion",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/ajmg.a.70156",
+      "limits_zh": "只支持同人多域反应分离的观察和假说；超罕见基因背景，不能验证代理终点、长期获益或推广到DSP等基因型。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "INF10",
+      "study_id": "FASN_CERAMIDE_2026",
+      "from_construct": "FASN_related_pharmacological_modulation",
+      "to_construct": "ceramide_accumulation_and_myocardial_injury",
+      "statement_zh": "Dsg2模型中FASN相关抑制减少神经酰胺/损伤并改善部分心脏表型。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "known_intervention_then_endpoint",
+        "description_zh": "鼠6至12周干预，配套细胞实验；人类组织是终末期横断面。"
+      },
+      "spatial_basis": {
+        "code": "myocardium_vs_epicardial_fat",
+        "description_zh": "人LV/RV心肌与心外膜脂肪分开测量；不是人体同区纵向。"
+      },
+      "perturbation_basis": {
+        "code": "controlled_pharmacological",
+        "description_zh": "模型orlistat处理及相关机制实验，不是人体随机试验。"
+      },
+      "clinical_outcome_basis": {
+        "code": "none_preclinical_only",
+        "description_zh": "人类血浆与事件邻近关联不等于前瞻治疗或预测验证。"
+      },
+      "source_locator": "Results / FASN and ceramide experiments；Methods / Human tissue and plasma；Limitations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545394/",
+      "limits_zh": "不能由脂滴推出脂肪转分化；未证明脂毒性在人类先于炎症；orlistat未在人体ACM验证疗效。",
+      "path_id": "inflammation",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP01",
+      "study_id": "Gaertner2012",
+      "from_construct": "同供者配对左右室全组织转录信号",
+      "to_construct": "终末期双心室分子受累",
+      "statement_zh": "同人左右室芯片比较支持终末期双室受累；全组织平均室间差异较弱不能推出局部病灶相同。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "single_human_timepoint",
+        "description_zh": "人体为一次取材/评价，不能确定病变先后。"
+      },
+      "spatial_basis": {
+        "code": "within_person_chamber_pair",
+        "description_zh": "19位供者38份LV/RV组织，其中6位ARVC；保留心室标签，没有壁层或病灶坐标。"
+      },
+      "perturbation_basis": {
+        "code": "no_assigned_perturbation",
+        "description_zh": "此关系来自人体观察，无分配干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "no_prospective_human_outcome",
+        "description_zh": "未将该测量连接到随后的人体临床事件。"
+      },
+      "source_locator": "原始摘要；Results / Gene Expression Analysis Reveals Biventricular Cardiomyopathy in ARVC；GSE29819配对GSM设计",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22085907/",
+      "limits_zh": "芯片不是RNA-seq；只核对摘要、原文索引与GEO/既有矩阵审计，非本次全文重审。6位ARVC的配对组织不是12名患者；不能推断RV向LV扩展时间。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP02",
+      "study_id": "Fu2024",
+      "from_construct": "同人左右室非心肌细胞表达与组成",
+      "to_construct": "心室相关髓系和间质状态",
+      "statement_zh": "终末期双室单细胞测量识别RV富集的CCL3巨噬细胞和TNMD成纤维细胞状态。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "single_human_timepoint_with_computational_pseudotime",
+        "description_zh": "6例ARVC及2位对照为单次取材；计算轨迹不是真实随访。"
+      },
+      "spatial_basis": {
+        "code": "within_person_chamber_pair_without_coordinates",
+        "description_zh": "同一供者LV/RV/PBMC；制样去除心内外膜，不保留单细胞组织坐标。"
+      },
+      "perturbation_basis": {
+        "code": "no_assigned_perturbation",
+        "description_zh": "此关系来自人体观察，无分配干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "no_prospective_human_outcome",
+        "description_zh": "未将该测量连接到随后的人体临床事件。"
+      },
+      "source_locator": "Methods / Human specimen collection、Isolation of cardiac cells；Results / CCL3+ macrophages、TNMD+ fibroblasts；补充Tables S1–S2",
+      "source_url": "https://link.springer.com/article/10.1186/s12916-023-03232-8",
+      "limits_zh": "主要捕获非心肌细胞；16份心室组织来自6位患者及2位对照，8位供者均男性，不是16名患者。不能验证跨壁扩展、细胞谱系转分化或人体进展顺序。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP03",
+      "study_id": "Simonson2026",
+      "from_construct": "终末期右室单核细胞型表达",
+      "to_construct": "跨心肌病共有反应及少数候选差异",
+      "statement_zh": "8例ARVC与11位非衰竭RV的单核比较显示细胞型表达重塑；跨研究比较提示多数变化与其他终末期心肌病相似。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "single_human_timepoint",
+        "description_zh": "人体为一次取材/评价，不能确定病变先后。"
+      },
+      "spatial_basis": {
+        "code": "chamber_labeled_without_cell_coordinates",
+        "description_zh": "RV游离壁取材；与其他病因LV图谱比较非同人双室配对，也没有细胞空间坐标。"
+      },
+      "perturbation_basis": {
+        "code": "no_assigned_perturbation",
+        "description_zh": "此关系来自人体观察，无分配干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "no_prospective_human_outcome",
+        "description_zh": "未将该测量连接到随后的人体临床事件。"
+      },
+      "source_locator": "Summary；Results / Figs 1–4；STAR Methods；Supplemental Table S1",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594750/",
+      "limits_zh": "19人为质控后独立供者，139347个核不是患者数；跨研究LV/RV差异与疾病/平台混杂。部分LVEF保留不使移植RV组织成为早期样本。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP04",
+      "study_id": "Simonson2026",
+      "from_construct": "hiPSC心肌细胞PLXNA4过表达",
+      "to_construct": "免疫/钙信号与电生理变化",
+      "statement_zh": "PLXNA4过表达改变人源细胞的免疫反应、钙信号和电生理，为候选分子的细胞内功能提供扰动支持。",
+      "design_domain": "cell_intervention",
+      "temporal_basis": {
+        "code": "post_perturbation_comparison",
+        "description_zh": "按实验处理后比较细胞表型，不是患者病程时间。"
+      },
+      "spatial_basis": {
+        "code": "no_patient_region_alignment",
+        "description_zh": "体外细胞实验没有患者病灶—电生理同区配准。"
+      },
+      "perturbation_basis": {
+        "code": "controlled_gene_overexpression",
+        "description_zh": "hiPSC衍生室性心肌细胞内基因过表达。"
+      },
+      "clinical_outcome_basis": {
+        "code": "cellular_function_only",
+        "description_zh": "细胞电生理读数，不是患者VA、SCD或治疗反应。"
+      },
+      "source_locator": "Summary；Results / PLXNA4 overexpression causes up-regulation of immune response pathways, down-regulation of cardiac conduction pathways, and affects cardiomyocyte electrophysiology；Fig 6；STAR Methods",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594750/",
+      "limits_zh": "过表达支持细胞模型机制贡献，不能证明患者中该分子引发未来室速，也不是临床治疗靶点已验证。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP05",
+      "study_id": "Kyriakopoulou2025",
+      "from_construct": "左室连续切片位置与组织形态",
+      "to_construct": "局部应激/线粒体相关表达程序",
+      "statement_zh": "单例DSP终末期左室的TomoSeq将分子程序定位到不同跨壁区域，显示同一心室内的异质性。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "single_human_timepoint_spatial_order",
+        "description_zh": "心脏移植时一次取材；切片物理顺序不是疾病时间。"
+      },
+      "spatial_basis": {
+        "code": "coordinate_preserved_multicellular_sections",
+        "description_zh": "连续切片TomoSeq与组织学；153个通过质控切片来自1颗心脏，属多细胞切片级一维定位。"
+      },
+      "perturbation_basis": {
+        "code": "no_assigned_perturbation",
+        "description_zh": "此关系来自人体观察，无分配干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "no_prospective_human_outcome",
+        "description_zh": "未将该测量连接到随后的人体临床事件。"
+      },
+      "source_locator": "Results / Identification of a cardiomyocyte population enriched for stress-related and mitochondrial genes；Fig 1C–J；STAR Methods / Tomo-seq",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11872638/",
+      "limits_zh": "不是细胞级分辨率；单颗DSP心脏不足以建立普适跨壁顺序。未与患者EAM、区域影像或未来事件配准；切片厚度在论文/GEO描述间尚有差异。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP06",
+      "study_id": "Kyriakopoulou2025",
+      "from_construct": "hiPSC心肌细胞EPAS1过表达",
+      "to_construct": "应激/凋亡程序与工程心肌收缩力",
+      "statement_zh": "独立细胞和工程心肌实验将EPAS1增加连接到BNIP3L/应激程序及收缩力下降。",
+      "design_domain": "cell_intervention",
+      "temporal_basis": {
+        "code": "post_perturbation_comparison",
+        "description_zh": "处理后功能比较，不是人体区域状态随时间转化。"
+      },
+      "spatial_basis": {
+        "code": "no_patient_region_alignment",
+        "description_zh": "工程心肌实验不等于原移植心脏各区域的重复测量。"
+      },
+      "perturbation_basis": {
+        "code": "controlled_gene_overexpression",
+        "description_zh": "AAV6介导野生型hiPSC-CM中EPAS1过表达及工程心肌功能验证。"
+      },
+      "clinical_outcome_basis": {
+        "code": "cellular_function_only",
+        "description_zh": "工程心肌力学和细胞损伤读数，没有患者长期结局。"
+      },
+      "source_locator": "Results / EPAS1 overexpression；Fig 5；EHM收缩实验及STAR Methods",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11872638/",
+      "limits_zh": "模型内充分性扰动不证明人体局部应激的必要原因；不支持临床给药时点或患者瘢痕逆转。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP07",
+      "study_id": "Penna2026",
+      "from_construct": "单核细胞状态与Visium/Tangram映射",
+      "to_construct": "病灶内炎症—纤维化邻域",
+      "statement_zh": "人类单核与空间数据在组织学损伤/纤维化区域定位髓系及活化间质邻域。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "single_human_transplant_timepoint",
+        "description_zh": "人类LV为移植时一次取材，不是病灶边缘的纵向迁移序列。"
+      },
+      "spatial_basis": {
+        "code": "lesion_histology_colocalization",
+        "description_zh": "6例ACM/12位对照单核；其中3例ACM/2位对照LV空间数据；spot多细胞，依靠Tangram及H&E定位。"
+      },
+      "perturbation_basis": {
+        "code": "no_assigned_perturbation",
+        "description_zh": "此关系来自人体观察，无分配干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "no_prospective_human_outcome",
+        "description_zh": "未将该测量连接到随后的人体临床事件。"
+      },
+      "source_locator": "Results / snRNAseq reveals the cellular landscape of ACM；Spatial transcriptomics reveal formation of an inflammatory-fibrotic niche；Figs 1–3；Supplemental Tables 1–2",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13158593/",
+      "limits_zh": "人体共定位不证明旁分泌因果或病灶从边缘发展为瘢痕；空间供者为单核队列子集，不可相加。没有同患者同区EAM或未来事件。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP08",
+      "study_id": "Penna2026",
+      "from_construct": "Dsg2鼠抗IL1B干预",
+      "to_construct": "纤维化、心功能和致心律失常表型",
+      "statement_zh": "随机分组抗IL1B在Dsg2模型中减轻纤维化并改善心功能及传导/自律性读数。",
+      "design_domain": "animal_intervention",
+      "temporal_basis": {
+        "code": "timed_early_and_late_intervention",
+        "description_zh": "8周或16周开始、各治疗8周；不是人体治疗窗口验证。"
+      },
+      "spatial_basis": {
+        "code": "animal_histology_and_physiology_without_human_registration",
+        "description_zh": "鼠组织病理和电生理关联，未与人类空间标本同个体对应。"
+      },
+      "perturbation_basis": {
+        "code": "randomized_pharmacologic_intervention",
+        "description_zh": "抗IL1B与同型对照分组；研究者盲于基因型及处理。"
+      },
+      "clinical_outcome_basis": {
+        "code": "animal_physiology_and_pathology_only",
+        "description_zh": "动物功能、电生理及病理结局，不是人类VA/HF或生存获益。"
+      },
+      "source_locator": "Methods / Neutralization of IL1B via anti-IL1B antibody in vivo；Results / Figs 5–7及Supplemental Fig 8",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13158593/",
+      "limits_zh": "模型内干预因果支持不能替代人体疗效试验；不同域改善未必同步，晚期获益也不等于既有瘢痕被逆转。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP09",
+      "study_id": "CMR_EAM_2018",
+      "from_construct": "CMR区域应变与LGE",
+      "to_construct": "EAM电瘢痕及室速相关位点",
+      "statement_zh": "21例消融患者的同区域跨模态比较支持应变与电瘢痕/室速位点关联，LGE与EAM一致性有限。",
+      "design_domain": "human_cross_sectional",
+      "temporal_basis": {
+        "code": "near_period_cross_modal_not_longitudinal_progression",
+        "description_zh": "CMR与EAM在12个月内，不要求同步；不是同一模态病程重复观察。"
+      },
+      "spatial_basis": {
+        "code": "within_patient_regional_cmr_eam_registration",
+        "description_zh": "21例RV心内膜EAM，其中17例心外膜EAM；LGE可判读17例，区域应变21例。"
+      },
+      "perturbation_basis": {
+        "code": "no_assigned_perturbation",
+        "description_zh": "此关系来自人体观察，无分配干预。"
+      },
+      "clinical_outcome_basis": {
+        "code": "procedural_vt_site_association",
+        "description_zh": "与消融时室速相关/终止位点比较；未在本研究证明新增指标预测未来临床事件。"
+      },
+      "source_locator": "Abstract / Methods & Results；Methods / Regional strain、EAM及患者聚类统计；Discussion / Limitations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6207200/",
+      "limits_zh": "选择性室速消融队列，检查时间差与薄RV壁/脂肪及EAM接触误差可致模态不一致；没有分子采样，不能由不一致反推出炎症或代谢活动。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    },
+    {
+      "relation_id": "SP10",
+      "study_id": "EAM_RISK_2012",
+      "from_construct": "基线瘢痕内碎裂/延迟电位",
+      "to_construct": "未来适当ICD放电",
+      "statement_zh": "32例无既往心脏骤停或持续VA的ARVC患者随访中，局部异常电位与适当ICD放电关联。",
+      "design_domain": "human_longitudinal",
+      "temporal_basis": {
+        "code": "prospective_person_follow_up",
+        "description_zh": "基线高密度RV EAM后前瞻随访，平均25±7个月；12位患者因持续VA接受适当ICD放电。"
+      },
+      "spatial_basis": {
+        "code": "regional_eam_without_molecular_alignment",
+        "description_zh": "基线RV电瘢痕和局部电位；无同区空间分子测量。"
+      },
+      "perturbation_basis": {
+        "code": "no_randomized_risk_marker_intervention",
+        "description_zh": "所有患者接受一级预防ICD，但电位暴露及事件关联非随机干预效应。"
+      },
+      "clinical_outcome_basis": {
+        "code": "prospective_appropriate_icd_shock",
+        "description_zh": "直接人类随访终点为适当ICD放电，不是已验证的SCD风险或ICD治疗净获益。"
+      },
+      "source_locator": "原始结构式摘要 / Objective、Methods、Results、Conclusion；未全文重审",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22465294/",
+      "limits_zh": "小型选择队列且全部植入ICD；瘢痕面积组间差异不显著不等于严格等效；不能建立通用ICD阈值、排除干预偏倚或证明分子机制。",
+      "path_id": "spatial",
+      "human_review_status": "pending"
+    }
+  ],
+  "clinical_bridges": [
+    {
+      "bridge_id": "B-E1",
+      "path_id": "early",
+      "question_zh": "基线精细电异常能否预测同一人后续持久新生/扩展LGE？",
+      "source_study_ids": [
+        "PKP2_BSPM_2023",
+        "SERIAL_CMR_2026"
+      ],
+      "required_conditions_zh": [
+        "同一人的基线电状态与后续CMR",
+        "预设检查与事件日期，区分临床触发检查",
+        "定义持久LGE变化并做独立验证"
+      ],
+      "current_fragments_zh": "BSPM横断面显示电/形变不一致；独立重复CMR队列显示真实结构变化。",
+      "missing_alignment_zh": "尚未把两段测量对齐到同一纵向人群。",
+      "not_required_for_this_question_zh": "预后问题不要求随机治疗；全心层面的预后主张不必强求细胞级同区域配准。",
+      "direct_target_validation": "not_identified_in_pilot_corpus",
+      "scope_note_zh": "当前定向库未检出该直接验证，不是全领域无证据的断言。",
+      "human_review_status": "pending"
+    },
+    {
+      "bridge_id": "B-E2",
+      "path_id": "early",
+      "question_zh": "模型代谢或PKP2救援所提示的时点，能否定义人体治疗窗口？",
+      "source_study_ids": [
+        "T01",
+        "T08",
+        "T05",
+        "T06",
+        "T09"
+      ],
+      "required_conditions_zh": [
+        "人体可测阶段/靶点作用",
+        "阶段、治疗分配、背景治疗与后续结局对齐",
+        "安全性及人体比较性干预数据"
+      ],
+      "current_fragments_zh": "细胞/EHM下游救援与不同小鼠基因补回支持各自系统内可改变性。",
+      "missing_alignment_zh": "缺少把模型时点和人体分层、治疗及长期反应相连的直接验证。",
+      "not_required_for_this_question_zh": "并不要求患者反复组织取样；模型天数不能换算为患者年龄或给药日期。",
+      "direct_target_validation": "not_identified_in_pilot_corpus",
+      "scope_note_zh": "另列的试验注册和会议中期结果不被当作完成的原始疗效验证；此审计不否认在研临床工作。",
+      "human_review_status": "pending"
+    },
+    {
+      "bridge_id": "B-I1",
+      "path_id": "inflammation",
+      "question_zh": "活动性炎症与既有病变分层，能否识别抗炎的人体获益窗口？",
+      "source_study_ids": [
+        "T03",
+        "T04",
+        "Penna2026",
+        "DSP_HOTPHASE_1014",
+        "IL1_PEDIATRIC_2026"
+      ],
+      "required_conditions_zh": [
+        "预设活动性和结构负担定义",
+        "前瞻比较，随机试验优先用于治疗效应",
+        "分层/治疗交互和真实临床结局"
+      ],
+      "current_fragments_zh": "模型通路/IL1扰动提供靶点合理性；登记与病例提供事件和用药轨迹。",
+      "missing_alignment_zh": "未在当前库记录到按预设活动性与病变分层验证治疗获益的完整人体比较。",
+      "not_required_for_this_question_zh": "不能把动物早晚给药直接当作临床分层阈值。",
+      "direct_target_validation": "not_identified_in_pilot_corpus",
+      "scope_note_zh": "登记用药是医生选择，病例有并用治疗；不是随机疗效证据，也不生成具体处方。",
+      "human_review_status": "pending"
+    },
+    {
+      "bridge_id": "B-I2",
+      "path_id": "inflammation",
+      "question_zh": "炎症指标或室性异位改善，能否代替长期临床获益及泵功能恢复？",
+      "source_study_ids": [
+        "T04",
+        "DSP_HOTPHASE_1014",
+        "IL1_PEDIATRIC_2026"
+      ],
+      "required_conditions_zh": [
+        "同人多域重复测量及长期VA/HF、功能结局",
+        "干预对各域和临床事件的效应",
+        "如主张代理终点有效性，另需相应代理验证及独立证据"
+      ],
+      "current_fragments_zh": "Ccr2缺失模型和2例儿童病例提示某些域的改善可伴随EF未恢复。",
+      "missing_alignment_zh": "尚未完成可把指标改善等同长期受益的代理终点验证。",
+      "not_required_for_this_question_zh": "单纯同人相关不够验证代理终点；机制或反应分离研究不等于临床处方研究。",
+      "direct_target_validation": "not_identified_in_pilot_corpus",
+      "scope_note_zh": "两例支持反应分离的观察，不确立一般化疗效，也不能与DSP登记当独立试验合并。",
+      "human_review_status": "pending"
+    },
+    {
+      "bridge_id": "B-S1",
+      "path_id": "spatial",
+      "question_zh": "人体病灶分子状态是否对应同区域EAM或CMR异常？",
+      "source_study_ids": [
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "CMR_EAM_2018"
+      ],
+      "required_conditions_zh": [
+        "同一患者、同一区域、近同期测量",
+        "明确切片/spot/临床分段分辨率与配准误差",
+        "患者层聚类或分层统计"
+      ],
+      "current_fragments_zh": "终末期人体分子区域图谱与独立CMR—EAM区域关联分别存在。",
+      "missing_alignment_zh": "未在本次审读范围中识别同时对齐分子、影像和电基质的验证。",
+      "not_required_for_this_question_zh": "这个跨模态对应问题本身不要求随机治疗或未来事件；二者属于下一层主张。",
+      "direct_target_validation": "not_identified_in_pilot_corpus",
+      "scope_note_zh": "取材心室、空间尺度与人群不同；不能把两队列拼成已验证分子—电位对应。",
+      "human_review_status": "pending"
+    },
+    {
+      "bridge_id": "B-S2",
+      "path_id": "spatial",
+      "question_zh": "人体空间分子状态能否连接随后临床心律失常事件？",
+      "source_study_ids": [
+        "Kyriakopoulou2025",
+        "Penna2026",
+        "EAM_RISK_2012"
+      ],
+      "required_conditions_zh": [
+        "同人基线分子/可靠替代读数与真实后续事件",
+        "预定义VA、ICD治疗和SCD的不同终点",
+        "独立队列、现有风险信息之外的增量检验"
+      ],
+      "current_fragments_zh": "人体单次终末期空间图谱与电位—适当ICD放电前瞻关联提供不同片段。",
+      "missing_alignment_zh": "尚未识别基线空间分子状态与后续事件的同人直接验证。",
+      "not_required_for_this_question_zh": "预后关联不以人体随机干预为必要条件；适当ICD治疗不能自动等同SCD。",
+      "direct_target_validation": "not_identified_in_pilot_corpus",
+      "scope_note_zh": "电位—事件一段不能代替分子—事件一段；移植组织也不代表早期全体患者。",
+      "human_review_status": "pending"
+    }
+  ],
+  "process_zh": "AI辅助既有定向原文审读及本次原始来源复核；待两位人类研究者独立检查。每条断言按其主要支持设计编码，论文可有多个系统，域计数不能作为整篇论文质量排序。",
+  "search_linkage_zh": "检索更新候选未筛选，不自动加入23篇先导库；检索召回与断言审计的分母严格分开。"
+}
