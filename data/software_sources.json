@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "verified_on": "2026-11-12",
+  "purpose": "Official source-code provenance candidates for ACM Methods Atlas; this is a source audit, not workflow reproduction",
+  "audit_scope": "Official paper links, GitHub repository metadata, default-branch commits, root/package license declarations and key README compatibility notes. No installation, analysis execution, patient-data upload or third-party-code vendoring.",
+  "important_distinctions": [
+    "A fixed upstream commit identifies a source snapshot, not a validated execution environment",
+    "GitHub license API null is not proof of no license declaration: VIMA setup.cfg declares MIT and scMLnet DESCRIPTION declares GPL-2",
+    "Do not conflate software license with rights of bundled prior-knowledge databases or source datasets"
+  ],
+  "entries": [
+    {
+      "code_id": "vima_software",
+      "name": "VIMA software",
+      "source_doi": "10.1038/s41592-026-03236-1",
+      "paper_url": "https://doi.org/10.1038/s41592-026-03236-1",
+      "task": "Sample-level case-control association of spatial molecular microniches",
+      "inputs": [
+        "Spatial molecular profiles and coordinates",
+        "True specimen/donor IDs",
+        "Case-control labels and relevant covariates"
+      ],
+      "outputs": [
+        "Global and local spatial association results",
+        "Microniche representations"
+      ],
+      "platform_and_donor_limits": [
+        "Spatially ordered patches are not independent donors",
+        "Native ACM platform/input compatibility must be evaluated",
+        "Cross-sectional spatial association does not establish clinical time order",
+        "Few independent ACM donors can constrain permutation resolution and power"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": "https://github.com/immunogenomics/vima",
+      "default_branch": "main",
+      "observed_commit": "42c6fd5a1e6726b4cfb53596c4be3647f4e06f00",
+      "commit_date": "2026-10-19T21:52:50Z",
+      "observed_tags": [],
+      "license_github_spdx": null,
+      "metadata_api": "https://api.github.com/repos/immunogenomics/vima",
+      "commit_url": "https://github.com/immunogenomics/vima/commit/42c6fd5a1e6726b4cfb53596c4be3647f4e06f00",
+      "license_file_url": null,
+      "license_file_blob_sha": null,
+      "declared_package_version": "0.2.12",
+      "license_status": "MIT_declared_in_setup_classifier_no_standalone_license_file_observed",
+      "license_declared": "MIT",
+      "license_metadata_url": "https://github.com/immunogenomics/vima/blob/42c6fd5a1e6726b4cfb53596c4be3647f4e06f00/setup.cfg",
+      "environment_notes": [
+        "Python >=3.12.3 per setup.cfg",
+        "Current API is not compatible with original paper notebooks"
+      ],
+      "integration_recommendation": "Link and record metadata; verify licensing wording and compatibility before vendoring or execution",
+      "evidence_urls": [
+        "https://github.com/immunogenomics/vima",
+        "https://www.nature.com/articles/s41592-026-03236-1"
+      ]
+    },
+    {
+      "code_id": "vima_paper_analysis",
+      "name": "VIMA original paper analysis and figures",
+      "source_doi": "10.1038/s41592-026-03236-1",
+      "paper_url": "https://doi.org/10.1038/s41592-026-03236-1",
+      "task": "Reproduce VIMA paper analyses and figure generation",
+      "inputs": [
+        "Original VIMA paper data",
+        "vima 0.1.7",
+        "Repository-specific notebook inputs"
+      ],
+      "outputs": [
+        "Paper analysis and figures"
+      ],
+      "platform_and_donor_limits": [
+        "README explicitly requires vima 0.1.7",
+        "Current vima versions have incompatible API",
+        "Original demonstration data are not ACM validation"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": "https://github.com/yakirr/vimapaper",
+      "default_branch": "main",
+      "observed_commit": "06d4f47a6592c5c731d5a6c71c014d3a8e3be65f",
+      "commit_date": "2026-08-28T14:04:00Z",
+      "observed_tags": [],
+      "license_github_spdx": null,
+      "metadata_api": "https://api.github.com/repos/yakirr/vimapaper",
+      "commit_url": "https://github.com/yakirr/vimapaper/commit/06d4f47a6592c5c731d5a6c71c014d3a8e3be65f",
+      "license_file_url": null,
+      "license_file_blob_sha": null,
+      "license_status": "no_standalone_license_file_or_metadata_license_identified_in_checked_root",
+      "license_declared": null,
+      "environment_notes": [
+        "README requires vima==0.1.7; not a complete validated Atlas lockfile"
+      ],
+      "integration_recommendation": "Reference upstream notebooks; do not imply latest-package replication",
+      "evidence_urls": [
+        "https://github.com/yakirr/vimapaper/blob/06d4f47a6592c5c731d5a6c71c014d3a8e3be65f/README.md"
+      ]
+    },
+    {
+      "code_id": "scmlnet",
+      "name": "scMLnet",
+      "source_doi": "10.1093/bib/bbaa327",
+      "paper_url": "https://doi.org/10.1093/bib/bbaa327",
+      "task": "Infer ligand-receptor-transcription-factor-target-gene candidate networks",
+      "inputs": [
+        "Gene-by-cell sparse expression matrix",
+        "Cell-barcode to cluster annotations",
+        "Sender and receiver cluster IDs",
+        "Prior ligand-receptor, receptor-TF and TF-target networks"
+      ],
+      "outputs": [
+        "Edge tables across three connections/four molecular layers",
+        "Multilayer network visualization"
+      ],
+      "platform_and_donor_limits": [
+        "No spatial coordinates required, so no direct proof of spatial adjacency",
+        "Default interface does not establish donor-level independence",
+        "RNA-derived candidate networks do not establish protein activity or causal signaling",
+        "Original 2020/2021 method; not a newly published 2026 algorithm"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": "https://github.com/SunXQlab/scMLnet",
+      "default_branch": "master",
+      "observed_commit": "ef2c245e2ce4c08839dd471fc67b37b65a8de3d1",
+      "commit_date": "2021-08-16T08:03:56Z",
+      "observed_tags": [],
+      "license_github_spdx": null,
+      "metadata_api": "https://api.github.com/repos/SunXQlab/scMLnet",
+      "commit_url": "https://github.com/SunXQlab/scMLnet/commit/ef2c245e2ce4c08839dd471fc67b37b65a8de3d1",
+      "license_file_url": null,
+      "license_file_blob_sha": null,
+      "declared_package_version": "0.1.0",
+      "license_status": "GPL-2_declared_in_DESCRIPTION_no_standalone_license_file_observed",
+      "license_declared": "GPL-2",
+      "license_metadata_url": "https://github.com/SunXQlab/scMLnet/blob/ef2c245e2ce4c08839dd471fc67b37b65a8de3d1/DESCRIPTION",
+      "environment_notes": [
+        "README describes R 3.6.0 and Python 3.7",
+        "DESCRIPTION imports Seurat, parallel, methods",
+        "pymnet is used for multilayer graph rendering; no lockfile validated"
+      ],
+      "evidence_urls": [
+        "https://github.com/SunXQlab/scMLnet",
+        "https://academic.oup.com/bib/article/22/2/1511/6099774"
+      ]
+    },
+    {
+      "code_id": "liana_r",
+      "name": "LIANA R framework",
+      "source_doi": "10.1038/s41467-022-30755-0",
+      "paper_url": "https://doi.org/10.1038/s41467-022-30755-0",
+      "task": "Harmonize ligand-receptor methods/resources and rank candidate cell-cell communication",
+      "inputs": [
+        "Annotated single-cell expression",
+        "Ligand-receptor resource",
+        "Method-specific parameters"
+      ],
+      "outputs": [
+        "Method-specific interaction scores",
+        "Aggregated interaction rankings"
+      ],
+      "platform_and_donor_limits": [
+        "Method consensus is not independent biological validation",
+        "Donor-level testing and prior-resource sensitivity must be designed explicitly",
+        "Not interchangeable with VIMA spatial case-control testing"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": "https://github.com/saezlab/liana",
+      "default_branch": "master",
+      "observed_commit": "6cab46c54234f861ea176c3de77c4b8aa45ecb3d",
+      "commit_date": "2024-08-07T06:58:01Z",
+      "observed_tags": [
+        {
+          "name": "framework",
+          "commit": "e685511724d813c4223d3cc6ee4cdf0a8cfa736e"
+        },
+        {
+          "name": "0.1.11",
+          "commit": "10d81773e0874de676eb106ce56e3cf9d4fe01d3"
+        },
+        {
+          "name": "0.1.9",
+          "commit": "d0810876facd654cbe47131cfb32a85026223e4f"
+        }
+      ],
+      "license_github_spdx": "GPL-3.0",
+      "metadata_api": "https://api.github.com/repos/saezlab/liana",
+      "commit_url": "https://github.com/saezlab/liana/commit/6cab46c54234f861ea176c3de77c4b8aa45ecb3d",
+      "license_file_url": "https://github.com/saezlab/liana/blob/master/LICENSE",
+      "license_file_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "declared_package_version": "0.1.14",
+      "license_status": "license_text_verified",
+      "license_declared": "GPL-3 + file LICENSE",
+      "license_metadata_url": "https://github.com/saezlab/liana/blob/6cab46c54234f861ea176c3de77c4b8aa45ecb3d/DESCRIPTION",
+      "environment_notes": [
+        "DESCRIPTION specifies R>=4.0",
+        "R implementation; separate from LIANA+ Python BSD licensing"
+      ],
+      "evidence_urls": [
+        "https://github.com/saezlab/liana",
+        "https://www.nature.com/articles/s41467-022-30755-0"
+      ]
+    },
+    {
+      "code_id": "liana_plus",
+      "name": "LIANA+ Python framework",
+      "source_doi": "10.1038/s41556-024-01469-w",
+      "paper_url": "https://doi.org/10.1038/s41556-024-01469-w",
+      "task": "Modular single-cell, spatial and multi-condition cell-cell communication inference",
+      "inputs": [
+        "AnnData or MuData profiles",
+        "Cell-type labels and prior knowledge",
+        "Sample metadata and spatial coordinates as required by selected module"
+      ],
+      "outputs": [
+        "Interaction rankings",
+        "Selected differential communication or spatial association results",
+        "Module-specific downstream intracellular hypotheses"
+      ],
+      "platform_and_donor_limits": [
+        "Choose a module matching the data modality and scientific task",
+        "Within-sample interaction scores do not automatically constitute independent donor evidence",
+        "No module directly establishes an ACM treatment effect"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": "https://github.com/scverse/liana",
+      "default_branch": "main",
+      "observed_commit": "3b3559b6a4ce6a45517e573ac23abf63f6ec8d0d",
+      "commit_date": "2026-11-08T12:31:18Z",
+      "observed_tags": [
+        {
+          "name": "v2.1.1",
+          "commit": "3b3559b6a4ce6a45517e573ac23abf63f6ec8d0d"
+        },
+        {
+          "name": "v2.1.0",
+          "commit": "3140d5c976343ed6578be146ca62398183933b36"
+        },
+        {
+          "name": "v1.10.0",
+          "commit": "f45f7efeb89fdb652dd13f6b303514348dadbc8b"
+        }
+      ],
+      "license_github_spdx": "BSD-3-Clause",
+      "metadata_api": "https://api.github.com/repos/scverse/liana",
+      "commit_url": "https://github.com/scverse/liana/commit/3b3559b6a4ce6a45517e573ac23abf63f6ec8d0d",
+      "license_file_url": "https://github.com/scverse/liana/blob/main/LICENSE",
+      "license_file_blob_sha": "e82aead5b83a0ebabb36dc82ccd188b9eac42a71",
+      "declared_package_version": "v2.1.1_tag",
+      "license_status": "license_text_verified",
+      "license_declared": "BSD-3-Clause",
+      "environment_notes": [
+        "Current pyproject requires Python>=3.12",
+        "Current pyproject requires anndata>=0.13",
+        "No Atlas environment or run validated"
+      ],
+      "repo_redirect_from": "https://github.com/saezlab/liana-py",
+      "evidence_urls": [
+        "https://github.com/scverse/liana",
+        "https://liana.readthedocs.io/",
+        "https://pubmed.ncbi.nlm.nih.gov/39223377/"
+      ]
+    },
+    {
+      "code_id": "simonson2026_original",
+      "name": "Simonson 2026 original ARVC analysis",
+      "source_doi": "10.1016/j.isci.2026.117486",
+      "paper_url": "https://doi.org/10.1016/j.isci.2026.117486",
+      "task": "Original ARVC snRNA-seq aggregation, cell-type differential expression, composition and comparator cardiomyopathy analysis",
+      "inputs": [
+        "SCP3605 processed snRNA-seq data",
+        "GSE326014 raw source accession",
+        "Donor metadata and study-specific input paths"
+      ],
+      "outputs": [
+        "Cell map",
+        "Differential-expression and pathway results",
+        "Cellular composition tests"
+      ],
+      "platform_and_donor_limits": [
+        "Original README reports 139347 nuclei but 19 patients: 8 ARVC and 11 non-failing",
+        "ACM tissue is end-stage RV; disease-stage and chamber generalization limited",
+        "LV comparator cardiomyopathy analyses have chamber-source confounding",
+        "Notebook presence does not imply portable end-to-end execution"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": "https://github.com/mark-chaffin/snrnaseq_arvc",
+      "default_branch": "main",
+      "observed_commit": "bc9b6a3234e5d6516198a9cc9efff582a96fe3db",
+      "commit_date": "2026-08-14T14:59:29Z",
+      "observed_tags": [],
+      "license_github_spdx": "MIT",
+      "metadata_api": "https://api.github.com/repos/mark-chaffin/snrnaseq_arvc",
+      "commit_url": "https://github.com/mark-chaffin/snrnaseq_arvc/commit/bc9b6a3234e5d6516198a9cc9efff582a96fe3db",
+      "license_file_url": "https://github.com/mark-chaffin/snrnaseq_arvc/blob/main/LICENSE",
+      "license_file_blob_sha": "a459eb5e1d776d44bda2f5e62241e2515c462b62",
+      "license_status": "license_text_verified",
+      "license_declared": "MIT",
+      "environment_notes": [
+        "Paper specifies Python 3.9.13 and scanpy 1.8.1",
+        "Multiple R/Python notebooks; checked recursive tree did not show an environment lockfile",
+        "No repository scripts executed in this audit"
+      ],
+      "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594750/#sec4",
+        "https://github.com/mark-chaffin/snrnaseq_arvc",
+        "https://singlecell.broadinstitute.org/single_cell/study/SCP3605/"
+      ]
+    },
+    {
+      "code_id": "penna2026_original",
+      "name": "Penna 2026 original ACM spatial study",
+      "source_doi": "10.1016/j.jacbts.2026.101542",
+      "paper_url": "https://doi.org/10.1016/j.jacbts.2026.101542",
+      "task": "Original human snRNA-seq/spatial analyses and mouse anti-IL1B experiments",
+      "inputs": [
+        "Human tissue snRNA-seq and Visium",
+        "Matched tissue histology",
+        "Mouse disease and treatment groups"
+      ],
+      "outputs": [
+        "Inflammatory-fibrotic spatial niche characterization",
+        "Pathway activity hypotheses",
+        "Mouse intervention readouts"
+      ],
+      "platform_and_donor_limits": [
+        "Code available on request in formal article; no public original-analysis repository verified",
+        "Spatial donor subset is not independent validation of its parent snRNA cohort",
+        "Mouse intervention does not establish patient treatment benefit"
+      ],
+      "run_status": "not_run",
+      "reproduction_claim": "source_verified_only_not_reproduced",
+      "environment_lock_status": "not_created_for_atlas",
+      "verification_date": "2026-11-12",
+      "repo_url": null,
+      "default_branch": null,
+      "observed_commit": null,
+      "commit_date": null,
+      "observed_tags": [],
+      "license_github_spdx": null,
+      "license_file_url": null,
+      "license_status": "no_public_original_code_license_verified",
+      "license_declared": null,
+      "environment_notes": [
+        "Not runnable from a verified public author repository at this audit"
+      ],
+      "code_availability": "available_on_request_as_stated_in_formal_article",
+      "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13158593/",
+        "https://pubmed.ncbi.nlm.nih.gov/42090754/"
+      ],
+      "availability_evidence_note": "Formal article Data availability states code is available on request to the authors; no public author analysis repository was verified."
+    }
+  ],
+  "scope_zh": "补充代码来源目录，与现有方法统计队列分开，不增加122项方法概念或25篇原始研究目录的分母。",
+  "scope": "supplemental_software_provenance_not_method_statistics"
+}

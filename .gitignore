@@ -10,3 +10,6 @@ dist/
 *.pem
 *.key
 .pytest_cache/
+.cache/
+.Rlib/
+workflows/**/local-r-library/

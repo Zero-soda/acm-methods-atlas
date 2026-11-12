@@ -1,0 +1,5 @@
+Complete-case unadjusted: run: 11 complete-case donors; no covariate adjustment
+Complete-case age/sex adjusted: run: 11 complete-case donors; descriptive sensitivity
+The two complete-case models use identical donors, separating exclusion effects from covariate adjustment.
+Primary all-donor model is retained regardless of covariate sensitivity.
+Age/sex adjustment does not establish exchangeability or causal disease effects.

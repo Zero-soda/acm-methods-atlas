@@ -1,0 +1,38 @@
+{
+  "workflow_version": "0.4.0",
+  "reference_run_date": "2026-11-12",
+  "status": "completed_and_numerically_reproduced",
+  "re_run_comparison": {
+    "status": "exact_table_match",
+    "compared_tables": 8,
+    "comparison": "decompressed numerical TSV contents, same environment; graphics and timestamps excluded"
+  },
+  "unit_checks": {
+    "passed": 25,
+    "scope": "catalogue integrity, code provenance, donor pairing, checksum rejection, numerical-table re-run inventory"
+  },
+  "scientific_check": "paired difference and fixed-donor interaction coefficient, SE, moderated t/P agreement below1e-8",
+  "figures": {
+    "panels": 4,
+    "formats": [
+      "PDF",
+      "SVG",
+      "PNG"
+    ],
+    "visually_inspected": true
+  },
+  "input_retrieval": "Fresh public NCBI FTP downloads matched both pinned SHA256 values",
+  "environment": {
+    "reference_r": "4.4.3",
+    "limma": "3.62.2",
+    "statmod": "1.5.1",
+    "package_provisioning": "Existing matching-version installed R packages copied into ignored local workflow cache; accepted by version, not an attested build from source pins",
+    "source_installation_from_scratch": "Not validated locally; statmod compilation failed because R configured a missing Fortran compiler. No compiler installed by this project."
+  },
+  "not_completed": [
+    "Execution of seven upstream catalogue entries",
+    "Independent biological or clinical validation",
+    "Human independent dual screening/coding",
+    "Browser-based page interaction QA"
+  ]
+}

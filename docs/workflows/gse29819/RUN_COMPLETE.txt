@@ -1,0 +1,8 @@
+GSE29819 donor-aware workflow completed.
+schema_version=1
+limma=3.62.2
+R=4.4.3
+retained_genes=20848
+donors=19; primary_ARVC=6; primary_NF=6
+primary_estimand=(RV-LV)_ARVC-(RV-LV)_NF
+All inference is observational and cross-sectional.

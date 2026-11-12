@@ -1,0 +1,82 @@
+{
+  "workflow_version": "0.4.0",
+  "source_manifest_sha256": "3147b16d1aeff9550f92a492df0684c79eaee43719cace94f8064142ddcd76d5",
+  "environment_lock_sha256": "ac7a8fe106b0002e656871c78586c4d0044e872a27af187b3e58519baee28329",
+  "analysis_script_sha256": "22ee88d77dfba92a0b7007cee8d0d123e3f56c7f2c80d951d63efba0e82d82ee",
+  "runner_sha256": "e7b200d29fbd3c3f9b5a368703dae062f0aa1a538a9af3f14753698da76d4b26",
+  "inputs": [
+    {
+      "filename": "GSE29819_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE29nnn/GSE29819/matrix/GSE29819_series_matrix.txt.gz",
+      "sha256": "ccd08d88282f94cf80a21086a3d9f0ebf185c026c888064ba0adfef86e1148a6",
+      "bytes": 12181847,
+      "role": "Deposited MAS5 global-scaled linear intensities and public sample metadata"
+    },
+    {
+      "filename": "GPL570.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+      "sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394",
+      "bytes": 8471521,
+      "role": "Pinned GEO annotation snapshot; drop missing/multiple gene symbols"
+    }
+  ],
+  "environment_lock": {
+    "reference_r_version": "4.4.3",
+    "python": ">=3.10; standard library only",
+    "graphics": "Poppler pdftocairo required; actual version is recorded in run_manifest.json. R creates vector PDF, Poppler creates SVG and PNG from that same PDF without X11.",
+    "r_packages_install_order": [
+      {
+        "name": "statmod",
+        "version": "1.5.1",
+        "repository": "https://github.com/cran/statmod",
+        "commit": "f4ad49172e29d07dccb5d5ed901a8b82da34b910",
+        "url": "https://codeload.github.com/cran/statmod/tar.gz/f4ad49172e29d07dccb5d5ed901a8b82da34b910",
+        "sha256": "e63ef7d989240e034fd2274825ea3047d2f93f8f63b108c7d179a36a99bac4c3"
+      },
+      {
+        "name": "limma",
+        "version": "3.62.2",
+        "repository": "https://github.com/bioc/limma",
+        "commit": "5d5c76ade1c92554d4fc8fe2f5056f839966aef9",
+        "url": "https://codeload.github.com/bioc/limma/tar.gz/5d5c76ade1c92554d4fc8fe2f5056f839966aef9",
+        "sha256": "c0d12789e9bb0d8318c577f1dc35028dc03a97ba9f7b7c963dab81b4febdcf6b"
+      }
+    ],
+    "installation": "Optional --install builds pinned sources in the workflow cache library; requires R build tools including a Fortran compiler for statmod. No global R library changes.",
+    "portability": "R, BLAS, graphics devices and operating system are recorded in sessionInfo.txt. Package sources are fixed; the complete operating system is not containerized. Figures can differ in font rendering across platforms."
+  },
+  "graphics_converter": "pdftocairo version 26.04.0",
+  "input_qc": {
+    "expression_probes": 54675,
+    "samples": 38,
+    "independent_donors": 19,
+    "donor_groups": {
+      "ARVC": 6,
+      "DCM": 7,
+      "NF": 6
+    },
+    "unambiguous_annotation_rows": 42904,
+    "ambiguous_or_unmapped_annotation_rows": 11771
+  },
+  "numerical_file_sha256": {
+    "paired_model_check.tsv": "55facd03c754da6ec73156fc2611c0bb88fd014a02846c44653e97b3d5926980",
+    "sessionInfo.txt": "9f53008da565662fcb1ff97f4654fc32de7936feac3fba400206186c7d2abd57",
+    "RUN_COMPLETE.txt": "d75ac1a7bbc78d20d26e15b1dca47fc088d530add6fac490e2988ff57513a343",
+    "primary_leave_one_out_summary.tsv": "84388c413169c7841c3f0076b2283969b0630ec3fc80dfe146c8f6567619e857",
+    "covariate_sensitivity_status.txt": "155da789910f9041b4b0fe2a362ebd8c157c907b98cfc9cd06a5ab75d2c2f95b",
+    "mapping_summary.tsv": "a812dc5857389469b4b9615dd2ea1e702aa37e05c5174f0493ea18b48ecc73cb",
+    "input_qc.tsv": "7402a8be7b8dc28187b7091ce9cd6f8f9674b6dc2d309cdf410728eb9f1ada07",
+    "gene_statistics.tsv.gz": "551a4b9f95f3a6292f55dc04c93e3bc17fb4b0545a166482de6c9676bf0c0b44",
+    "primary_sensitivity_summary.tsv": "647fe0773aa6e8803c58d54803cead62b1a783e4fbb18e0740ac32e443be1cc4",
+    "primary_gene_stability.tsv.gz": "f3ac300c93bd0454892aa431d9a4915a3f07ad407f1edc0f444d407b29903777",
+    "contrast_summary.tsv": "163607fc830b8a333a8a2c100d12f85ad0fe0df9157856813df94f452b872319"
+  },
+  "run_status": "completed",
+  "original_author_code_executed": false,
+  "clinical_bridge_completed": false,
+  "reproducibility_check": {
+    "status": "exact_table_match",
+    "compared_tables": 8,
+    "comparison": "decompressed numerical TSV contents, same environment; graphics and timestamps excluded"
+  }
+}

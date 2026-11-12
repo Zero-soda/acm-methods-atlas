@@ -2,14 +2,14 @@ cff-version: 1.2.0
 message: "If you use this catalogue or code, cite the version used and the original studies relevant to your analysis."
 type: software
 title: "ACM Methods Atlas"
-version: 0.3.0
-date-released: 2026-11-03
+version: 0.4.0
+date-released: 2026-11-12
 authors:
   - name: "ACM Methods Atlas contributors"
 repository-code: "https://github.com/Zero-soda/acm-methods-atlas"
 url: "https://github.com/Zero-soda/acm-methods-atlas"
 license: MIT
-abstract: "A curated, traceable catalogue of methods used in arrhythmogenic cardiomyopathy studies, with reproducible descriptive statistics and mappings to clinical questions. Original curation is separately licensed under CC-BY-4.0."
+abstract: "A traceable catalogue of arrhythmogenic cardiomyopathy methods and clinical evidence bridges, with upstream code provenance and a runnable donor-aware public-data reanalysis. Original curation and figures are separately licensed under CC-BY-4.0."
 keywords:
   - arrhythmogenic cardiomyopathy
   - bioinformatics

@@ -1,0 +1,12 @@
+metric	value
+input_probe_sets	54675
+input_arrays	38
+paired_donors	19
+mapped_unambiguous_probes	42904
+mapped_gene_symbols	20848
+finite_variable_gene_universe	20848
+removed_nonvariable_genes	0
+primary_gene_collapse	mean of log2 MAS5 probe intensities
+representative_selection	maximum pooled mean log2 intensity; probe ID tie break
+quantile_sensitivity	additional quantile normalization of primary gene expression
+sex_normalization	m/male=M; w/f/female=F; missing preserved

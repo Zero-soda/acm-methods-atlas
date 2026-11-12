@@ -1,0 +1,25 @@
+{
+  "reference_r_version": "4.4.3",
+  "python": ">=3.10; standard library only",
+  "graphics": "Poppler pdftocairo required; actual version is recorded in run_manifest.json. R creates vector PDF, Poppler creates SVG and PNG from that same PDF without X11.",
+  "r_packages_install_order": [
+    {
+      "name": "statmod",
+      "version": "1.5.1",
+      "repository": "https://github.com/cran/statmod",
+      "commit": "f4ad49172e29d07dccb5d5ed901a8b82da34b910",
+      "url": "https://codeload.github.com/cran/statmod/tar.gz/f4ad49172e29d07dccb5d5ed901a8b82da34b910",
+      "sha256": "e63ef7d989240e034fd2274825ea3047d2f93f8f63b108c7d179a36a99bac4c3"
+    },
+    {
+      "name": "limma",
+      "version": "3.62.2",
+      "repository": "https://github.com/bioc/limma",
+      "commit": "5d5c76ade1c92554d4fc8fe2f5056f839966aef9",
+      "url": "https://codeload.github.com/bioc/limma/tar.gz/5d5c76ade1c92554d4fc8fe2f5056f839966aef9",
+      "sha256": "c0d12789e9bb0d8318c577f1dc35028dc03a97ba9f7b7c963dab81b4febdcf6b"
+    }
+  ],
+  "installation": "Optional --install builds pinned sources in the workflow cache library; requires R build tools including a Fortran compiler for statmod. No global R library changes.",
+  "portability": "R, BLAS, graphics devices and operating system are recorded in sessionInfo.txt. Package sources are fixed; the complete operating system is not containerized. Figures can differ in font rendering across platforms."
+}

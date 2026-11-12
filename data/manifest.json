@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "annotation_date": "2026-11-03",
   "evidence_cutoff": "2026-11-01",
   "default_cohort": "manuscript",
@@ -44,5 +44,6 @@
   ],
   "pathway_synthesis": "Question-driven conceptual connections; not verified citation genealogy, universal disease chronology or a validated clinical model.",
   "relationship_audit": "29 selected within-study assertions across 23 pilot studies; descriptive design conditions, not validated quality scores. Human dual review pending.",
-  "search_update": "PubMed/Europe PMC overlapping update retrieval, unscreened, no automatic inclusion."
+  "search_update": "PubMed/Europe PMC overlapping update retrieval, unscreened, no automatic inclusion.",
+  "software_update": "2026-11-12: seven supplemental upstream code sources, all source-audited not run; separate original GSE29819 donor-aware reanalysis. No change to method-statistics denominator or completed clinical bridge claims."
 }

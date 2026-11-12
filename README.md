@@ -6,6 +6,16 @@
 
 [先看研究路径图](https://zero-soda.github.io/acm-methods-atlas/research_paths.html) · [浏览方法目录](https://zero-soda.github.io/acm-methods-atlas/) · [统计快照](docs/README.md) · [标注协议](docs/annotation_protocol.md) · [English](README_EN.md)
 
+## v0.4 可运行分析与代码来源
+
+[运行结果与图下载](https://zero-soda.github.io/acm-methods-atlas/workflows/gse29819/index.html) · [完整代码与运行说明](workflows/gse29819/README.md) · [上游代码来源目录](https://zero-soda.github.io/acm-methods-atlas/software.html)
+
+首个完整案例从公开 GSE29819 输入出发，分析19位供者的配对双室组织（ARVC 6、DCM 7、NF 6；38张芯片），输出供者内 RV−LV 交互作用、方法选择敏感性和12次完整供者留一分析。20,848个基因的主模型及全部固定敏感性结果一并公开；4组图可由代码重新生成 PDF、SVG、PNG。
+
+这是一项新的可复现实现，用于检验既有结论的稳定性，不是原作者代码的原样执行或新临床分期。输入校验值、R包源码版本、分析脚本摘要和运行环境均可追溯。仅此分析模块需要R、锁定R包及Poppler；原文献图谱构建依然只需Python标准库。参考运行采用版本匹配的既有R包，本机从零源码编译未完成，具体安装条件见工作流说明。
+
+另核验7项上游代码来源（6个公开仓库快照、1项按需索取），记录许可依据、接口版本与输入要求，**全部仍标记尚未运行**。这些补充资源不进入原来的122项方法概念统计，不改变23篇默认文献分母。原始/预处理表达矩阵与完整临床协变量表不打包；派生QC和敏感性表保留原研究公开的样本/供者编号及诊断、心室标签。
+
 ## v0.3 证据条件审计与检索升级
 
 新增[逐条证据条件审计](https://zero-soda.github.io/acm-methods-atlas/connection_audit.html)：从23篇核心研究中选取29条具体关系，记录真实时间、空间、扰动/对照与临床结局依据，并审查6个临床桥接问题需要哪些对齐条件。主设计域按断言编码，不能把断言数当独立研究数或质量评分；人工独立双人核对待完成。
@@ -50,6 +60,8 @@
 - 在三种队列口径之间切换，单独观察预印本及补充研究对统计的影响。
 - 补充文献和修订标注，再用同一段代码重新生成统计和静态目录。
 - 沿研究路径查询一项发现如何引出下一问题，并追溯到该研究的方法与原文。
+- 检查上游代码的固定源码、许可声明、运行条件与实际复现状态。
+- 运行一个公开ACM配对双室案例，重新生成分析结果和4组图，审查结论对方法与个别供者的敏感性。
 
 ## 统计含义
 
@@ -99,6 +111,9 @@ python3 scripts/build_atlas.py --cohort all --out /tmp/acm-all
 | `data/context_sources.json` | 单列临床背景来源 |
 | `data/research_paths.json` | 三条研究路径、逐篇发现/缺口、连接依据、待验证设计与两组跨研究差异 |
 | `data/connection_evidence.json` | 29条选定关系的四轴依据与6个临床桥接问题 |
+| `data/software_sources.json` | 7项补充代码来源、源码快照、许可依据与尚未运行状态 |
+| `workflows/gse29819/` | 首个专用公开数据工作流、输入校验与R包版本锁定 |
+| `docs/workflows/gse29819/` | 实际运行的统计表、环境记录及PDF/SVG/PNG结果图 |
 | `protocol/` | 范围综述方案草案、精确检索式及校准记录 |
 | `searches/` | 两版书目检索的原始记录、去重候选、运行日志；全部待筛选 |
 | `data/method_aliases.json` | 同义方法名归并记录 |

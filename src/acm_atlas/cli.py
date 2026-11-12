@@ -9,6 +9,7 @@ from pathlib import Path
 from .catalog import COHORTS, load_catalog, summarize
 from .pathways import build_pathways
 from .evidence import build_evidence
+from .software import build_software, validate_software
 
 FAMILY_LABELS = {"design": "研究设计", "measurement": "测量技术", "computational": "计算与统计", "intervention": "受控扰动"}
 
@@ -68,6 +69,7 @@ def build(root, out_dir, cohort):
     (out_dir / "index.html").write_text(page, encoding="utf-8")
     build_pathways(catalog, out_dir)
     build_evidence(catalog, root, out_dir)
+    build_software(root, out_dir)
     return stats
 
 
@@ -80,6 +82,7 @@ def main(root=None):
     args = parser.parse_args()
     if args.validate_only:
         cat = load_catalog(root / "data")
+        validate_software(json.loads((root / "data/software_sources.json").read_text(encoding="utf-8")))
         print(json.dumps({"valid": True, "studies": len(cat["studies"]), "annotations": len(cat["method_annotations"])}, ensure_ascii=False))
         return
     stats = build(root, args.out, args.cohort)
@@ -93,6 +96,7 @@ TEMPLATE = r'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><me
 </style></head><body><header><small>研究路径与方法目录 · v__ATLAS_VERSION__ · __ANNOTATION_DATE__</small><h1>ACM Methods Atlas</h1><p>把致心律失常性心肌病研究中的方法、证据类型与临床问题放在一起。逐篇可追溯，统计可复现，支持持续补充和纠错。</p><a href="https://github.com/Zero-soda/acm-methods-atlas">GitHub 开源项目</a></header><main>
 <div class="note"><b>先看研究如何串联：</b><a href="research_paths.html">打开研究路径图：从问题、方法与发现走向下一步临床研究 →</a></div>
 <div class="note"><b>研究连接的支持条件：</b><a href="connection_audit.html">查看时间、空间、扰动与临床结局审计 →</a></div>
+<div class="note"><b>代码与实际复现：</b><a href="software.html">代码来源、版本与运行状态</a> · <a href="workflows/gse29819/index.html">公开 ACM 配对双室案例与可重生成图表 →</a></div>
 <div class="note"><b>统计口径：</b>当前定向文献库中已确认的方法标注频次。分母为研究文章，同一文章可包含多种方法；未标注表示未确认。此库不估计整个ACM领域的方法使用率，也不以方法数量评价研究质量。</div>
 <label for="cohort">统计队列：</label><select id="cohort"><option value="manuscript">综述引用的正式原始研究</option><option value="peer_reviewed">目录内全部正式原始研究</option><option value="all">全部研究记录（含预印本）</option></select>
 <div class="cards" id="metrics"></div>

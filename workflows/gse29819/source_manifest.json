@@ -1,0 +1,40 @@
+{
+  "accession": "GSE29819",
+  "source_audit_date": "2026-11-12",
+  "article": {
+    "title": "Myocardial transcriptome analysis of human arrhythmogenic right ventricular cardiomyopathy",
+    "doi": "10.1152/physiolgenomics.00094.2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22085907/"
+  },
+  "implementation": "Original reanalysis for ACM Methods Atlas; not original authors' code or an exact reproduction of their preprocessing/statistical tests.",
+  "inputs": [
+    {
+      "filename": "GSE29819_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE29nnn/GSE29819/matrix/GSE29819_series_matrix.txt.gz",
+      "sha256": "ccd08d88282f94cf80a21086a3d9f0ebf185c026c888064ba0adfef86e1148a6",
+      "bytes": 12181847,
+      "role": "Deposited MAS5 global-scaled linear intensities and public sample metadata"
+    },
+    {
+      "filename": "GPL570.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+      "sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394",
+      "bytes": 8471521,
+      "role": "Pinned GEO annotation snapshot; drop missing/multiple gene symbols"
+    }
+  ],
+  "data_redistribution": "Download public source files into ignored cache. Raw/prepared expression matrices and full donor clinical covariate tables are not redistributed. Derived QC and sensitivity tables retain the original public study sample/donor labels and diagnosis/chamber labels.",
+  "expected_samples": 38,
+  "expected_donors": {"ARVC": 6, "DCM": 7, "NF": 6},
+  "processing": "MAS5 global scaling target intensity 100; apply log2(x), without pseudocount, after requiring every value to be positive and finite.",
+  "primary_estimand": "mean(log2(RV)-log2(LV)) in ARVC minus mean(log2(RV)-log2(LV)) in NF",
+  "bridge": "B-S1: reproducible chamber-level tissue expression only; paired CMR/EAM and prospective clinical outcomes remain unavailable.",
+  "limitations": [
+    "End-stage transplant tissue cannot establish early disease chronology or a treatment window.",
+    "Bulk tissue mixes cell types and cannot identify cellular spatial neighborhoods.",
+    "Pairing controls within-donor chamber comparison, not between-group confounding.",
+    "Age/sex distributions differ and NF_5 has missing covariates; complete-case adjustment is a sensitivity analysis.",
+    "No independent cohort validation; method agreement or leave-one-donor-out stability is not external validation.",
+    "A nonsignificant chamber or interaction test does not demonstrate equivalence."
+  ]
+}

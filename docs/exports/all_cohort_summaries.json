@@ -1,6 +1,6 @@
 {
   "manuscript": {
-    "corpus_version": "0.3.0",
+    "corpus_version": "0.4.0",
     "evidence_cutoff": "2026-11-01",
     "cohort": "manuscript",
     "denominator": 23,
@@ -5502,7 +5502,7 @@
     ]
   },
   "peer_reviewed": {
-    "corpus_version": "0.3.0",
+    "corpus_version": "0.4.0",
     "evidence_cutoff": "2026-11-01",
     "cohort": "peer_reviewed",
     "denominator": 24,
@@ -11051,7 +11051,7 @@
     ]
   },
   "all": {
-    "corpus_version": "0.3.0",
+    "corpus_version": "0.4.0",
     "evidence_cutoff": "2026-11-01",
     "cohort": "all",
     "denominator": 25,

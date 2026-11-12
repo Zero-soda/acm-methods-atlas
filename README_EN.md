@@ -1,5 +1,13 @@
 # ACM Methods Atlas
 
+## v0.4: executable reanalysis and code provenance
+
+[Runnable example and figures](https://zero-soda.github.io/acm-methods-atlas/workflows/gse29819/index.html) · [Workflow instructions](workflows/gse29819/README.md) · [Upstream software catalogue](https://zero-soda.github.io/acm-methods-atlas/software.html)
+
+The GSE29819 example uses 38 paired ventricular arrays from **19 donors** (6 ARVC, 7 DCM, 6 non-failing). It implements a donor-level disease-by-chamber contrast, method-choice sensitivities, and 12 whole-donor omissions; four figures can be regenerated as PDF/SVG/PNG. This is an original reanalysis of previously studied data, not execution of the original authors' code or a new clinical staging model. Input checksums, R package source versions and run metadata are recorded. R and Poppler are optional dependencies for this workflow; the atlas itself remains Python-standard-library only. The reference run used existing matching R packages; source compilation from scratch was not validated on the reference machine, which lacks the configured Fortran compiler.
+
+Seven supplemental upstream code sources are pinned or marked on-request, with license verification levels and **not-run** status. They do not change the original methods-statistics denominator. Raw/prepared expression and full clinical covariate tables are excluded; derived QC/sensitivity tables retain original public study sample/donor and diagnosis/chamber labels.
+
 **v0.3 adds a pilot audit of evidence conditions.** Twenty-nine selected within-study assertions from the 23 core articles retain temporal, spatial, perturbational and clinical-outcome evidence. Six predefined translational questions list applicable validation conditions and missing alignment. These are descriptive annotations, not quality scores or field-wide absence claims. [Browse the audit](https://zero-soda.github.io/acm-methods-atlas/connection_audit.html).
 
 A scoping-review protocol draft and two logged retrieval runs are available. The calibrated PubMed/Europe PMC run retrieved 3,741 overlapping source records, deduplicated by identifiers into 2,079 **unscreened candidates**. Retrieval, inclusion and the existing pilot corpus remain separate. The project has not completed an exhaustive scoping review or independent dual-human screening/coding. Both the initial known-item failures and query amendments are retained.
